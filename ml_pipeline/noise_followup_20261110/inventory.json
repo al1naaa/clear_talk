@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-10",
+  "scope": "Saved train and validation recipes only; no test opened",
+  "recipe_occurrences": 26183,
+  "unique_by_role": {
+    "train": {
+      "count": 18671,
+      "sum": 0
+    },
+    "val": {
+      "count": 745,
+      "sum": 0
+    }
+  },
+  "shared_utterance_ids_train_val": 0,
+  "shared_normalized_texts_train_val": 1,
+  "speaker_identity_available": false,
+  "original_multilingual_manifest_available": false,
+  "trainable_base_weights_available": false,
+  "note": "Repeated occurrences are recipe reuse, not extra independent recordings. No files changed in source data."
+}

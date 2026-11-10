@@ -1,0 +1,69 @@
+{
+ "overall": {
+  "before": 0.2519554330088346,
+  "after": 0.19222328512745485,
+  "difference": -0.059732147881379774,
+  "low": -0.072693729335191,
+  "high": -0.04694266862910571,
+  "units": 1268
+ },
+ "clean_guards": {
+  "mixed": {
+   "before": 0.08152024235747728,
+   "after": 0.09473974111814927,
+   "ok": false
+  },
+  "long": {
+   "before": 0.11785991212199534,
+   "after": 0.09537348151977255,
+   "ok": true
+  },
+  "short": {
+   "before": 0.11764705882352941,
+   "after": 0.11937716262975778,
+   "ok": true
+  }
+ },
+ "clean_by_set": {
+  "long": {
+   "before": 0.11785991212199534,
+   "after": 0.09537348151977255,
+   "ok": true
+  },
+  "mixed": {
+   "before": 0.08152024235747728,
+   "after": 0.09473974111814927,
+   "ok": false
+  },
+  "short-en": {
+   "before": 0.05846153846153846,
+   "after": 0.06
+  },
+  "short-kk": {
+   "before": 0.18597560975609756,
+   "after": 0.18902439024390244
+  },
+  "short-ru": {
+   "before": 0.20786516853932585,
+   "after": 0.20786516853932585
+  }
+ },
+ "attribution": {
+  "before": {
+   "turns": 677,
+   "several_utterances": 0
+  },
+  "after": {
+   "turns": 593,
+   "several_utterances": 9
+  },
+  "ok": true
+ },
+ "adopted": false,
+ "profile_options": {
+  "mixed_skip_detection": true,
+  "uncertain_to_mixed": true,
+  "cross_check": false,
+  "transcribe_by_region": false
+ }
+}

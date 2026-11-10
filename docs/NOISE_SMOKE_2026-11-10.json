@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-10",
+  "scope": "Functional smoke check, not a benchmark or model selection",
+  "sample": "samples/two_voices_kk_ru_en/kazakh_and_russian.wav",
+  "condition": "Two foreground voices plus generated white noise at 10 dB full-recording SNR",
+  "seconds": 40.48,
+  "source_tracks": 2,
+  "transcripts": [
+    "Бұл үшін мәнінде адамдарды төбірек сөйлеу керектігіне іздендірудің әдісі сияқты.",
+    "Ханги шахты используются чтобы приготовить традиционный ужин в стиле жаркова."
+  ],
+  "warnings": [
+    "Machine-generated transcript in Kazakh, Russian or English; it can contain errors. Check the audio before relying on it.",
+    "Turn times are approximate. Review flags use simple score thresholds, not calibrated confidence.",
+    "Two people at the same time: the whole recording was split into two voices by the separator of the English two-voice mode, and each voice was transcribed on its own. This setting is a demonstration, not measured on a test set; words can be lost or given to the wrong voice.",
+    "Speaker 1, Speaker 2, … are labels inside this recording, not identified people. Short interjections can be attached to the wrong speaker.",
+    "The language was detected turn by turn among Kazakh, Russian and English. A language change in the middle of a turn, or a very short turn, can be written in the wrong language.",
+    "The ClearTalk multilingual recognizer was fine-tuned on read sentences and short phrases; its measured gains do not guarantee better text on every recording."
+  ],
+  "weights_changed": false
+}

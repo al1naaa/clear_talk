@@ -1,0 +1,8 @@
+{
+  "test_fingerprint": "a91ebcaade8e40fe5586e486139c5372a8794229ce65c0e9f377ff193dbe2f79",
+  "n_test": 2694,
+  "test_touches": 1,
+  "duplicates_dropped": 0,
+  "split": "test C (never opened) clean, with white noise 10 dB and with babble 10 dB (see cleartalk_ml/round4.py)",
+  "created": "2026-10-15"
+}

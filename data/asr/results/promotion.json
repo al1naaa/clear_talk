@@ -1,0 +1,33 @@
+{
+  "rule": "promote if all gates pass (pre-registered 2026-10-09, step 3)",
+  "gates": {
+    "relative_wer_reduction_at_least_5_percent": true,
+    "bootstrap_95_interval_below_zero": true,
+    "clean_speech_not_worse_than_0.5_points": true
+  },
+  "promoted": true,
+  "validation": {
+    "baseline_wer": 0.2886618792353596,
+    "cleartalk_wer": 0.21765955294831596,
+    "mixtures": 300,
+    "reference_words": 9887,
+    "relative_reduction": 0.2459705676243869,
+    "bootstrap": {
+      "difference": -0.07100232628704359,
+      "low": -0.12869109831710163,
+      "high": -0.01870410276011969,
+      "mixtures": 300
+    }
+  },
+  "validation_clean": {
+    "baseline_wer": 0.029926883183132122,
+    "cleartalk_wer": 0.027886413875191293,
+    "utterances": 300,
+    "change": -0.0020404693079408287
+  },
+  "validation_v4": {
+    "baseline_wer": 0.3647441104792851,
+    "cleartalk_wer": 0.30706742485783917,
+    "mixtures": 48
+  }
+}

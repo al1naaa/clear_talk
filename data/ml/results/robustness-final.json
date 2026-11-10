@@ -1,0 +1,239 @@
+{
+ "final_setting": "auto+background+region",
+ "flags": [
+  "background",
+  "region"
+ ],
+ "rows": [
+  {
+   "condition": "clean",
+   "set": "long",
+   "units": 6,
+   "before": 0.11785991212199534,
+   "after": 0.0821917808219178,
+   "insertions_before": 133,
+   "insertions_after": 34,
+   "reference_words": 3869
+  },
+  {
+   "condition": "clean",
+   "set": "mixed",
+   "units": 100,
+   "before": 0.08152024235747728,
+   "after": 0.08234646103001927,
+   "insertions_before": 30,
+   "insertions_after": 30,
+   "reference_words": 3631
+  },
+  {
+   "condition": "clean",
+   "set": "short-en",
+   "units": 50,
+   "before": 0.05846153846153846,
+   "after": 0.05846153846153846,
+   "insertions_before": 1,
+   "insertions_after": 1,
+   "reference_words": 650
+  },
+  {
+   "condition": "clean",
+   "set": "short-kk",
+   "units": 50,
+   "before": 0.18597560975609756,
+   "after": 0.18597560975609756,
+   "insertions_before": 8,
+   "insertions_after": 8,
+   "reference_words": 328
+  },
+  {
+   "condition": "clean",
+   "set": "short-ru",
+   "units": 50,
+   "before": 0.20786516853932585,
+   "after": 0.20786516853932585,
+   "insertions_before": 9,
+   "insertions_after": 9,
+   "reference_words": 178
+  },
+  {
+   "condition": "white-20",
+   "set": "mixed",
+   "units": 100,
+   "before": 0.1151198017075186,
+   "after": 0.10575599008537592,
+   "insertions_before": 55,
+   "insertions_after": 45,
+   "reference_words": 3631
+  },
+  {
+   "condition": "white-20",
+   "set": "short-en",
+   "units": 50,
+   "before": 0.07692307692307693,
+   "after": 0.07692307692307693,
+   "insertions_before": 2,
+   "insertions_after": 2,
+   "reference_words": 650
+  },
+  {
+   "condition": "white-20",
+   "set": "short-kk",
+   "units": 50,
+   "before": 0.24695121951219512,
+   "after": 0.25914634146341464,
+   "insertions_before": 12,
+   "insertions_after": 12,
+   "reference_words": 328
+  },
+  {
+   "condition": "white-20",
+   "set": "short-ru",
+   "units": 50,
+   "before": 0.24157303370786518,
+   "after": 0.24157303370786518,
+   "insertions_before": 8,
+   "insertions_after": 8,
+   "reference_words": 178
+  },
+  {
+   "condition": "white-10",
+   "set": "long",
+   "units": 6,
+   "before": 0.25898164900491083,
+   "after": 0.15533729645903335,
+   "insertions_before": 296,
+   "insertions_after": 65,
+   "reference_words": 3869
+  },
+  {
+   "condition": "white-10",
+   "set": "mixed",
+   "units": 100,
+   "before": 0.21729551087854584,
+   "after": 0.19030570090884055,
+   "insertions_before": 110,
+   "insertions_after": 77,
+   "reference_words": 3631
+  },
+  {
+   "condition": "white-10",
+   "set": "short-en",
+   "units": 50,
+   "before": 0.13230769230769232,
+   "after": 0.10307692307692308,
+   "insertions_before": 9,
+   "insertions_after": 7,
+   "reference_words": 650
+  },
+  {
+   "condition": "white-10",
+   "set": "short-kk",
+   "units": 50,
+   "before": 0.35365853658536583,
+   "after": 0.35365853658536583,
+   "insertions_before": 21,
+   "insertions_after": 21,
+   "reference_words": 328
+  },
+  {
+   "condition": "white-10",
+   "set": "short-ru",
+   "units": 50,
+   "before": 0.398876404494382,
+   "after": 0.398876404494382,
+   "insertions_before": 10,
+   "insertions_after": 10,
+   "reference_words": 178
+  },
+  {
+   "condition": "babble-10",
+   "set": "long",
+   "units": 6,
+   "before": 0.3016283277332644,
+   "after": 0.14939260790902043,
+   "insertions_before": 602,
+   "insertions_after": 70,
+   "reference_words": 3869
+  },
+  {
+   "condition": "babble-10",
+   "set": "mixed",
+   "units": 100,
+   "before": 0.3872211511980171,
+   "after": 0.22390526025888186,
+   "insertions_before": 741,
+   "insertions_after": 98,
+   "reference_words": 3631
+  },
+  {
+   "condition": "babble-10",
+   "set": "short-en",
+   "units": 50,
+   "before": 0.4676923076923077,
+   "after": 0.10307692307692308,
+   "insertions_before": 221,
+   "insertions_after": 5,
+   "reference_words": 650
+  },
+  {
+   "condition": "babble-10",
+   "set": "short-kk",
+   "units": 50,
+   "before": 0.27134146341463417,
+   "after": 0.2621951219512195,
+   "insertions_before": 15,
+   "insertions_after": 11,
+   "reference_words": 328
+  },
+  {
+   "condition": "babble-10",
+   "set": "short-ru",
+   "units": 50,
+   "before": 0.42134831460674155,
+   "after": 0.34831460674157305,
+   "insertions_before": 23,
+   "insertions_after": 13,
+   "reference_words": 178
+  },
+  {
+   "condition": "babble-5",
+   "set": "mixed",
+   "units": 100,
+   "before": 0.6736436243459102,
+   "after": 0.4117323051500964,
+   "insertions_before": 1223,
+   "insertions_after": 165,
+   "reference_words": 3631
+  },
+  {
+   "condition": "babble-5",
+   "set": "short-en",
+   "units": 50,
+   "before": 0.2815384615384615,
+   "after": 0.1676923076923077,
+   "insertions_before": 17,
+   "insertions_after": 6,
+   "reference_words": 650
+  },
+  {
+   "condition": "babble-5",
+   "set": "short-kk",
+   "units": 50,
+   "before": 0.4481707317073171,
+   "after": 0.4817073170731707,
+   "insertions_before": 19,
+   "insertions_after": 31,
+   "reference_words": 328
+  },
+  {
+   "condition": "babble-5",
+   "set": "short-ru",
+   "units": 50,
+   "before": 0.7640449438202247,
+   "after": 0.5730337078651685,
+   "insertions_before": 57,
+   "insertions_after": 25,
+   "reference_words": 178
+  }
+ ]
+}

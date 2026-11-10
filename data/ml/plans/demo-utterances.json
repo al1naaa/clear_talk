@@ -1,0 +1,53 @@
+{
+ "seed": 2026101306,
+ "utterances": [
+  {
+   "utt_id": "fleurs-kk-train-14556865080766607713",
+   "language": "kk",
+   "gender": "female",
+   "path": "data/ml/audio/fleurs/kk/train/14556865080766607713.wav",
+   "duration": 7.8,
+   "text": "Бұл шын мәнінде адамдарды көбірек төлеу керектігіне сендірудің әдісі сияқты."
+  },
+  {
+   "utt_id": "fleurs-ru-train-14536897256739514851",
+   "language": "ru",
+   "gender": "male",
+   "path": "data/ml/audio/fleurs/ru/train/14536897256739514851.wav",
+   "duration": 6.42,
+   "text": "Ханги часто используются, чтобы приготовить традиционный ужин в стиле жаркого."
+  },
+  {
+   "utt_id": "fleurs-en-train-15145893822120209751",
+   "language": "en",
+   "gender": "female",
+   "path": "data/ml/audio/fleurs/en/train/15145893822120209751.wav",
+   "duration": 7.72,
+   "text": "One of strong points of Charlotte, North Carolina, is that it has an abundance of high-quality options for families."
+  },
+  {
+   "utt_id": "fleurs-kk-train-17543251339777466847",
+   "language": "kk",
+   "gender": "male",
+   "path": "data/ml/audio/fleurs/kk/train/17543251339777466847.wav",
+   "duration": 4.74,
+   "text": "Ол кезде 100-ге жуық тұрғын бұл аумақтан эвакуацияланды."
+  },
+  {
+   "utt_id": "fleurs-ru-train-14517319144425124257",
+   "language": "ru",
+   "gender": "female",
+   "path": "data/ml/audio/fleurs/ru/train/14517319144425124257.wav",
+   "duration": 6.24,
+   "text": "Люди Старка заняли позиции вдоль забора с северного конца позиций колонистов."
+  },
+  {
+   "utt_id": "fleurs-en-train-7907392441821840087",
+   "language": "en",
+   "gender": "male",
+   "path": "data/ml/audio/fleurs/en/train/7907392441821840087.wav",
+   "duration": 6.3,
+   "text": "The man suspected of detonating the bomb was detained, after sustaining injuries from the blast."
+  }
+ ]
+}

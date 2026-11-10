@@ -1,0 +1,76 @@
+{
+ "option": "region",
+ "compared_with": "auto+background",
+ "measured": "auto+background+region",
+ "all": {
+  "before": 0.20738844184345281,
+  "after": 0.180828315795397,
+  "difference": -0.02656012604805582,
+  "low": -0.03600738006920295,
+  "high": -0.01582338594616384,
+  "units": 1268
+ },
+ "clean_guards": {
+  "mixed": {
+   "before": 0.08152024235747728,
+   "after": 0.08510052327182595,
+   "ok": true
+  },
+  "long": {
+   "before": 0.11785991212199534,
+   "after": 0.0821917808219178,
+   "ok": true
+  },
+  "short": {
+   "before": 0.11764705882352941,
+   "after": 0.11764705882352941,
+   "ok": true
+  }
+ },
+ "by_condition": {
+  "clean": {
+   "before": 0.10258780036968576,
+   "after": 0.08814695009242145
+  },
+  "white-20": {
+   "before": 0.12408606642991435,
+   "after": 0.11844579068310006
+  },
+  "white-10": {
+   "before": 0.22597042513863216,
+   "after": 0.17201940850277264
+  },
+  "babble-10": {
+   "before": 0.22435304990757857,
+   "after": 0.20113216266173753
+  },
+  "babble-5": {
+   "before": 0.41591811155212033,
+   "after": 0.39001462293712136
+  }
+ },
+ "attribution": {
+  "before": {
+   "turns": 677,
+   "several_utterances": 0,
+   "share": 0.0
+  },
+  "after": {
+   "turns": 545,
+   "several_utterances": 12,
+   "share": 0.022018348623853212
+  },
+  "ok": false
+ },
+ "adopted": false,
+ "profile_options": {
+  "mixed_skip_detection": true,
+  "uncertain_to_mixed": true,
+  "cross_check": false,
+  "transcribe_by_region": false,
+  "hide_background_turns": true
+ },
+ "app_flags": [
+  "background"
+ ]
+}

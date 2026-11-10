@@ -1,0 +1,34 @@
+{
+ "mixed_skip_detection": {
+  "validated_wer": 0.08160291438979964,
+  "candidate_wer": 0.08233151183970856,
+  "difference": 0.0007285974499089253,
+  "low": -0.00027893229355157266,
+  "high": 0.0017953764994911154,
+  "units": 300,
+  "adopted": true
+ },
+ "uncertain_to_mixed": {
+  "mixed": {
+   "validated_wer": 0.09872495446265939,
+   "candidate_wer": 0.07823315118397085,
+   "difference": -0.020491803278688523,
+   "low": -0.030152655959896666,
+   "high": -0.011928614971120938,
+   "units": 300
+  },
+  "english": {
+   "validated_wer": 0.06127897099866521,
+   "candidate_wer": 0.06115762650163815,
+   "difference": -0.00012134449702705982,
+   "low": -0.0003720295798397532,
+   "high": 0.0,
+   "units": 394
+  },
+  "adopted": true
+ },
+ "profile_options": {
+  "mixed_skip_detection": true,
+  "uncertain_to_mixed": true
+ }
+}

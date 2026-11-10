@@ -1,0 +1,58 @@
+{
+ "seed": 2026101305,
+ "tuning_half": {
+  "0.55": {
+   "conversations": 40,
+   "confusion": 0.1258264090914883,
+   "speaker_count_right": 0.3
+  },
+  "0.6": {
+   "conversations": 40,
+   "confusion": 0.050020497480131175,
+   "speaker_count_right": 0.6
+  },
+  "0.65": {
+   "conversations": 40,
+   "confusion": 0.00785406432084074,
+   "speaker_count_right": 0.9
+  },
+  "0.7": {
+   "conversations": 40,
+   "confusion": 0.0020648516365861123,
+   "speaker_count_right": 0.975
+  },
+  "0.75": {
+   "conversations": 40,
+   "confusion": 0.005371157619359057,
+   "speaker_count_right": 0.975
+  },
+  "0.8": {
+   "conversations": 40,
+   "confusion": 0.03767356200553501,
+   "speaker_count_right": 0.875
+  },
+  "0.85": {
+   "conversations": 40,
+   "confusion": 0.05730791533836647,
+   "speaker_count_right": 0.775
+  },
+  "0.9": {
+   "conversations": 40,
+   "confusion": 0.14584945498406723,
+   "speaker_count_right": 0.525
+  }
+ },
+ "chosen_threshold": 0.7,
+ "check_half": {
+  "conversations": 40,
+  "confusion": 0.0,
+  "speaker_count_right": 1.0
+ },
+ "check_half_count_given": {
+  "conversations": 40,
+  "confusion": 0.0,
+  "speaker_count_right": 1.0
+ },
+ "threshold_in_app": 0.7,
+ "note": "Assembled validation conversations; speakers always differ in language or gender."
+}

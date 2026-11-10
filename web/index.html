@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#172a35">
+    <meta name="description" content="ClearTalk - an experimental workspace for transcribing conversations in Kazakh, Russian and English and for separating overlapping speech.">
+    <title>ClearTalk - Audio workspace</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/i18n.js" defer></script>
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to workspace</a>
+    <aside class="sidebar" aria-label="Project navigation">
+      <a class="brand" href="/" aria-label="ClearTalk home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>ClearTalk<span class="brand-dot">.</span></a>
+      <p class="sidebar-label">YOUR WORKSPACE</p>
+      <nav>
+        <a class="nav-item active" href="#main" aria-current="page"><span class="nav-icon" aria-hidden="true">◫</span>Audio workbench<span class="nav-index">01</span></a>
+        <button class="nav-item" id="guide-button" type="button"><span class="nav-icon" aria-hidden="true">◇</span>Project &amp; methods<span class="nav-index">↗</span></button>
+      </nav>
+      <div class="sidebar-caption">
+        <div class="sidebar-orbit" aria-hidden="true"><span></span><span></span><span></span><b>↗</b></div>
+        <p>Make room<br>for every voice.</p>
+        <span>Speech separation meets<br>natural language processing.</span>
+      </div>
+      <div class="sidebar-footer"><span class="version-dot"></span> RESEARCH PROTOTYPE</div>
+    </aside>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="breadcrumb"><span>ClearTalk</span><span aria-hidden="true">/</span><strong>Audio workbench</strong></div>
+        <div class="topbar-right"><span class="engine-status" id="engine-status"><span></span>Checking engine</span><span class="edition">KAZAKH · RUSSIAN · ENGLISH</span><button class="lang-switch" id="lang-switch" type="button" aria-label="Interface language" title="Interface language">RU</button></div>
+      </header>
+
+      <main id="main" tabindex="-1">
+        <section class="intro" aria-labelledby="page-title">
+          <div><div class="eyebrow"><span></span>SIGNAL THROUGH THE NOISE</div><h1 id="page-title">One recording.<br><em>Every voice, clearer.</em></h1><p class="intro-copy">Transcribe a conversation in Kazakh, Russian or English and see who spoke when,<br class="desktop-break"> or separate two voices that talk over each other.</p></div>
+          <div class="intro-art" aria-hidden="true"><div class="art-label">MIXTURE → INDIVIDUAL SOURCES</div><div class="wave-scene"><div class="wave-track wave-mixture"></div><div class="wave-track wave-a"></div><div class="wave-track wave-b"></div></div><div class="art-bottom"><span>01 / SPEECH</span><span>02 / CLARITY</span></div></div>
+        </section>
+
+        <div class="notice hidden" id="global-notice" role="status"></div>
+        <form class="access-panel hidden" id="access-panel">
+          <div><strong>This workspace is protected</strong><p>Enter the access key provided by the workspace owner.</p></div>
+          <label for="access-key" class="visually-hidden">Workspace access key</label><input id="access-key" type="password" autocomplete="current-password" placeholder="Workspace access key" required>
+          <button type="submit">Unlock workspace</button><p id="access-error" role="alert"></p>
+        </form>
+
+        <div class="workbench">
+          <section class="input-panel" aria-labelledby="input-title">
+            <div class="panel-heading"><div><span class="step-number">01</span><h2 id="input-title">Start with audio</h2></div><span class="small-label">INPUT</span></div>
+            <div class="input-inner">
+              <input id="audio-file" type="file" aria-label="Choose an audio file" accept="audio/wav,audio/x-wav,audio/mpeg,audio/mp4,audio/flac,audio/ogg,audio/webm,.wav,.mp3,.m4a,.flac,.ogg,.webm" class="visually-hidden" tabindex="-1">
+              <button class="drop-zone" id="drop-zone" type="button" aria-describedby="upload-help">
+                <span class="upload-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M16 22V6m-6 6 6-6 6 6M6 21v5h20v-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <strong>Drop a recording here</strong><span>or <u>browse files</u></span>
+                <small id="upload-help">WAV, MP3, M4A &amp; more</small>
+              </button>
+              <button class="record-button" id="record-button" type="button"><span class="record-dot" aria-hidden="true"></span><span id="record-label">Record from the microphone</span></button>
+              <div class="selected-file hidden" id="selected-file"><span class="file-icon" aria-hidden="true">♫</span><div><strong id="file-name"></strong><span id="file-meta"></span></div><button id="clear-file" type="button" aria-label="Remove selected audio">×</button></div>
+              <div class="or-divider"><span></span>OR TRY IT FIRST<span></span></div>
+              <button class="demo-button" id="demo-button" type="button"><span class="demo-play" aria-hidden="true">▶</span><span><strong id="demo-title">Two voices. One recording.</strong><small id="demo-description">Load the included overlapping-speech demo</small></span><span class="demo-arrow" aria-hidden="true">↗</span></button>
+
+              <div class="mode-heading"><label id="mode-label">Processing mode</label><span>CHOOSE YOUR WORKFLOW</span></div>
+              <div class="mode-options" role="group" aria-labelledby="mode-label">
+                <button class="mode-button" type="button" data-mode="conversation" aria-pressed="false"><span class="radio-mark"></span><span><strong>Conversation</strong><small>Several speakers taking turns · Kazakh, Russian, English · long recordings</small></span></button>
+                <button class="mode-button selected" type="button" data-mode="separate" aria-pressed="true"><span class="radio-mark"></span><span><strong>Separate + transcribe</strong><small>Two voices at once · English · short clip</small></span></button>
+                <button class="mode-button" type="button" data-mode="transcribe" aria-pressed="false"><span class="radio-mark"></span><span><strong>Transcribe only</strong><small>One voice · English · short clip</small></span></button>
+              </div>
+              <div class="model-picker conversation-options hidden" id="conversation-options">
+                <div class="option-row">
+                  <div><label for="language-select">Language</label><select id="language-select"><option value="auto">Detect automatically</option><option value="mixed">Languages change inside turns</option><option value="kk">Kazakh · Қазақша</option><option value="ru">Russian · Русский</option><option value="en">English</option></select></div>
+                  <div><label for="speakers-select">Speakers</label><select id="speakers-select"><option value="0">Find automatically</option><option value="1">1 · no speaker labels</option><option value="2">2</option><option value="two-voices">2 · at the same time</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option></select></div>
+                </div>
+                <label for="conversation-model-select">Speech recognizer</label>
+                <select id="conversation-model-select"><option value="auto">Best measured model for each language</option></select>
+                <p id="conversation-model-description">Each turn is written by the recognizer that scored best for its language on validation data.</p>
+                <details id="multilingual-details" class="hidden"><summary>About our multilingual model</summary><div id="multilingual-evidence"></div></details>
+              </div>
+              <div class="model-picker" id="model-picker">
+                <label for="model-select">Speech recognizer</label>
+                <select id="model-select"><option value="baseline">Pretrained Whisper small.en</option><option value="cleartalk" id="cleartalk-model-option" disabled>ClearTalk fine-tuned (ours)</option></select>
+                <p id="model-description">Whisper small.en as released by OpenAI, without ClearTalk training.</p>
+                <details id="training-details" class="hidden"><summary>About our trained model</summary><div id="training-evidence"></div></details>
+              </div>
+              <button id="run-button" class="run-button" type="button" disabled><span id="run-label">Process recording</span><span aria-hidden="true">↗</span></button>
+              <p class="run-caption" id="run-caption">Select a file or load the demo to begin.</p>
+              <div class="input-error hidden" id="input-error" role="alert"></div>
+            </div>
+            <div class="input-footnote"><span aria-hidden="true">ⓘ</span><p id="mode-footnote">Designed for <strong>two overlapping speakers</strong>. Source labels apply to this clip. Listen back to check the words.</p></div>
+          </section>
+
+          <section class="results-panel" aria-labelledby="results-title">
+            <div class="panel-heading"><div><span class="step-number">02</span><h2 id="results-title">Listen &amp; compare</h2></div><div class="export-group"><select id="export-format" class="hidden" aria-label="Export format"><option value="txt">Text (.txt)</option><option value="srt">Subtitles (.srt)</option><option value="vtt">Subtitles (.vtt)</option></select><button class="export-button" id="export-button" type="button" disabled><span aria-hidden="true">↓</span> Export text</button></div></div>
+
+            <div class="empty-state" id="empty-state">
+              <span class="empty-tag">YOUR NEXT LISTEN STARTS HERE</span>
+              <div class="empty-graphic" aria-hidden="true"><div class="graphic-row"><span class="graphic-dot"></span><div class="mini-wave"></div><span class="graphic-time">MIX</span></div><div class="graphic-branch"></div><div class="graphic-row source-row"><span class="graphic-letter">A</span><div class="mini-wave"></div></div><div class="graphic-row source-row second"><span class="graphic-letter">B</span><div class="mini-wave"></div></div></div>
+              <h3>A little less overlap.<br>A lot more understanding.</h3><p>Add a short recording to compare the original<br class="desktop-break"> with extracted sources and their transcripts.</p><div class="empty-pills"><span>Real audio</span><span>Readable transcripts</span><span>Side-by-side listening</span></div>
+            </div>
+
+            <div class="progress-state hidden" id="progress-state" role="status" aria-live="polite">
+              <div class="processing-orb" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><span class="empty-tag">WORKING THROUGH YOUR RECORDING</span><h3 id="progress-title">Preparing your audio</h3><p id="progress-description">The first run may take longer while the models load.</p><div class="progress-track" role="progressbar" aria-label="Processing progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-track"><div id="progress-fill"></div></div><div class="progress-detail"><span id="progress-stage">Preparing</span><strong id="progress-value">0%</strong></div><p class="processing-note">Keep this page open. Processing speed depends on your computer.</p>
+            </div>
+
+            <div class="results-content hidden" id="results-content">
+              <div class="results-summary"><div><span class="result-live-dot"></span><strong>Ready for a closer listen</strong></div><span id="result-duration"></span></div>
+              <p class="result-disclaimer">Machine-generated transcripts. Listen back to verify the words.</p>
+              <details id="result-warnings" class="result-warnings hidden"><summary id="warnings-summary">Review notes</summary><div id="warnings-list"></div></details>
+              <div id="result-metrics" class="result-metrics hidden"></div>
+              <article class="audio-card original-card"><div class="audio-card-heading"><div><span class="track-badge">MIX</span><div><h3>Original recording</h3><p>The audio you started with</p></div></div><span class="track-detail" id="original-length"></span></div><canvas id="original-waveform" class="audio-waveform" width="900" height="72" aria-label="Waveform of original recording"></canvas><audio id="original-audio" controls preload="metadata"></audio><div class="transcript-label" id="original-transcript-label">ORIGINAL TRANSCRIPT</div><div class="transcript" id="original-transcript"></div></article>
+              <div class="conversation-view hidden" id="conversation-view"><div class="sources-heading"><span>CONVERSATION</span><span id="conversation-summary"></span></div><div class="speaker-chips" id="speaker-chips"></div><div class="turn-tools"><button class="export-button" id="edit-turns" type="button">Correct transcript</button><button class="export-button hidden" id="save-example" type="button">Save as check example</button><span id="example-status" role="status"></span></div><p class="turn-hint" id="turn-hint">Click a speaker to give a name. Click a time to listen from there.</p><div class="turn-list" id="turn-list"></div><details class="background-turns hidden" id="background-turns"><summary id="background-summary"></summary><p class="turn-hint">Short quiet stretches that sounded like background voices or noise. They are not in the transcript or the exports.</p><div id="background-list"></div></details></div>
+              <div class="sources-heading" id="sources-heading"><span>EXTRACTED SOURCES</span><span>Same moment. Separate listening.</span></div><div class="source-grid" id="source-grid"></div>
+              <div class="result-methods" id="result-methods"></div>
+              <button class="delete-result" id="delete-result" type="button" disabled>Delete this result &amp; audio</button>
+            </div>
+          </section>
+        </div>
+
+        <section class="scope-strip" aria-label="Project scope"><div><span class="scope-index">01 / WHAT IT DOES</span><p>Conversations in three languages &amp; two-voice separation</p></div><div><span class="scope-index">02 / NEXT EXPLORATION</span><p>Real mixed-language speech &amp; overlapping groups</p></div><div><span class="scope-index">03 / RESEARCH DIRECTION</span><p>Video-assisted speech recognition</p></div><button id="scope-button" type="button" aria-label="Read about project scope">↗</button></section>
+        <footer class="page-footer"><span>CLEARTALK · FROM SIGNAL TO SENTENCE</span><span>Inspectable models. Measured experiments. Reviewable transcripts.</span></footer>
+      </main>
+    </div>
+
+    <dialog id="guide-dialog" aria-labelledby="guide-title">
+      <div class="dialog-top"><span class="eyebrow">THE PROJECT</span><button id="close-guide" type="button" aria-label="Close project guide">×</button></div>
+      <h2 id="guide-title">ClearTalk, explained.</h2><p class="dialog-lead">A testable workspace for understanding speech when several people talk, in turn or at once.</p>
+      <div class="guide-section"><span>01</span><div><h3>What happens to a recording?</h3><p>SepFormer estimates two speech sources from the mixture. A Whisper speech recognizer then turns the mixture and each source into text: either the pretrained model or ClearTalk's fine-tuned one. You can listen to every result and compare the text.</p></div></div>
+      <div class="guide-section"><span>02</span><div><h3>What is our own model?</h3><p>Whisper small.en adapted with LoRA (parameter-efficient fine-tuning) to the kind of audio it receives here: voices extracted by the separator from noisy two-speaker mixtures, with their artefacts and 8 kHz bandwidth. Only small low-rank adapter matrices were trained, then merged, so it runs exactly as fast as the original.</p></div></div>
+      <div class="guide-section"><span>03</span><div><h3>How do we evaluate it?</h3><p>We measure word error rate (substitutions + deletions + insertions over reference words) on complete held-out utterances with official transcripts, from speakers never used in training. Checkpoints are chosen on validation data; the test set is scored once. Speech sources come from partitions of <a href="https://www.openslr.org/12/" target="_blank" rel="noopener noreferrer">LibriSpeech ↗</a>, a corpus of read English audiobook speech. These are controlled mixtures, not natural conversations; their results do not establish real-world accuracy. Cohort sizes and available measurements are shown in the active model's evidence panel.</p></div></div>
+      <div class="guide-section"><span>04</span><div><h3>What does Conversation mode do?</h3><p>It finds the stretches with speech, groups them by voice (speaker embeddings and clustering) so each turn gets a speaker label, detects the language of every turn among Kazakh, Russian and English, and sends the turn to a Whisper recognizer for that language. Ready recognizers are used as published; the project's own multilingual models, when installed, are Whisper models adapted with LoRA to the three languages and to recordings that change language. Which recognizer handles which language is decided by word error rate on validation data. If people switch language in the middle of a turn, choose "Languages change inside turns": every turn then goes to the recognizer trained for that. You can name the speakers, correct the text, export subtitles, and keep a corrected recording on this computer as a check example for measuring the recognizers on real speech.</p></div></div>
+      <div class="guide-section"><span>05</span><div><h3>What are the limits?</h3><p>The two-voice modes take short English audio and separation assumes two speakers; A/B are clip-local outputs, not identified people. Conversation mode separates people who talk at the same time only when &quot;2 · at the same time&quot; is chosen for a short clip (a demonstration, not measured on a test set), speaker labels are not identities, and a change of language in the middle of a turn can be missed. Mixed-language quality was measured on recordings assembled from single-language utterances, not on natural language switching. Video and lip reading are future research, not active features. Listen back: transcripts may miss or invent words.</p></div></div>
+      <div class="privacy-note"><strong>Recording privacy &amp; retention</strong><p id="retention-note">Results are private to this browser session and expire after 24 hours. The server owner can access stored recordings. Only upload audio you have permission to process.</p></div>
+    </dialog>
+  </body>
+</html>

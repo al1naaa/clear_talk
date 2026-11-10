@@ -1,0 +1,78 @@
+{
+ "profile_routes": {
+  "kk": "kazakh",
+  "ru": "turbo",
+  "en": "turbo"
+ },
+ "signatures_verified": [
+  "turbo",
+  "kazakh",
+  "small",
+  "cleartalk"
+ ],
+ "device": "cuda int8_float32",
+ "validated_checkpoint": "runs/lr5e-4/ct2-step-00900",
+ "validated_transcripts_reproduced": {
+  "mixed": "20/20",
+  "single": "20/20"
+ },
+ "health": {
+  "status": "ready",
+  "conversation_mode": true,
+  "speaker_labels": true
+ },
+ "demo_languages_expected": [
+  "kk",
+  "ru",
+  "en",
+  "kk",
+  "ru",
+  "en"
+ ],
+ "api_demo": {
+  "routes": {
+   "status": "done",
+   "turns": 6,
+   "speakers": 6,
+   "languages": [
+    "kk",
+    "ru",
+    "en",
+    "kk",
+    "ru",
+    "en"
+   ],
+   "recognizers": [
+    "kazakh",
+    "turbo"
+   ],
+   "processing_seconds": 26.41,
+   "audio_seconds": 41.47,
+   "transcript_download": 200
+  },
+  "cleartalk": {
+   "status": "done",
+   "turns": 6,
+   "speakers": 6,
+   "languages": [
+    "kk",
+    "ru",
+    "en",
+    "kk",
+    "ru",
+    "en"
+   ],
+   "recognizers": [
+    "cleartalk"
+   ],
+   "processing_seconds": 8.71,
+   "audio_seconds": 41.47,
+   "transcript_download": 200
+  }
+ },
+ "languages": [
+  "kk",
+  "ru",
+  "en"
+ ]
+}

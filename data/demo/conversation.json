@@ -1,0 +1,49 @@
+{
+ "title": "Three languages, six readers",
+ "description": "Six read sentences in Kazakh, Russian and English placed one after another. An assembled demonstration, not a natural conversation.",
+ "source": "FLEURS (google/fleurs), training part, CC BY 4.0",
+ "parts": [
+  {
+   "start": 0.0,
+   "end": 7.8,
+   "language": "kk",
+   "reader": "female",
+   "text": "Бұл шын мәнінде адамдарды көбірек төлеу керектігіне сендірудің әдісі сияқты."
+  },
+  {
+   "start": 8.25,
+   "end": 14.67,
+   "language": "ru",
+   "reader": "male",
+   "text": "Ханги часто используются, чтобы приготовить традиционный ужин в стиле жаркого."
+  },
+  {
+   "start": 15.12,
+   "end": 22.84,
+   "language": "en",
+   "reader": "female",
+   "text": "One of strong points of Charlotte, North Carolina, is that it has an abundance of high-quality options for families."
+  },
+  {
+   "start": 23.29,
+   "end": 28.03,
+   "language": "kk",
+   "reader": "male",
+   "text": "Ол кезде 100-ге жуық тұрғын бұл аумақтан эвакуацияланды."
+  },
+  {
+   "start": 28.48,
+   "end": 34.72,
+   "language": "ru",
+   "reader": "female",
+   "text": "Люди Старка заняли позиции вдоль забора с северного конца позиций колонистов."
+  },
+  {
+   "start": 35.17,
+   "end": 41.47,
+   "language": "en",
+   "reader": "male",
+   "text": "The man suspected of detonating the bomb was detained, after sustaining injuries from the blast."
+  }
+ ]
+}

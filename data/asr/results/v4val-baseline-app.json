@@ -1,0 +1,704 @@
+{
+ "set": "v4val",
+ "model": "baseline",
+ "engine": "app",
+ "seconds": 491.2,
+ "metrics": {
+  "whisper": {
+   "pairs": {
+    "substitutions": 313,
+    "deletions": 48,
+    "insertions": 88,
+    "reference_words": 1231,
+    "errors": 449,
+    "wer": 0.3647441104792851,
+    "mixtures": 48
+   }
+  },
+  "legacy": {
+   "pairs": {
+    "substitutions": 313,
+    "deletions": 54,
+    "insertions": 73,
+    "reference_words": 1211,
+    "errors": 440,
+    "wer": 0.3633360858794385,
+    "mixtures": 48
+   }
+  }
+ },
+ "tracks": [
+  {
+   "track_id": "v4-validation-000-0",
+   "recipe_id": "v4-validation-000",
+   "kind": "pair",
+   "text_ls": "THE MOOD OF FAITH HOWEVER OR RATHER OF DELIGHT IN THE MEMORY OF FAITH IS NOT MISTER HARDY'S PREVAILING MOOD",
+   "hypothesis": "The mood of faith, however, or rather of the like and the memory of faith, is not Mr. Hardy's prevailing mood."
+  },
+  {
+   "track_id": "v4-validation-000-1",
+   "recipe_id": "v4-validation-000",
+   "kind": "pair",
+   "text_ls": "THE MEX WAS FLAT ON HIS FACE HIS ARMS STRETCHED OUT",
+   "hypothesis": "Metz was flat on his face, his arms stripped out."
+  },
+  {
+   "track_id": "v4-validation-001-0",
+   "recipe_id": "v4-validation-001",
+   "kind": "pair",
+   "text_ls": "IT WAS LONG SINCE THE ROSTOVS HAD NEWS OF NICHOLAS",
+   "hypothesis": "Then, from the 8th point, back to the end of the courtyard, line will find the thing to send."
+  },
+  {
+   "track_id": "v4-validation-001-1",
+   "recipe_id": "v4-validation-001",
+   "kind": "pair",
+   "text_ls": "AND THEN HE CAME UPON AN ANCIENT WOMAN WHO SAT UPON STONES IN THE COURTYARD GRINDING CORN BETWEEN TWO STONES",
+   "hypothesis": "It was long since we lost first that news of next year."
+  },
+  {
+   "track_id": "v4-validation-002-0",
+   "recipe_id": "v4-validation-002",
+   "kind": "pair",
+   "text_ls": "A BATTLE IS WON BY THOSE WHO FIRMLY RESOLVE TO WIN IT",
+   "hypothesis": "The battle is won by those who tremble without reason."
+  },
+  {
+   "track_id": "v4-validation-002-1",
+   "recipe_id": "v4-validation-002",
+   "kind": "pair",
+   "text_ls": "NOW HALF WAY UP WAS A CAVE MADE BY THE LORD OF THAT HILL THAT THOSE WHO CAME BY MIGHT REST THERE",
+   "hypothesis": "Now, half the way up was a cave, made by the Lord of Death. They're those who came by that raspy."
+  },
+  {
+   "track_id": "v4-validation-003-0",
+   "recipe_id": "v4-validation-003",
+   "kind": "pair",
+   "text_ls": "MAESTRO AGOSTINO RETORTED YOU GALLOWS BIRD",
+   "hypothesis": "Maestro, as a shiver, you sort it, you yellow bird."
+  },
+  {
+   "track_id": "v4-validation-003-1",
+   "recipe_id": "v4-validation-003",
+   "kind": "pair",
+   "text_ls": "GIVE IT ME OR RETURN AS THOU HAST COME",
+   "hypothesis": "Give it me or return as thou hast come."
+  },
+  {
+   "track_id": "v4-validation-004-0",
+   "recipe_id": "v4-validation-004",
+   "kind": "pair",
+   "text_ls": "WHY YOU SEEM TO HAVE ONLY THAT NAME IN YOUR MOUTH",
+   "hypothesis": "Why you seem to have only that name in your mouth."
+  },
+  {
+   "track_id": "v4-validation-004-1",
+   "recipe_id": "v4-validation-004",
+   "kind": "pair",
+   "text_ls": "ONE DAY IT WAS NOT GOING VERY WELL AND I WENT DOWN TO THE MAN IN CHARGE AND GOT EXPLORING AROUND",
+   "hypothesis": "One day, it was not going very well, and it went down to the man in charge, and the exploring around."
+  },
+  {
+   "track_id": "v4-validation-005-0",
+   "recipe_id": "v4-validation-005",
+   "kind": "pair",
+   "text_ls": "I SHOULD NOT KNOW HOW TO DRINK WINE WITH THEM AND SHOULD DO A HUNDRED THINGS WHICH WOULD MAKE THEM THINK ME A BEAST",
+   "hypothesis": "I shall not know how to drink wine with them, and should do a hundred things to make them think they are beasts."
+  },
+  {
+   "track_id": "v4-validation-005-1",
+   "recipe_id": "v4-validation-005",
+   "kind": "pair",
+   "text_ls": "THUS BHARAT STOOD WITH MANY A SIGH LAMENTING AND THE NIGHT WENT BY",
+   "hypothesis": "If you are offered to this many a size, for the best, and the night went by."
+  },
+  {
+   "track_id": "v4-validation-006-0",
+   "recipe_id": "v4-validation-006",
+   "kind": "pair",
+   "text_ls": "NO SIR SAYS THE OLD GENTLEMAN",
+   "hypothesis": "No, sir, says the old gentleman."
+  },
+  {
+   "track_id": "v4-validation-006-1",
+   "recipe_id": "v4-validation-006",
+   "kind": "pair",
+   "text_ls": "THEY'D HAVE WEEKS OF WORK BEFORE THEY COULD GET THEIR HORSES OUT BUT WITHOUT HORSES THEY'D BE OUT IN A WEEK",
+   "hypothesis": "They'd have weeks of worksheets so they could get their horses out. So without horses, they'd be out on the wake."
+  },
+  {
+   "track_id": "v4-validation-007-0",
+   "recipe_id": "v4-validation-007",
+   "kind": "pair",
+   "text_ls": "HE LEFT ME THE LITTLE MONEY HE HAD WITH HIM WHEN HE WAS ARRESTED SHE REJOINED SADLY",
+   "hypothesis": "He left me the little money he had with him when he arrested, he was going sadly."
+  },
+  {
+   "track_id": "v4-validation-007-1",
+   "recipe_id": "v4-validation-007",
+   "kind": "pair",
+   "text_ls": "IT WAS AUNT HANNAH'S PLAINTIVE VOICE AT THE DOORWAY A LITTLE LATER",
+   "hypothesis": "It was Aunt Hannah's plaintive voice at the doorway a little later."
+  },
+  {
+   "track_id": "v4-validation-008-0",
+   "recipe_id": "v4-validation-008",
+   "kind": "pair",
+   "text_ls": "BUT WHY DEAR PAPA DO TELL ME",
+   "hypothesis": "There is some magic damage I want to pour"
+  },
+  {
+   "track_id": "v4-validation-008-1",
+   "recipe_id": "v4-validation-008",
+   "kind": "pair",
+   "text_ls": "IT IS SOME LETTER OF RECOMMENDATION WHAT THE DEVIL DO I WANT IT FOR",
+   "hypothesis": "But why do you prefer? Do you care? I'm not sure what you're doing, so why do I want to..."
+  },
+  {
+   "track_id": "v4-validation-009-0",
+   "recipe_id": "v4-validation-009",
+   "kind": "pair",
+   "text_ls": "HIS MUSIC IS A STILL SMALL VOICE UNEVENLY MATCHED AGAINST HIS CONSCIOUSNESS OF MIDNIGHT AND STORM",
+   "hypothesis": "This is defined by the fact that God left me and his men, that he might give the names expressed if they respected me."
+  },
+  {
+   "track_id": "v4-validation-009-1",
+   "recipe_id": "v4-validation-009",
+   "kind": "pair",
+   "text_ls": "THIS IS SIGNIFIED BY THE FACT THAT GOD LED THE ANIMALS TO MAN THAT HE MIGHT GIVE THEM NAMES EXPRESSIVE OF THEIR RESPECTIVE NATURES",
+   "hypothesis": "And this is a state called what I need to know about the basic consciousness that we can ask to control in such a way."
+  },
+  {
+   "track_id": "v4-validation-010-0",
+   "recipe_id": "v4-validation-010",
+   "kind": "pair",
+   "text_ls": "THE MONTH IS LOST IN TOIL AND PAIN AND NOW MY FRIENDS WHAT HOPES REMAIN",
+   "hypothesis": "More of the people you like to visit, too."
+  },
+  {
+   "track_id": "v4-validation-010-1",
+   "recipe_id": "v4-validation-010",
+   "kind": "pair",
+   "text_ls": "MARGARET WAS NEARLY UPSET AGAIN INTO A BURST OF CRYING",
+   "hypothesis": "The month is lost in trial and play, and now my friends, what hopes remain."
+  },
+  {
+   "track_id": "v4-validation-011-0",
+   "recipe_id": "v4-validation-011",
+   "kind": "pair",
+   "text_ls": "BUT THE PAINTER THEN THE PORTRAIT",
+   "hypothesis": "But the painter didn't. The portrait?"
+  },
+  {
+   "track_id": "v4-validation-011-1",
+   "recipe_id": "v4-validation-011",
+   "kind": "pair",
+   "text_ls": "THE POLITE JACK REPLIED ALL RIGHT SIR TAKE YOUR WORD FOR IT",
+   "hypothesis": "All right, sir, take your word for it."
+  },
+  {
+   "track_id": "v4-validation-012-0",
+   "recipe_id": "v4-validation-012",
+   "kind": "pair",
+   "text_ls": "IT IS ONE TO WHICH ALL LEGISLATIVE AND ALL HUMAN EFFORTS SHOULD AND MUST TEND",
+   "hypothesis": "It is one to which all legislative or human efforts should and must tempt."
+  },
+  {
+   "track_id": "v4-validation-012-1",
+   "recipe_id": "v4-validation-012",
+   "kind": "pair",
+   "text_ls": "THE GHENTESE PLEADED THEIR PRIVILEGE OF NOT BEING LIABLE TO BE TAXED WITHOUT THEIR OWN CONSENT",
+   "hypothesis": "The Gentes pleaded their privilege of not being liable to be taxed without their own consent."
+  },
+  {
+   "track_id": "v4-validation-013-0",
+   "recipe_id": "v4-validation-013",
+   "kind": "pair",
+   "text_ls": "IT'LL BE ALL RIGHT NOW ALL RIGHT HE'S IN THE DEN MISS BILLY",
+   "hypothesis": "Oh, I'm only a little stiff still."
+  },
+  {
+   "track_id": "v4-validation-013-1",
+   "recipe_id": "v4-validation-013",
+   "kind": "pair",
+   "text_ls": "OH I'M ONLY A LITTLE STIFF STILL",
+   "hypothesis": "It'll be all right now. All right. He's in the den, Miss Billy."
+  },
+  {
+   "track_id": "v4-validation-014-0",
+   "recipe_id": "v4-validation-014",
+   "kind": "pair",
+   "text_ls": "NO MORE SPEECH CAME FROM HER",
+   "hypothesis": "From the landing where Pier 2, there was a second staircase leading to the back entrance."
+  },
+  {
+   "track_id": "v4-validation-014-1",
+   "recipe_id": "v4-validation-014",
+   "kind": "pair",
+   "text_ls": "FROM THE LANDING WHERE PIERRE STOOD THERE WAS A SECOND STAIRCASE LEADING TO THE BACK ENTRANCE",
+   "hypothesis": "No more speech came from her"
+  },
+  {
+   "track_id": "v4-validation-015-0",
+   "recipe_id": "v4-validation-015",
+   "kind": "pair",
+   "text_ls": "NOBODY PAID ANY ATTENTION TO THE CALF",
+   "hypothesis": "There's very little grazing here, and the range is pretty much wore out."
+  },
+  {
+   "track_id": "v4-validation-015-1",
+   "recipe_id": "v4-validation-015",
+   "kind": "pair",
+   "text_ls": "THERE'S VERY LITTLE GRAZING HERE AND THE RANGE IS PRETTY MUCH WORE OUT",
+   "hypothesis": "Nobody paid any attention to the cab."
+  },
+  {
+   "track_id": "v4-validation-016-0",
+   "recipe_id": "v4-validation-016",
+   "kind": "pair",
+   "text_ls": "SHE PUT HER HAND ON MY MOUTH AND STOPPED ME BEFORE I COULD SAY ANY MORE",
+   "hypothesis": "This is your tent and it's falling to the ground. Okay, this is it."
+  },
+  {
+   "track_id": "v4-validation-016-1",
+   "recipe_id": "v4-validation-016",
+   "kind": "pair",
+   "text_ls": "THEY SAY THAT MY POOR FRIEND WAS ON THE POINT OF FALLING TO THE GROUND SO GRIEVED WAS HE TO HEAR THIS",
+   "hypothesis": "I hope you find a nice home, and don't forget to like, comment, and subscribe!"
+  },
+  {
+   "track_id": "v4-validation-017-0",
+   "recipe_id": "v4-validation-017",
+   "kind": "pair",
+   "text_ls": "NO IT IS NOT FROM CURIOSITY IT IS FROM LOVE",
+   "hypothesis": "No, it is not from curiosity, it is from love."
+  },
+  {
+   "track_id": "v4-validation-017-1",
+   "recipe_id": "v4-validation-017",
+   "kind": "pair",
+   "text_ls": "THEY'RE SAFE ENOUGH LET ME HAVE THEM HE BEGGED",
+   "hypothesis": "They're safe enough. Let me have them, he begged."
+  },
+  {
+   "track_id": "v4-validation-018-0",
+   "recipe_id": "v4-validation-018",
+   "kind": "pair",
+   "text_ls": "IT HAD MERELY ENJOYED THE DELIGHTS OF ANXIOUS ANTICIPATION AND THE PERILOUS PLEASURE OF BACKING EDISON'S EXPERIMENTS",
+   "hypothesis": "But tomorrow we are on stage."
+  },
+  {
+   "track_id": "v4-validation-018-1",
+   "recipe_id": "v4-validation-018",
+   "kind": "pair",
+   "text_ls": "BUT TOMORROW WE SHAN'T SAY IT",
+   "hypothesis": "He had nearly enrolled his life in anxious anticipation, and the perilous pleasure of acting as his son."
+  },
+  {
+   "track_id": "v4-validation-019-0",
+   "recipe_id": "v4-validation-019",
+   "kind": "pair",
+   "text_ls": "ORDERS HAD BEEN SENT EVERYWHERE TO RECEIVE HIM AS KINGS OF FRANCE ARE RECEIVED ON THEIR JOYOUS ACCESSION",
+   "hypothesis": "The house had struck a trail where she turned and the phone was saved."
+  },
+  {
+   "track_id": "v4-validation-019-1",
+   "recipe_id": "v4-validation-019",
+   "kind": "pair",
+   "text_ls": "THE HOUNDS HAD STRUCK HER TRAIL WHERE SHE TURNED AND THE FAWN WAS SAFE",
+   "hypothesis": "Orders had been sent everywhere to receive him as kings of France are received on their joyous accession"
+  },
+  {
+   "track_id": "v4-validation-020-0",
+   "recipe_id": "v4-validation-020",
+   "kind": "pair",
+   "text_ls": "GOOD NIGHT FRANK GOOD NIGHT",
+   "hypothesis": "Goodnight, friend. Goodnight."
+  },
+  {
+   "track_id": "v4-validation-020-1",
+   "recipe_id": "v4-validation-020",
+   "kind": "pair",
+   "text_ls": "ON COMRADES TO THE CAVE I CRIED AND ALL WITHIN THE PORTAL HIED",
+   "hypothesis": "Called Congress to the cave, I cried, and all looted the portal high."
+  },
+  {
+   "track_id": "v4-validation-021-0",
+   "recipe_id": "v4-validation-021",
+   "kind": "pair",
+   "text_ls": "ASSUREDLY SAID OLD MISTER KING WITH GREAT SATISFACTION IN POLLY'S PLEASURE AND AT HER SUCCESS IN DRAWING CHARLOTTE OUT",
+   "hypothesis": "There, that's enough, quite cursed. Don't be so petty, Ned."
+  },
+  {
+   "track_id": "v4-validation-021-1",
+   "recipe_id": "v4-validation-021",
+   "kind": "pair",
+   "text_ls": "THERE THAT'S ENOUGH CRIED CHRIS DON'T BE SO PETTY NED",
+   "hypothesis": "Assuredly, said old Mr. King, with great satisfaction in Polly's pleasure, and at her success in drawing Charlotte House."
+  },
+  {
+   "track_id": "v4-validation-022-0",
+   "recipe_id": "v4-validation-022",
+   "kind": "pair",
+   "text_ls": "I WAS TOLD BY THE MAN THAT STANDS AT THE GATE THAT IF I CAME HERE YOU WOULD SHOW ME GOOD THINGS THAT WOULD HELP ME",
+   "hypothesis": "Such a core. Such a time you never did see."
+  },
+  {
+   "track_id": "v4-validation-022-1",
+   "recipe_id": "v4-validation-022",
+   "kind": "pair",
+   "text_ls": "SUCH A CORPS SUCH A TIME YOU NEVER DID SEE",
+   "hypothesis": "I was told by the men that stand that way, that if I can hear you will show me good things that would help me."
+  },
+  {
+   "track_id": "v4-validation-023-0",
+   "recipe_id": "v4-validation-023",
+   "kind": "pair",
+   "text_ls": "BUT APOLLO TURNED TO ADMETUS A FACE THAT WAS WITHOUT JOY",
+   "hypothesis": "But Apollo turned to admit it's a faith that was without joy."
+  },
+  {
+   "track_id": "v4-validation-023-1",
+   "recipe_id": "v4-validation-023",
+   "kind": "pair",
+   "text_ls": "SURELY IF THE BISHOP WERE TOLD ALL WE KNOW ABOUT FREDERICK AND THE HARD UNJUST",
+   "hypothesis": "Surely, the bishop will tell all we know about Frederick, and the hard and just..."
+  },
+  {
+   "track_id": "v4-validation-024-0",
+   "recipe_id": "v4-validation-024",
+   "kind": "pair",
+   "text_ls": "THE WRETCHEDEST CREATURE THAT WALKS THE STREETS WOULD SHRINK FROM TREATING YOU IN THAT WAY",
+   "hypothesis": "the wretchedest creature that walks in streets which shrink from treating you in that way."
+  },
+  {
+   "track_id": "v4-validation-024-1",
+   "recipe_id": "v4-validation-024",
+   "kind": "pair",
+   "text_ls": "YES THAT WAS FINE SAID ROSTOV SMILING",
+   "hypothesis": "Yes, that was fine too, Rostov smiling."
+  },
+  {
+   "track_id": "v4-validation-025-0",
+   "recipe_id": "v4-validation-025",
+   "kind": "pair",
+   "text_ls": "BUT THEY ARE NEVER IN BALANCE THEY ARE ALWAYS IN DEMONIACAL CONFLICT",
+   "hypothesis": "It's different. You want them to like it? Emotion private?"
+  },
+  {
+   "track_id": "v4-validation-025-1",
+   "recipe_id": "v4-validation-025",
+   "kind": "pair",
+   "text_ls": "YOU WANT THEM TO IMMORTALISE THAT FEROCIOUS TYRANT",
+   "hypothesis": "Today and ever, darling, today we'll wait and get out of here with me."
+  },
+  {
+   "track_id": "v4-validation-026-0",
+   "recipe_id": "v4-validation-026",
+   "kind": "pair",
+   "text_ls": "LONDON ITS GUILT AND GLORY",
+   "hypothesis": "Between the upright bars of greasewood, we can see the cattle, and near the opposite side, the men building a fire next to the fence."
+  },
+  {
+   "track_id": "v4-validation-026-1",
+   "recipe_id": "v4-validation-026",
+   "kind": "pair",
+   "text_ls": "BETWEEN THE UPRIGHT BARS OF GREASEWOOD WE COULD SEE THE CATTLE AND NEAR THE OPPOSITE SIDE THE MEN BUILDING A FIRE NEXT THE FENCE",
+   "hypothesis": "London. It's goat and glory."
+  },
+  {
+   "track_id": "v4-validation-027-0",
+   "recipe_id": "v4-validation-027",
+   "kind": "pair",
+   "text_ls": "I WONDER IF YOU THINK I CAN GET READY TO BE MARRIED IN FIVE DAYS",
+   "hypothesis": "You just stress me, you do indeed."
+  },
+  {
+   "track_id": "v4-validation-027-1",
+   "recipe_id": "v4-validation-027",
+   "kind": "pair",
+   "text_ls": "YOU DISTRESS ME YOU DO INDEED",
+   "hypothesis": "I wonder if you think I can get ready to be married in five days."
+  },
+  {
+   "track_id": "v4-validation-028-0",
+   "recipe_id": "v4-validation-028",
+   "kind": "pair",
+   "text_ls": "NOW THE FOOTSTEPS SEEMED TO STOP",
+   "hypothesis": "Now the footsteps seem to start."
+  },
+  {
+   "track_id": "v4-validation-028-1",
+   "recipe_id": "v4-validation-028",
+   "kind": "pair",
+   "text_ls": "FEET ROUND WELL KNUCKLED UP AND STRONGLY PADDED",
+   "hypothesis": "Feet round, well knuckled up, and strongly padded."
+  },
+  {
+   "track_id": "v4-validation-029-0",
+   "recipe_id": "v4-validation-029",
+   "kind": "pair",
+   "text_ls": "HE SHOOK HIS HEAD AS HE WENT ON",
+   "hypothesis": "In my opinion, we are all pregnant."
+  },
+  {
+   "track_id": "v4-validation-029-1",
+   "recipe_id": "v4-validation-029",
+   "kind": "pair",
+   "text_ls": "IN MY OPINION THEY ARE ALL CRIMINALS",
+   "hypothesis": "He shook his head as he went on."
+  },
+  {
+   "track_id": "v4-validation-030-0",
+   "recipe_id": "v4-validation-030",
+   "kind": "pair",
+   "text_ls": "I GO TO LEAD MY BROTHER THENCE WHO MAKES THE WOOD HIS RESIDENCE",
+   "hypothesis": "I go to leave my brother's hands, who makes the wood his residence."
+  },
+  {
+   "track_id": "v4-validation-030-1",
+   "recipe_id": "v4-validation-030",
+   "kind": "pair",
+   "text_ls": "WELL HAVE YOU SENT GABRIEL FOR SOME WINE ALL RIGHT LET'S HAVE SOME",
+   "hypothesis": "Well, if you sent Gabriel for some wine, alright, let's have some."
+  },
+  {
+   "track_id": "v4-validation-031-0",
+   "recipe_id": "v4-validation-031",
+   "kind": "pair",
+   "text_ls": "YOU MUST HAVE PLANS FOR THE FUTURE TELL ME UNRESERVEDLY HOW I CAN HELP YOU",
+   "hypothesis": "You must have plans for the future. Tell me unexpectedly how I can help you."
+  },
+  {
+   "track_id": "v4-validation-031-1",
+   "recipe_id": "v4-validation-031",
+   "kind": "pair",
+   "text_ls": "TRUTH TO TELL MISTER HARDY IS NEITHER SUFFICIENTLY ARTICULATE NOR SUFFICIENTLY FASTIDIOUS TO BE A GREAT POET",
+   "hypothesis": "Truth to tell Mr. Hardy is neither sufficiently articulate nor sufficiently fastidious to be a great poet"
+  },
+  {
+   "track_id": "v4-validation-032-0",
+   "recipe_id": "v4-validation-032",
+   "kind": "pair",
+   "text_ls": "FRANCIS DID THE CONVERSE WITH HIS OWN COLLAR",
+   "hypothesis": ""
+  },
+  {
+   "track_id": "v4-validation-032-1",
+   "recipe_id": "v4-validation-032",
+   "kind": "pair",
+   "text_ls": "JUDGE THY JUST DOOM WOULD BE TO DIE ON THE SPOT STILL LET US HEAR WHAT THOU HAST TO SAY",
+   "hypothesis": "Francis stood the converse with his own collar. Digest doom would be to die on the spot. Still, let us hear what thou hast to say."
+  },
+  {
+   "track_id": "v4-validation-033-0",
+   "recipe_id": "v4-validation-033",
+   "kind": "pair",
+   "text_ls": "EVERY DAY THAT CAME SHOWED THE INJURED ANIMAL IN BETTER CONDITION",
+   "hypothesis": "That is the definition of independent and set of conditions."
+  },
+  {
+   "track_id": "v4-validation-033-1",
+   "recipe_id": "v4-validation-033",
+   "kind": "pair",
+   "text_ls": "HE AGAIN BECAME CONSCIOUS OF THE CHANGE WHICH HAD BEEN INITIATED DURING THE WALK",
+   "hypothesis": "He again became conscious of the changes which had been initiated during the war."
+  },
+  {
+   "track_id": "v4-validation-034-0",
+   "recipe_id": "v4-validation-034",
+   "kind": "pair",
+   "text_ls": "THERE THEY SEATED ME TO WAIT UNTIL THE DUKE WENT BY",
+   "hypothesis": "There, they seated me to wait until the Duke went by."
+  },
+  {
+   "track_id": "v4-validation-034-1",
+   "recipe_id": "v4-validation-034",
+   "kind": "pair",
+   "text_ls": "SWIFT TO THE SOUTH HIS COURSE HE BENT AND CLEFT THE YIELDING ELEMENT",
+   "hypothesis": "sweet to the sound his calls he passed, and cleft the yielding element."
+  },
+  {
+   "track_id": "v4-validation-035-0",
+   "recipe_id": "v4-validation-035",
+   "kind": "pair",
+   "text_ls": "AND THERE ON THE NETS THEY SAT",
+   "hypothesis": "Beautiful commanders and fly the field."
+  },
+  {
+   "track_id": "v4-validation-035-1",
+   "recipe_id": "v4-validation-035",
+   "kind": "pair",
+   "text_ls": "A SKILLFUL COMMANDER REPLIED PIERRE",
+   "hypothesis": "The Loneliness Research"
+  },
+  {
+   "track_id": "v4-validation-036-0",
+   "recipe_id": "v4-validation-036",
+   "kind": "pair",
+   "text_ls": "NEVER LET ME TELL YOU THE PLAIN TRUTH",
+   "hypothesis": "Never. Let me tell you the same truth."
+  },
+  {
+   "track_id": "v4-validation-036-1",
+   "recipe_id": "v4-validation-036",
+   "kind": "pair",
+   "text_ls": "DEMANDED BERTRAM ANGRY AND MYSTIFIED",
+   "hypothesis": "demanded Bertram, angry and mystified."
+  },
+  {
+   "track_id": "v4-validation-037-0",
+   "recipe_id": "v4-validation-037",
+   "kind": "pair",
+   "text_ls": "ON THE CONTRARY THE CONDITIONS FOR ITS ACCEPTANCE HAD BEEN RIPENING FAST",
+   "hypothesis": "I eluded my boy, he said, by what lucky incident does it happen if the king has recalled you."
+  },
+  {
+   "track_id": "v4-validation-037-1",
+   "recipe_id": "v4-validation-037",
+   "kind": "pair",
+   "text_ls": "RAOUL MY BOY HE SAID BY WHAT LUCKY ACCIDENT DOES IT HAPPEN THAT THE KING HAS RECALLED YOU",
+   "hypothesis": "On the contrary, the condition was deception. Happy Latin fact."
+  },
+  {
+   "track_id": "v4-validation-038-0",
+   "recipe_id": "v4-validation-038",
+   "kind": "pair",
+   "text_ls": "SONYA SMILED DO I REMEMBER NICHOLAS",
+   "hypothesis": "All the risks squatted on their heels along the fence, smoking cigarettes and chatting together."
+  },
+  {
+   "track_id": "v4-validation-038-1",
+   "recipe_id": "v4-validation-038",
+   "kind": "pair",
+   "text_ls": "ALL THE REST SQUATTED ON THEIR HEELS ALONG THE FENCE SMOKING CIGARETTES AND CHATTING TOGETHER",
+   "hypothesis": "Sonia smiles. Do I remember case-books?"
+  },
+  {
+   "track_id": "v4-validation-039-0",
+   "recipe_id": "v4-validation-039",
+   "kind": "pair",
+   "text_ls": "HE NEVER PAINTS EVERYMAN HE ALWAYS PROJECTS DOSTOEVSKY OR A NIGHTMARE OF DOSTOEVSKY",
+   "hypothesis": "He never paints that second. He always projects Dostoevsky, or a nightmare Dostoevsky."
+  },
+  {
+   "track_id": "v4-validation-039-1",
+   "recipe_id": "v4-validation-039",
+   "kind": "pair",
+   "text_ls": "I DON'T KNOW ABOUT THAT SAID CHRIS ANXIOUSLY",
+   "hypothesis": "I don't know about that because I should be able to do it."
+  },
+  {
+   "track_id": "v4-validation-040-0",
+   "recipe_id": "v4-validation-040",
+   "kind": "pair",
+   "text_ls": "HE FELT FOR IT BUT FOUND IT NOT",
+   "hypothesis": "For years it hasn't been such a mile, and it's always been your friendship to be here for the first time."
+  },
+  {
+   "track_id": "v4-validation-040-1",
+   "recipe_id": "v4-validation-040",
+   "kind": "pair",
+   "text_ls": "WHAT YEARS OF HAPPINESS HAVE BEEN MINE O APOLLO THROUGH YOUR FRIENDSHIP FOR ME SAID ADMETUS",
+   "hypothesis": "Don't worry, the time's not."
+  },
+  {
+   "track_id": "v4-validation-041-0",
+   "recipe_id": "v4-validation-041",
+   "kind": "pair",
+   "text_ls": "YES SIR HE SEEN THE SALT STANDIN THAR TO THIS DAY",
+   "hypothesis": "Yes, sir. He is neat and thoughtful. Stand in bar to this bag."
+  },
+  {
+   "track_id": "v4-validation-041-1",
+   "recipe_id": "v4-validation-041",
+   "kind": "pair",
+   "text_ls": "VERY SERIOUS TO US ALL",
+   "hypothesis": "Where is Dana's lunch?"
+  },
+  {
+   "track_id": "v4-validation-042-0",
+   "recipe_id": "v4-validation-042",
+   "kind": "pair",
+   "text_ls": "FRANCIS WITH THE CARDINAL DE LORRAINE AND THE CONSTABLE DE MONTMORENCY SOON ARRIVED",
+   "hypothesis": "Thus, the outdoor of tobacco was not traveling to the dorm room."
+  },
+  {
+   "track_id": "v4-validation-042-1",
+   "recipe_id": "v4-validation-042",
+   "kind": "pair",
+   "text_ls": "THUS THE ODOUR OF TOBACCO WAS NOT BROUGHT INTO THE DRAWING ROOM",
+   "hypothesis": "Francis, with the Cardinal de Lorraine and the Constable de Montmorency, soon arrived."
+  },
+  {
+   "track_id": "v4-validation-043-0",
+   "recipe_id": "v4-validation-043",
+   "kind": "pair",
+   "text_ls": "I AM QUITE WILLING SAID THE KING LET HIM HAVE IT",
+   "hypothesis": "I used to listen by the hours, but I never made out anything really important who the man was, where he'd come from, or what he'd done."
+  },
+  {
+   "track_id": "v4-validation-043-1",
+   "recipe_id": "v4-validation-043",
+   "kind": "pair",
+   "text_ls": "I USED TO LISTEN BY THE HOUR BUT I NEVER MADE OUT ANYTHING REALLY IMPORTANT AS TO WHO THE MAN WAS OR WHERE HE'D COME FROM OR WHAT HE'D DONE",
+   "hypothesis": "I am quite willing, said the King. Let him have it."
+  },
+  {
+   "track_id": "v4-validation-044-0",
+   "recipe_id": "v4-validation-044",
+   "kind": "pair",
+   "text_ls": "HE ORDERED HIS HORSE AT ONCE AND COLDLY TAKING LEAVE OF BORIS RODE HOME",
+   "hypothesis": "Jason took Peleus and Telamon with him."
+  },
+  {
+   "track_id": "v4-validation-044-1",
+   "recipe_id": "v4-validation-044",
+   "kind": "pair",
+   "text_ls": "JASON TOOK PELEUS AND TELAMON WITH HIM",
+   "hypothesis": "He ordered his horse at once, and cruelty-taking Levopaurus rode home."
+  },
+  {
+   "track_id": "v4-validation-045-0",
+   "recipe_id": "v4-validation-045",
+   "kind": "pair",
+   "text_ls": "IT IS ONLY YOUR GOODNESS THAT OVERPOWERS ME",
+   "hypothesis": "So there's only one way in which that works out."
+  },
+  {
+   "track_id": "v4-validation-045-1",
+   "recipe_id": "v4-validation-045",
+   "kind": "pair",
+   "text_ls": "A PRIVATE TUTOR",
+   "hypothesis": "It is a private juke of the power of me."
+  },
+  {
+   "track_id": "v4-validation-046-0",
+   "recipe_id": "v4-validation-046",
+   "kind": "pair",
+   "text_ls": "IS NOT OUR CASE AS GOOD AS YOURS",
+   "hypothesis": "At all other times, he carried that look of sad and gentle meekness, seen on the images of old Slavonic saints."
+  },
+  {
+   "track_id": "v4-validation-046-1",
+   "recipe_id": "v4-validation-046",
+   "kind": "pair",
+   "text_ls": "AT ALL OTHER TIMES HE CARRIED THAT LOOK OF SAD AND GENTLE MEEKNESS SEEN ON THE IMAGES OF OLD SLAVONIC SAINTS",
+   "hypothesis": "It's not our case that you'd ask yours."
+  },
+  {
+   "track_id": "v4-validation-047-0",
+   "recipe_id": "v4-validation-047",
+   "kind": "pair",
+   "text_ls": "THAT OLD MAN CEASED TO GIVE SO MUCH ANNOYANCE YET SOMETIMES HE APPEARED TO ME IN DREAMS",
+   "hypothesis": "that old man ceased to give so much annoyance, yet sometimes he appeared to me in dreams."
+  },
+  {
+   "track_id": "v4-validation-047-1",
+   "recipe_id": "v4-validation-047",
+   "kind": "pair",
+   "text_ls": "FOR HEAVEN'S SAKE PICKERING CRIED HIS UNCLE DARTING IN FRONT OF THE CHAIR AND ITS RESTLESS OCCUPANT DON'T SAY THAT AGAIN",
+   "hypothesis": "For heaven's sake, Pickering's side is almost starting in front of the fair and it's rest with us, but don't say that again."
+  }
+ ]
+}

@@ -1,0 +1,1115 @@
+{
+ "fragments": 28,
+ "summary": {
+  "baseline": {
+   "substitutions": 102,
+   "deletions": 138,
+   "insertions": 67,
+   "reference_words": 1051,
+   "errors": 307,
+   "wer": 0.2921027592768792
+  },
+  "cleartalk": {
+   "substitutions": 125,
+   "deletions": 131,
+   "insertions": 102,
+   "reference_words": 1051,
+   "errors": 358,
+   "wer": 0.340627973358706
+  }
+ },
+ "rows": [
+  {
+   "file": "ami-ES2004a-00.wav",
+   "references": [
+    "Okay Yeah I've got Yes",
+    "So we've got both of these clipped on She gonna answer me or not Right both of them okay"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Yes.",
+     "We've got both of these clipped on, this is right, both of them."
+    ],
+    "substitutions": 2,
+    "deletions": 12,
+    "insertions": 0,
+    "reference_words": 27,
+    "errors": 14,
+    "wer": 0.5185185185185185,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Yes.",
+     "You've got both of these clipped on. This is right, both of them."
+    ],
+    "substitutions": 3,
+    "deletions": 12,
+    "insertions": 0,
+    "reference_words": 27,
+    "errors": 15,
+    "wer": 0.5555555555555556,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-ES2004a-01.wav",
+   "references": [
+    "Tu tu tu tu Hi good morning",
+    "Okay Hello everybody Um I'm Sarah the Project Manager and this is our first meeting surprisingly enough Okay this is our agenda um"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "",
+     "Okay, hello everybody. I'm Sarah, the project manager, and this is our first meeting, surprisingly enough. Okay, this is our agenda."
+    ],
+    "substitutions": 0,
+    "deletions": 7,
+    "insertions": 0,
+    "reference_words": 29,
+    "errors": 7,
+    "wer": 0.2413793103448276,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "",
+     "Okay. Hello, everybody. I'm Sarah, the project manager, and this is our first meeting, surprisingly enough. Okay, this is our agenda."
+    ],
+    "substitutions": 0,
+    "deletions": 7,
+    "insertions": 0,
+    "reference_words": 29,
+    "errors": 7,
+    "wer": 0.2413793103448276,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-ES2004a-02.wav",
+   "references": [
+    "Uh yep Thank you Uh maybe you can guess what I'm trying to make",
+    "Is that your lapel then There you go"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Thank you, maybe you can get what I'm trying to make.",
+     "There you go, power line."
+    ],
+    "substitutions": 1,
+    "deletions": 6,
+    "insertions": 2,
+    "reference_words": 21,
+    "errors": 9,
+    "wer": 0.42857142857142855,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "You okay? Oh, yep, thank you. Maybe you can get what I'm trying to make.",
+     "their power."
+    ],
+    "substitutions": 3,
+    "deletions": 6,
+    "insertions": 3,
+    "reference_words": 21,
+    "errors": 12,
+    "wer": 0.5714285714285714,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-ES2004a-03.wav",
+   "references": [
+    "So yes yes I don't think we have to I don't think it's a case of worrying about different languages and things like that um making that a key point just that it's going to be in the international market like Australia America things like that Okay",
+    "Big target group No Mm"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "I don't think we have to, I don't think it's a case of worrying about different languages and things like that, making that key point, just that it's going to be in the international market like Australia, America, things like that.",
+     "Big target group. Yes, yes. I don't think about good news and things like that making that key point just that it's going to be in the international market like Australia, America, things like that. Okay."
+    ],
+    "substitutions": 1,
+    "deletions": 5,
+    "insertions": 34,
+    "reference_words": 54,
+    "errors": 40,
+    "wer": 0.7407407407407407,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Yes, yes. I don't think we have to I don't think it's a case of worrying about different languages and things like that, making that key point, just that it's going to be in the international market like Australia, America, things like that. Okay.",
+     "Big target group."
+    ],
+    "substitutions": 0,
+    "deletions": 3,
+    "insertions": 0,
+    "reference_words": 54,
+    "errors": 3,
+    "wer": 0.05555555555555555,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009a-00.wav",
+   "references": [
+    "Detailed design same thing basically Mm-hmm Mm-hmm",
+    "Mm 'kay so Three different types of design that we're gonna be concerned with okay"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "okay so three different types of design that we're going to be concerned about so tell me",
+     "Detailed design same thing basically"
+    ],
+    "substitutions": 3,
+    "deletions": 0,
+    "insertions": 2,
+    "reference_words": 21,
+    "errors": 5,
+    "wer": 0.23809523809523808,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "and Casa, and three different types of design that we're going to be concerned with, so tell me.",
+     "Detailed design. Same thing, basically."
+    ],
+    "substitutions": 3,
+    "deletions": 0,
+    "insertions": 3,
+    "reference_words": 21,
+    "errors": 6,
+    "wer": 0.2857142857142857,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009a-01.wav",
+   "references": [
+    "You wanna go Eileen and Whether you without hanging yourself",
+    "Okay I'll see what I can do See if I r See if I remember how to draw a kitty cat or a rabbit or something"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Okay, I'll see what I can do see if I see if I remember how to draw a kitty cat or a rabbit or something",
+     "you want to go Eileen and whether you without hanging yourself"
+    ],
+    "substitutions": 0,
+    "deletions": 1,
+    "insertions": 0,
+    "reference_words": 38,
+    "errors": 1,
+    "wer": 0.02631578947368421,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "OK, I'll see what I can do. See if I see if I remember how to draw a kitty cat or a rabbit or something.",
+     "You want to go, Eileen? And whether you without hanging yourself?"
+    ],
+    "substitutions": 1,
+    "deletions": 1,
+    "insertions": 0,
+    "reference_words": 38,
+    "errors": 2,
+    "wer": 0.05263157894736842,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009a-02.wav",
+   "references": [
+    "And remember you have to press so it works Mm-hmm",
+    "So that it will record okay Um uh um traditional kitty cat"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "so that it will record okay um well traditional kitty cat",
+     "And remember, you have to press so it works."
+    ],
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 1,
+    "reference_words": 18,
+    "errors": 1,
+    "wer": 0.05555555555555555,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "so that it will record, okay. Um, well, traditional kitty cat.",
+     "and remember you have to press so it works. Mm hmm."
+    ],
+    "substitutions": 0,
+    "deletions": 0,
+    "insertions": 1,
+    "reference_words": 18,
+    "errors": 1,
+    "wer": 0.05555555555555555,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009a-03.wav",
+   "references": [
+    "So these are all things of course to remember with the budget and when you design to materials cost etcetera",
+    "Profit Um is fifty mm"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "and 15",
+     "So these are all things, of course, to remember with the budget and when you design, to materials, cost, etc."
+    ],
+    "substitutions": 3,
+    "deletions": 1,
+    "insertions": 0,
+    "reference_words": 23,
+    "errors": 4,
+    "wer": 0.17391304347826086,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "and fifty",
+     "So these are all things, of course, to remember with the budget and when you design, to materials, cost, etc."
+    ],
+    "substitutions": 2,
+    "deletions": 1,
+    "insertions": 0,
+    "reference_words": 23,
+    "errors": 3,
+    "wer": 0.13043478260869565,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009b-00.wav",
+   "references": [
+    "who would be next uh I guess that would be you Mm-hmm You want me to get your slide show up Mm-hmm",
+    "Yeah 'kay Yeah yeah sure Thank you"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Yeah, okay. Yeah. Yeah, yeah, sure. Thank you.",
+     "Who would be next? I guess that would be you. You want me to get your slideshow up?"
+    ],
+    "substitutions": 2,
+    "deletions": 1,
+    "insertions": 1,
+    "reference_words": 26,
+    "errors": 4,
+    "wer": 0.15384615384615385,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Yeah, King? Yeah. Yeah, yeah, sure. Thank you.",
+     "Who would be next? I guess that would be you. You want me to get your slideshow up?"
+    ],
+    "substitutions": 2,
+    "deletions": 1,
+    "insertions": 1,
+    "reference_words": 26,
+    "errors": 4,
+    "wer": 0.15384615384615385,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009b-01.wav",
+   "references": [
+    "And you are number three Number two Okay",
+    "Number two yeah Yeah exactly"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Number two.",
+     "And you are number three, number two."
+    ],
+    "substitutions": 0,
+    "deletions": 4,
+    "insertions": 0,
+    "reference_words": 13,
+    "errors": 4,
+    "wer": 0.3076923076923077,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "number two.",
+     "and you are number three, number two."
+    ],
+    "substitutions": 0,
+    "deletions": 4,
+    "insertions": 0,
+    "reference_words": 13,
+    "errors": 4,
+    "wer": 0.3076923076923077,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009b-02.wav",
+   "references": [
+    "Okay Mm-hmm Yep Yeah yeah uh-huh",
+    "Uh can you make it uh full screen please No it's like a well you you have to press here The cup cup shape here The thir third"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "can you make it a free screen no it's like uh oh yeah you have to a little tug",
+     "Okay, yeah, yeah"
+    ],
+    "substitutions": 6,
+    "deletions": 11,
+    "insertions": 1,
+    "reference_words": 32,
+    "errors": 18,
+    "wer": 0.5625,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Now, can you make it off your screen? No, that's like a body I have to put here.",
+     "Okay. Oh, yeah, yeah, uh huh."
+    ],
+    "substitutions": 6,
+    "deletions": 10,
+    "insertions": 2,
+    "reference_words": 32,
+    "errors": 18,
+    "wer": 0.5625,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009b-03.wav",
+   "references": [
+    "To keep the remote Yeah",
+    "And uh uh of course there should be a case where we can keep all the things and you know different shapes or whatever it is there should be a case to put to give a shape Yeah"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "and of course there should be a case where we can keep all the things and you know different shapes or whatever it is there should be a case to put to give us shape yeah yeah",
+     "to keep the remote."
+    ],
+    "substitutions": 1,
+    "deletions": 1,
+    "insertions": 1,
+    "reference_words": 41,
+    "errors": 3,
+    "wer": 0.07317073170731707,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "and of course there should be a case where we can keep all the things and, you know, different shapes or whatever it is, there should be a case to put, to give us shape. Yeah.",
+     "To keep the remote,"
+    ],
+    "substitutions": 1,
+    "deletions": 1,
+    "insertions": 0,
+    "reference_words": 41,
+    "errors": 2,
+    "wer": 0.04878048780487805,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-IS1009b-04.wav",
+   "references": [
+    "On the on on the remote Yeah mm-hmm",
+    "Now there should be some timer to set for viewing a particular a particular programme or switching on and off a uh a particular programme according to the user choice Yes Yes"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "on the remote",
+     "Now there should be some timer to set for viewing a particular program or switching on and off a particular program according to the user choice. Yes. Yes."
+    ],
+    "substitutions": 0,
+    "deletions": 7,
+    "insertions": 0,
+    "reference_words": 38,
+    "errors": 7,
+    "wer": 0.18421052631578946,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "on the remote. Yeah, mhm.",
+     "now there should be some timer to set for viewing a particular program or switching on and off a particular program according to the user's choice. Yes. Yes."
+    ],
+    "substitutions": 0,
+    "deletions": 6,
+    "insertions": 1,
+    "reference_words": 38,
+    "errors": 7,
+    "wer": 0.18421052631578946,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-TS3003a-00.wav",
+   "references": [
+    "Uh It's a real dead sheep yeah For recognition yeah I see",
+    "little blue dot they always get sprayed on their butts There Yeah"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "It's a real dead ship here for recognition, yeah, let's see.",
+     "Little blue dot they always get sprayed on their butts then I see"
+    ],
+    "substitutions": 5,
+    "deletions": 0,
+    "insertions": 2,
+    "reference_words": 24,
+    "errors": 7,
+    "wer": 0.2916666666666667,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "real dead sheep, for recognition.",
+     "Little blue dot they always get sprayed on their butts."
+    ],
+    "substitutions": 0,
+    "deletions": 9,
+    "insertions": 0,
+    "reference_words": 24,
+    "errors": 9,
+    "wer": 0.375,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002a-00.wav",
+   "references": [
+    "So yeah So we have basically two options of of browsing the meetings is by either um searching and opening individual observations And when then we have the interlinking by right-click basically",
+    "And then this lot is on th"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "And then this slot is on.",
+     "So we have basically two options of browsing the meetings is by either searching and opening individual observations and then we have the interlinking by right click basically."
+    ],
+    "substitutions": 1,
+    "deletions": 5,
+    "insertions": 0,
+    "reference_words": 39,
+    "errors": 6,
+    "wer": 0.15384615384615385,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "and then this lot is on",
+     "So, you know, so we have basically two options of browsing the meetings is by either searching and opening individual observations, and then we have the interlinking by right click, basically."
+    ],
+    "substitutions": 1,
+    "deletions": 3,
+    "insertions": 1,
+    "reference_words": 39,
+    "errors": 5,
+    "wer": 0.1282051282051282,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002a-01.wav",
+   "references": [
+    "No hmm Yeah Yeah Yeah",
+    "W we just say no for now and put it in later or something Yeah yeah Yeah 'cause otherwise it will the it will increase the amount of data we need by a lot won't it Therefore print will be bigger"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "We'll just say note for now and put it in later because otherwise it will increase the amount of data we need by a lot until the footprint will be bigger.",
+     "Yeah, it's clear."
+    ],
+    "substitutions": 11,
+    "deletions": 10,
+    "insertions": 0,
+    "reference_words": 46,
+    "errors": 21,
+    "wer": 0.45652173913043476,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "We'll just say note for now and put it in later if we want something like this. Because otherwise it will increase the amount of data we need by a lot, won't it? The footprint won't be bigger.",
+     "Mm hm, yes, yes."
+    ],
+    "substitutions": 12,
+    "deletions": 5,
+    "insertions": 3,
+    "reference_words": 46,
+    "errors": 20,
+    "wer": 0.43478260869565216,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002a-02.wav",
+   "references": [
+    "So they don't you know they don't say look in that and that folder but they say search everything",
+    "Yeah yeah That is pretty bizarre"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Yeah, yeah, heh, heh, heh, heh, heh, heh, heh, heh.",
+     "So they don't, you know, they don't say, look in that and that folder, but they say, search everything."
+    ],
+    "substitutions": 4,
+    "deletions": 0,
+    "insertions": 4,
+    "reference_words": 27,
+    "errors": 8,
+    "wer": 0.2962962962962963,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Yeah, yeah, yeah, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, heh, he",
+     "so they don't, you know, they don't say, look in that and that folder, but they say, such everything"
+    ],
+    "substitutions": 5,
+    "deletions": 0,
+    "insertions": 70,
+    "reference_words": 27,
+    "errors": 75,
+    "wer": 2.7777777777777777,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002a-03.wav",
+   "references": [
+    "I had to I had to understand how to do the transcript how they did the transcript to do the summary myself Yeah just search for a specific string",
+    "Oh see obvious So did you have to write it in the way that they wrote it is that what you did"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Oh, see, did you have to write it in the way that they wrote it? Is that what you did?",
+     "I had to, I had to understand how to do the transcript, how they did the transcript to do the summary myself. Yeah, just search for the specific string."
+    ],
+    "substitutions": 1,
+    "deletions": 2,
+    "insertions": 0,
+    "reference_words": 51,
+    "errors": 3,
+    "wer": 0.058823529411764705,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Oh, see, I was pretty deaf to write it in the way that they wrote it, is that what you did?",
+     "I had to, I had to understand how to do the transcript, how they did the transcript, to do the summary myself. Yeah. Just search for a specific string."
+    ],
+    "substitutions": 4,
+    "deletions": 1,
+    "insertions": 0,
+    "reference_words": 51,
+    "errors": 5,
+    "wer": 0.09803921568627451,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002a-04.wav",
+   "references": [
+    "Yeah it'll get behind schedule yeah pretty quick Like you're saying yeah Well actually do we wanna set a date for interim prototype",
+    "Weeks will go by and"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Yeah, it'll get behind schedule, you know, pretty quick, like you're saying, yeah. Well, actually, do we want to set a date for interim prototype?",
+     "weeks will go by."
+    ],
+    "substitutions": 1,
+    "deletions": 1,
+    "insertions": 1,
+    "reference_words": 31,
+    "errors": 3,
+    "wer": 0.0967741935483871,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Yeah, it'll get behind schedule, you know, pretty quick, like you're saying. Well, actually, do we want to set a date for interim prototype?",
+     "we shall go by."
+    ],
+    "substitutions": 3,
+    "deletions": 2,
+    "insertions": 1,
+    "reference_words": 31,
+    "errors": 6,
+    "wer": 0.1935483870967742,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002a-05.wav",
+   "references": [
+    "Huh Which one the top one Um Do you really want multiple windows from a single lap",
+    "Can you read that Yeah"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "It's on the top one, um, do you really want multiple windows from a single app?",
+     "Can you be that?"
+    ],
+    "substitutions": 5,
+    "deletions": 1,
+    "insertions": 0,
+    "reference_words": 21,
+    "errors": 6,
+    "wer": 0.2857142857142857,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Which one, the top one? No. Do you really want multiple windows from a single app?",
+     "Can you read that?"
+    ],
+    "substitutions": 1,
+    "deletions": 2,
+    "insertions": 1,
+    "reference_words": 21,
+    "errors": 4,
+    "wer": 0.19047619047619047,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002b-00.wav",
+   "references": [
+    "Um but we might not you know but we might have time Depends how how how how things m",
+    "Yeah it might turn out easier than thought Um"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "But we might not even know, we might have time, depends on it.",
+     "You might turn out what you didn't thought, and..."
+    ],
+    "substitutions": 6,
+    "deletions": 6,
+    "insertions": 4,
+    "reference_words": 26,
+    "errors": 16,
+    "wer": 0.6153846153846154,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "But we might not, you know, in a lifetime, depending",
+     "you might turn out what you didn't thought, and,"
+    ],
+    "substitutions": 7,
+    "deletions": 9,
+    "insertions": 3,
+    "reference_words": 26,
+    "errors": 19,
+    "wer": 0.7307692307692307,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002b-01.wav",
+   "references": [
+    "The topic segmentation with the L_C_ seg and text tiles basically done It just needs to be done because you know what I mean the co yeah tuned yeah A search through the parameters or something Let's see what happens",
+    "Okay Tuned I guess or yeah Yeah Cool"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Okay, tuned, I'll get rid of that again.",
+     "The topic segmentation with LC Segg and textiles is basically done, it just needs to be done. You know what I mean? Yeah, tune the search of the parameter space, man, or something, and see what happens."
+    ],
+    "substitutions": 14,
+    "deletions": 7,
+    "insertions": 3,
+    "reference_words": 50,
+    "errors": 24,
+    "wer": 0.48,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Okay. Tuned? I let go of that again.",
+     "The topic segmentation with Elsie Sagan, textiles, basically done, just needs to be done. The career to dear search of the parameters, by each man or something. Let's see what happens."
+    ],
+    "substitutions": 18,
+    "deletions": 10,
+    "insertions": 0,
+    "reference_words": 50,
+    "errors": 28,
+    "wer": 0.56,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002b-02.wav",
+   "references": [
+    "Yeah Should we I don't know do you think Mike about our things that we had together Should we I mean now yeah I mean we have it now like inverted and you have the other But what about the m",
+    "Split those apart Yeah I think so yeah like yeah inverted file Yeah exactly"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Yeah, split those apart. Yeah, I think so. Yeah, like inverted file. Yeah, exactly",
+     "Should we, I don't know, rethink Mike, about our things that we have together, should we? I mean, no, yeah, I mean, we have now, like, inverted and you have the other, but what about them?"
+    ],
+    "substitutions": 4,
+    "deletions": 6,
+    "insertions": 1,
+    "reference_words": 56,
+    "errors": 11,
+    "wer": 0.19642857142857142,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "split those apart? Yeah, I think so, yeah, like an inverted file. Yeah, exactly.",
+     "Should we? I don't know. Do you think, Mike, about our things that we have together? Should we? I mean, no. Yeah. I mean, we have it now. You referred it, and you have the other. But what about them?"
+    ],
+    "substitutions": 6,
+    "deletions": 2,
+    "insertions": 1,
+    "reference_words": 56,
+    "errors": 9,
+    "wer": 0.16071428571428573,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002b-03.wav",
+   "references": [
+    "Removing disfluencies Shall we just Yeah we just keep it together on the the pap there right now and just see what what No not the disfluencies No haven't",
+    "Oh Well if we're skipping the audio one and then things got easier Um Yeah Yeah Have you taken any more of a look at it Have you taken any more of a look at it At the disfluenc okay Yeah Okay We could probably"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Oh, what if we're skipping the audio one and then try to be easier? Um, yeah. Have you taken any more of a look at it? Have you taken any more of a look at it? At the distance? Okay. Yeah. Okay. We could probably...",
+     "I'm removing this fluency, shall we just yeah we just keep it together on the the paper there right now and just see what what no not that this fluency"
+    ],
+    "substitutions": 9,
+    "deletions": 3,
+    "insertions": 5,
+    "reference_words": 75,
+    "errors": 17,
+    "wer": 0.22666666666666666,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Oh. Well, if we're skipping the audio one, then that's a lot easier. Have you taken any more of a look at it? Have you taken any more of a look at it? At the distance. Okay. No. Okay. We could probably.",
+     "I'm going to disclose it, shall we? Yeah, we'll just keep it together on the paper there right now and just see what? What? No, not the disclosures. No."
+    ],
+    "substitutions": 11,
+    "deletions": 5,
+    "insertions": 5,
+    "reference_words": 75,
+    "errors": 21,
+    "wer": 0.28,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002b-04.wav",
+   "references": [
+    "Tuple or something yeah What on the Okay",
+    "Yeah that's on the um the n the the NOM right elements The the the uh the object is a NOM right element I think"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Yeah, that's on the non-right element. The object is a non-right element, I think.",
+     "Topo or something, yeah, right on the... okay."
+    ],
+    "substitutions": 5,
+    "deletions": 7,
+    "insertions": 0,
+    "reference_words": 32,
+    "errors": 12,
+    "wer": 0.375,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Yes, that's on the non right elements. The object is a non right element, I think.",
+     "to borrow something? Yeah. What on the? Okay."
+    ],
+    "substitutions": 5,
+    "deletions": 7,
+    "insertions": 0,
+    "reference_words": 32,
+    "errors": 12,
+    "wer": 0.375,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002b-05.wav",
+   "references": [
+    "Writing it back to X_M_L_ Seems There's a blop of text Text file",
+    "Um It's I thought we were just going to have that as words Like not ev not as X_M_L_ just sort of as a Was that What was that um What transcripts recent oh no transcript no 'cause then we need all the other data if we wanna keep it a transcript right"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "Um, we were just going to have that as words like not even not as XML just sort of as a What was that um, well transcripts No, because then we need all the other data if we want to keep it a transcript, right?",
+     "I'm writing it back to XML to use a text file."
+    ],
+    "substitutions": 7,
+    "deletions": 18,
+    "insertions": 2,
+    "reference_words": 71,
+    "errors": 27,
+    "wer": 0.38028169014084506,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Um, we were just going to have that as words, like not as XML, just sort of as a Is that? What was that done? Well, transcripts, we said. Oh, no, transcripts. No, because then we need all the other data if we want to keep it a transcript.",
+     "writing it back twenty some hours seems to have a text, text file."
+    ],
+    "substitutions": 11,
+    "deletions": 12,
+    "insertions": 2,
+    "reference_words": 71,
+    "errors": 25,
+    "wer": 0.352112676056338,
+    "order": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002b-06.wav",
+   "references": [
+    "And they can't yeah exactly",
+    "you know the the b the good way of doing it um not together is that you if someone doesn't wanna look at the the you know the chop file then you don't ever have to produce it"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "And they can. Yeah.",
+     "The good way of doing it not together is that if someone doesn't want to look at the CHOP file, then you don't ever have to produce it."
+    ],
+    "substitutions": 0,
+    "deletions": 12,
+    "insertions": 0,
+    "reference_words": 46,
+    "errors": 12,
+    "wer": 0.2608695652173913,
+    "order": [
+     0,
+     1
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "and they can.",
+     "you know, the good way of doing it, not together, is that if someone doesn't want to look at the, you know, the CHOP file, then you don't ever have to produce it."
+    ],
+    "substitutions": 0,
+    "deletions": 8,
+    "insertions": 0,
+    "reference_words": 46,
+    "errors": 8,
+    "wer": 0.17391304347826086,
+    "order": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "file": "ami-EN2002b-07.wav",
+   "references": [
+    "So if we can do it with NITE stuff do it with NITE stuff I think Otherwise you're gonna be s Java trying to do s it was just so complicated it was ridiculous Don't believe it You have to d start defining object models like the NITE thing and getting all bizarre w weird things It was mad",
+    "Yeah okay Yeah Okay Yeah Yeah okay Are you serious It's insane"
+   ],
+   "baseline": {
+    "hypotheses": [
+     "yeah okay yeah okay okay are you serious it's insane",
+     "So if we can do it with night stuff, do it with night stuff, I think, otherwise we're going to be... Java was trying to do it, it was just so complicated, it was ridiculous. I can't believe it. You have to start defining object models like the night thing and getting all these weird things like that, it's mad."
+    ],
+    "substitutions": 10,
+    "deletions": 4,
+    "insertions": 3,
+    "reference_words": 75,
+    "errors": 17,
+    "wer": 0.22666666666666666,
+    "order": [
+     1,
+     0
+    ]
+   },
+   "cleartalk": {
+    "hypotheses": [
+     "Yeah, okay. Yeah. Okay. Okay. I'm serious. It's insane.",
+     "that we can do it with night stuff, do it with night stuff, I think. Otherwise we can do it. The other way of trying to do it, it was just so complicated, it was ridiculous. You shouldn't believe it. You have to start defining object models like the night thing and getting all these odd, weird things like that in his mouth."
+    ],
+    "substitutions": 20,
+    "deletions": 4,
+    "insertions": 4,
+    "reference_words": 75,
+    "errors": 28,
+    "wer": 0.37333333333333335,
+    "order": [
+     1,
+     0
+    ]
+   }
+  }
+ ]
+}

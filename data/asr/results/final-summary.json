@@ -1,0 +1,80 @@
+{
+  "test": [
+    {
+      "set": "T1 \u00b7 v4 test mixtures",
+      "units": 96,
+      "reference_words": 3080,
+      "pretrained_wer": 0.33246753246753247,
+      "cleartalk_wer": 0.29577922077922075,
+      "pretrained_errors": 1024,
+      "cleartalk_errors": 911,
+      "pretrained_sdi": [
+        741,
+        130,
+        153
+      ],
+      "cleartalk_sdi": [
+        655,
+        133,
+        123
+      ],
+      "difference": -0.036688311688311714,
+      "ci_low": -0.05609617875647668,
+      "ci_high": -0.018816955417753457,
+      "relative_change": -0.11035156250000011,
+      "pretrained_wer_legacy": 0.33793556870479946,
+      "cleartalk_wer_legacy": 0.2984878369493754
+    },
+    {
+      "set": "T2 \u00b7 new test mixtures",
+      "units": 300,
+      "reference_words": 9367,
+      "pretrained_wer": 0.26155652823742925,
+      "cleartalk_wer": 0.20743034055727555,
+      "pretrained_errors": 2450,
+      "cleartalk_errors": 1943,
+      "pretrained_sdi": [
+        1654,
+        317,
+        479
+      ],
+      "cleartalk_sdi": [
+        1350,
+        303,
+        290
+      ],
+      "difference": -0.0541261876801537,
+      "ci_low": -0.07630533331369625,
+      "ci_high": -0.03654936527062184,
+      "relative_change": -0.206938775510204,
+      "pretrained_wer_legacy": 0.2665157883392607,
+      "cleartalk_wer_legacy": 0.20961310486043755
+    },
+    {
+      "set": "T3 \u00b7 clean single speaker",
+      "units": 400,
+      "reference_words": 7494,
+      "pretrained_wer": 0.02575393648251935,
+      "cleartalk_wer": 0.023352014945289566,
+      "pretrained_errors": 193,
+      "cleartalk_errors": 175,
+      "pretrained_sdi": [
+        147,
+        26,
+        20
+      ],
+      "cleartalk_sdi": [
+        135,
+        20,
+        20
+      ],
+      "difference": -0.002401921537229783,
+      "ci_low": -0.005484927793683096,
+      "ci_high": 0.0003957660369040931,
+      "relative_change": -0.09326424870466321,
+      "pretrained_wer_legacy": 0.033091202582728005,
+      "cleartalk_wer_legacy": 0.024078557976863063
+    }
+  ],
+  "cleartalk_wer_all_units": 0.15189809939320997
+}

@@ -1,0 +1,19 @@
+{
+  "train_before": 8364,
+  "train_after": 8340,
+  "validation": 1119,
+  "removed_by_rule": {
+    "missing_audio": 0,
+    "empty_transcript": 0,
+    "duration_outside_1_30_seconds": 18,
+    "demo": 6,
+    "validation_sentence": 0,
+    "validation_text": 0,
+    "duplicate_training_utterance": 0
+  },
+  "train_val_shared_utterances": 0,
+  "train_val_shared_sentence_groups": 0,
+  "train_val_shared_normalized_texts": 0,
+  "speaker_disjointness": "unknown; corpus has no reader IDs",
+  "final_test": "not allocated; do not reuse previous test rounds"
+}

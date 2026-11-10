@@ -1,0 +1,111 @@
+{
+ "profile_routes": {
+  "kk": "cleartalk-large",
+  "ru": "cleartalk-large",
+  "en": "turbo"
+ },
+ "profile_mixed_recognizer": "cleartalk-large",
+ "served_mixed_recognizer": "cleartalk-large",
+ "signatures_verified": [
+  "turbo",
+  "kazakh",
+  "small",
+  "cleartalk",
+  "cleartalk-large"
+ ],
+ "device": "cuda int8_float32",
+ "validated_checkpoint": "runs/large-lr1.5e-4/ct2-step-00600",
+ "validated_transcripts_reproduced": {
+  "mixed": "20/20",
+  "single": "20/20"
+ },
+ "cpu_check": {
+  "units": 6,
+  "audio_seconds": 114.1,
+  "processing_seconds": 203.6,
+  "wer_cpu_int8": 0.10526315789473684,
+  "wer_cuda_int8_float32": 0.11483253588516747,
+  "identical_transcripts": 4
+ },
+ "health": {
+  "status": "ready",
+  "conversation_mode": true,
+  "speaker_labels": true
+ },
+ "demo_languages_expected": [
+  "kk",
+  "ru",
+  "en",
+  "kk",
+  "ru",
+  "en"
+ ],
+ "api_demo": {
+  "routes": {
+   "status": "done",
+   "error": null,
+   "turns": 6,
+   "speakers": 6,
+   "languages": [
+    "kk",
+    "ru",
+    "en",
+    "kk",
+    "ru",
+    "en"
+   ],
+   "recognizers": [
+    "cleartalk-large",
+    "turbo"
+   ],
+   "processing_seconds": 26.84,
+   "audio_seconds": 41.47,
+   "transcript_download": 200
+  },
+  "mixed_setting": {
+   "status": "done",
+   "error": null,
+   "turns": 6,
+   "speakers": 6,
+   "languages": [
+    "kk",
+    "ru",
+    "en",
+    "kk",
+    "ru",
+    "en"
+   ],
+   "recognizers": [
+    "cleartalk-large"
+   ],
+   "processing_seconds": 7.67,
+   "audio_seconds": 41.47,
+   "transcript_download": 200
+  },
+  "cleartalk_large": {
+   "status": "done",
+   "error": null,
+   "turns": 6,
+   "speakers": 6,
+   "languages": [
+    "kk",
+    "ru",
+    "en",
+    "kk",
+    "ru",
+    "en"
+   ],
+   "recognizers": [
+    "cleartalk-large"
+   ],
+   "processing_seconds": 7.73,
+   "audio_seconds": 41.47,
+   "transcript_download": 200
+  }
+ },
+ "languages": [
+  "kk",
+  "ru",
+  "en"
+ ]
+}

@@ -1,0 +1,8 @@
+{
+  "train_total": 28539,
+  "after_excluding_demo_speakers": 28300,
+  "after_requiring_punctuated_text": 25825,
+  "after_requiring_pc_words_equal_official": 24931,
+  "after_duration_1_to_16.5s": 24482,
+  "evaluation_total": 8790
+}

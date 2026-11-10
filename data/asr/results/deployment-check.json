@@ -1,0 +1,6 @@
+{
+  "default_model": "cleartalk",
+  "export": "models/whisper-small.en-cleartalk",
+  "tracks_checked": 20,
+  "identical_transcripts": 20
+}

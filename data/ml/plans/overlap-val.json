@@ -1,0 +1,2305 @@
+{
+ "seed": 2026101560,
+ "recordings": [
+  {
+   "unit_id": "overlap-val-000",
+   "duration": 8.543,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-17260447335891935853",
+     "path": "data/ml/audio/fleurs/en/dev/17260447335891935853.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -1.184924722949663,
+     "reference": "However, most signs are indicated only in Catalan because it is established by law as the first official language."
+    },
+    {
+     "unit_id": "golos-validation-00000-00280",
+     "path": "data/ml/audio/golos/validation/00000-00280.wav",
+     "language": "ru",
+     "start": 5.003,
+     "level_db": 0.8346082750150758,
+     "reference": "инна калиева"
+    }
+   ],
+   "overlap_seconds": 1.897
+  },
+  {
+   "unit_id": "overlap-val-001",
+   "duration": 14.242,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-09_02_002",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/podcasts/09_02_002.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 1.535204473124411,
+     "reference": "біріншісі сол үшін құрметті бауырлар ел үшін отан үшін бір дұға жасап"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-13930003982474340657",
+     "path": "data/ml/audio/fleurs/ru/dev/13930003982474340657.wav",
+     "language": "ru",
+     "start": 3.082,
+     "level_db": 1.1776198546588477,
+     "reference": "Главная цель науки — это выяснить, каким образом устроен мир, применив научный метод. Этот метод фактически лежит в основе большинства научных исследований."
+    }
+   ],
+   "overlap_seconds": 1.168
+  },
+  {
+   "unit_id": "overlap-val-002",
+   "duration": 10.735,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-5f5efd2eb0784",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f5efd2eb0784.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 2.7146476219057245,
+     "reference": "күнделікті елу алпыс айына бір мың контент сканерленіп"
+    },
+    {
+     "unit_id": "fleurs-en-dev-14103207573366096931",
+     "path": "data/ml/audio/fleurs/en/dev/14103207573366096931.wav",
+     "language": "en",
+     "start": 1.675,
+     "level_db": 1.0883411294535428,
+     "reference": "The Portuguese destroyed it and rebuilt it under the name Casa Branca, only to abandon it after an earthquake in 1755."
+    }
+   ],
+   "overlap_seconds": 2.575
+  },
+  {
+   "unit_id": "overlap-val-003",
+   "duration": 12.019,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-13851036903026386291",
+     "path": "data/ml/audio/fleurs/en/dev/13851036903026386291.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 1.583747437963952,
+     "reference": "Next, some saddles, particularly English saddles, have safety bars that allow a stirrup leather to fall off the saddle if pulled backwards by a falling rider."
+    },
+    {
+     "unit_id": "fleurs-en-dev-5892105493233215004",
+     "path": "data/ml/audio/fleurs/en/dev/5892105493233215004.wav",
+     "language": "en",
+     "start": 6.619,
+     "level_db": -1.7451119250310216,
+     "reference": "The first cases of the disease this season were reported in late July."
+    }
+   ],
+   "overlap_seconds": 2.741
+  },
+  {
+   "unit_id": "overlap-val-004",
+   "duration": 15.173,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-15483908465225335228",
+     "path": "data/ml/audio/fleurs/en/dev/15483908465225335228.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -0.8826462588750061,
+     "reference": "Japans holds nearly 7,000 islands (the biggest being Honshu), making Japan the 7th largest island in the world!"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-13032453514519630749",
+     "path": "data/ml/audio/fleurs/ru/dev/13032453514519630749.wav",
+     "language": "ru",
+     "start": 2.873,
+     "level_db": -0.8947814608189164,
+     "reference": "Как правило, спутниковый телефон не является заменой мобильному телефону, поскольку вам необходимо находиться на улице в зоне прямой видимости со спутника, чтобы позвонить."
+    }
+   ],
+   "overlap_seconds": 6.247
+  },
+  {
+   "unit_id": "overlap-val-005",
+   "duration": 14.541,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-5148931519930262496",
+     "path": "data/ml/audio/fleurs/kk/dev/5148931519930262496.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 0.5034760910889369,
+     "reference": "Негізгі жергілікті сыра – «Number One». Бұл күрделі сыра емес, бірақ жағымды және сергітеід. Тағы бір жергілікті сыра «Manta» деп аталады."
+    },
+    {
+     "unit_id": "ksc2-test-413417",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/413417.flac.flac",
+     "language": "kk",
+     "start": 10.265,
+     "level_db": -2.620446139411457,
+     "reference": "жас ерекшелігін ескере отырып оны реанимация бөліміне орналастырдық"
+    }
+   ],
+   "overlap_seconds": 2.515
+  },
+  {
+   "unit_id": "overlap-val-006",
+   "duration": 9.396,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-15252986718200704764",
+     "path": "data/ml/audio/fleurs/ru/dev/15252986718200704764.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -2.0379875955944025,
+     "reference": "Президент США Джордж Буш приветствовал это заявление."
+    },
+    {
+     "unit_id": "ksc2-test-5f60984c8b1fb",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f60984c8b1fb.flac",
+     "language": "kk",
+     "start": 2.611,
+     "level_db": -1.120798553063809,
+     "reference": "қордың қаржылай табысы екі жүз алпыс сегіз миллиард теңгеге жеткен"
+    }
+   ],
+   "overlap_seconds": 2.609
+  },
+  {
+   "unit_id": "overlap-val-007",
+   "duration": 8.883,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00674",
+     "path": "data/ml/audio/golos/validation/00000-00674.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -1.710771950382051,
+     "reference": "можешь показать передачу звезда на тв"
+    },
+    {
+     "unit_id": "golos-validation-00000-00787",
+     "path": "data/ml/audio/golos/validation/00000-00787.wav",
+     "language": "ru",
+     "start": 3.083,
+     "level_db": 2.874854667658897,
+     "reference": "подскажите пожалуйста а работает ли йога студия в вашем отеле"
+    }
+   ],
+   "overlap_seconds": 0.917
+  },
+  {
+   "unit_id": "overlap-val-008",
+   "duration": 13.462,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-8259791173436815888",
+     "path": "data/ml/audio/fleurs/en/dev/8259791173436815888.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -0.8047894923283745,
+     "reference": "Arly Velasquez of Mexico finished fifteenth in the men's sitting Super-G. New Zealand's Adam Hall finished ninth in the men's standing Super-G."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-8470716290913652079",
+     "path": "data/ml/audio/fleurs/ru/dev/8470716290913652079.wav",
+     "language": "ru",
+     "start": 5.482,
+     "level_db": 1.9503204576002027,
+     "reference": "Полиция сказала, что тело, скорее всего, находилось там около дня."
+    }
+   ],
+   "overlap_seconds": 3.158
+  },
+  {
+   "unit_id": "overlap-val-009",
+   "duration": 9.255,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-senate_01_337",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/parliament/senate_01_337.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 2.032383207147097,
+     "reference": "аралас тілді мектептер жалпы мектептер саны отыз пайызға пайызға жуығын құрап отыр"
+    },
+    {
+     "unit_id": "ksc2-test-413391",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/413391.flac.flac",
+     "language": "kk",
+     "start": 1.973,
+     "level_db": -0.8437818497214797,
+     "reference": "жұмыспен қамту жол картасының аясында биылдың өзінде жиырма төрт жаңа денсаулық сақтау нысаны пайдалануға беріледі"
+    }
+   ],
+   "overlap_seconds": 3.076
+  },
+  {
+   "unit_id": "overlap-val-010",
+   "duration": 7.47,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00344",
+     "path": "data/ml/audio/golos/validation/00000-00344.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -1.4683129958461034,
+     "reference": "сбербанк пополнить номер телефона мтс"
+    },
+    {
+     "unit_id": "ksc2-test-414759",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/414759.flac.flac",
+     "language": "kk",
+     "start": 1.431,
+     "level_db": 1.3576521042458065,
+     "reference": "жеті мыңға жуық тұрғыны бар наурызбай ауданында бірінші кезекте ауызсу тапшылығын шешу мәселесі болған"
+    }
+   ],
+   "overlap_seconds": 3.069
+  },
+  {
+   "unit_id": "overlap-val-011",
+   "duration": 15.956,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-12252827175552105583",
+     "path": "data/ml/audio/fleurs/en/dev/12252827175552105583.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 2.713534216202005,
+     "reference": "Though it is widely used, especially among non-Romani, the word \"Gypsy\" is often considered offensive because of its associations with negative stereotypes and inaccurate perceptions of Romani people."
+    },
+    {
+     "unit_id": "fleurs-kk-dev-10453399788189054345",
+     "path": "data/ml/audio/fleurs/kk/dev/10453399788189054345.wav",
+     "language": "kk",
+     "start": 7.076,
+     "level_db": 2.1214684528516887,
+     "reference": "Рождество христиан дінінің ең маңызды мейрамдарының бірі болып, Исаның туған күні ретінде тойланады."
+    }
+   ],
+   "overlap_seconds": 6.184
+  },
+  {
+   "unit_id": "overlap-val-012",
+   "duration": 12.07,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00435",
+     "path": "data/ml/audio/golos/validation/00000-00435.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 0.03368546457535304,
+     "reference": "афина как можно продать пять тысяч долларов выгодно"
+    },
+    {
+     "unit_id": "fleurs-en-dev-17034861753789241333",
+     "path": "data/ml/audio/fleurs/en/dev/17034861753789241333.wav",
+     "language": "en",
+     "start": 2.97,
+     "level_db": 0.5248500524162885,
+     "reference": "An increasingly more popular option for those planning a gap-year is to travel and learn."
+    }
+   ],
+   "overlap_seconds": 0.81
+  },
+  {
+   "unit_id": "overlap-val-013",
+   "duration": 16.517,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-5870427588532126137",
+     "path": "data/ml/audio/fleurs/kk/dev/5870427588532126137.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -1.6708708349466668,
+     "reference": "Еврей отбасының өмірінің көп бөлігі ашық ауада өтетін."
+    },
+    {
+     "unit_id": "fleurs-en-dev-291304485009295365",
+     "path": "data/ml/audio/fleurs/en/dev/291304485009295365.wav",
+     "language": "en",
+     "start": 11.537,
+     "level_db": 1.9300919294545373,
+     "reference": "U.S. President George W. Bush welcomed the announcement."
+    }
+   ],
+   "overlap_seconds": 1.003
+  },
+  {
+   "unit_id": "overlap-val-014",
+   "duration": 9.93,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00758",
+     "path": "data/ml/audio/golos/validation/00000-00758.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.1066061005312227,
+     "reference": "покажи мне приколы в ютюбе"
+    },
+    {
+     "unit_id": "fleurs-kk-dev-4187688343916243696",
+     "path": "data/ml/audio/fleurs/kk/dev/4187688343916243696.wav",
+     "language": "kk",
+     "start": 0.99,
+     "level_db": -2.965722513480814,
+     "reference": "Аргентина дүние жүзіндегі ең жақсы поло командаларының біреуі және ең жақсы ойыншыларының болуымен белгілі."
+    }
+   ],
+   "overlap_seconds": 2.662
+  },
+  {
+   "unit_id": "overlap-val-015",
+   "duration": 18.139,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-5f61e7c5939f3",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f61e7c5939f3.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 1.6062943350315226,
+     "reference": "рәбияның диплом құжаттарымен мұқият таныса отырып ұзақ әңгімелесті"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-14988795387028777801",
+     "path": "data/ml/audio/fleurs/ru/dev/14988795387028777801.wav",
+     "language": "ru",
+     "start": 6.019,
+     "level_db": -2.1428326172356904,
+     "reference": "Принцип тибетского буддизма очень прост. Он состоит из кундалини-йоги, медитации и пути всепоглощающей любви."
+    }
+   ],
+   "overlap_seconds": 3.368
+  },
+  {
+   "unit_id": "overlap-val-016",
+   "duration": 13.077,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-3673258420503292564",
+     "path": "data/ml/audio/fleurs/ru/dev/3673258420503292564.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -0.4718910849942972,
+     "reference": "Результаты анализа графиков будут размещены на общедоступном сайте."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-1050167374088424092",
+     "path": "data/ml/audio/fleurs/ru/dev/1050167374088424092.wav",
+     "language": "ru",
+     "start": 2.457,
+     "level_db": 1.3309877384887496,
+     "reference": "Однако большинство знаков указываются только на каталанском языке, поскольку он по закону является первым официальным языком."
+    }
+   ],
+   "overlap_seconds": 3.183
+  },
+  {
+   "unit_id": "overlap-val-017",
+   "duration": 13.702,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-3867412311544872737",
+     "path": "data/ml/audio/fleurs/kk/dev/3867412311544872737.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 2.2853312335146807,
+     "reference": "Ғалымдар оцелоттар жейтін жануарларды иіс арқылы, жерде қайда болғанын иіскеу арқылы тауып алады деп ойлайды."
+    },
+    {
+     "unit_id": "fleurs-en-dev-1105184381995491301",
+     "path": "data/ml/audio/fleurs/en/dev/1105184381995491301.wav",
+     "language": "en",
+     "start": 7.882,
+     "level_db": -1.464030127270064,
+     "reference": "The first cases of the disease this season were reported in late July."
+    }
+   ],
+   "overlap_seconds": 3.398
+  },
+  {
+   "unit_id": "overlap-val-018",
+   "duration": 12.21,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00673",
+     "path": "data/ml/audio/golos/validation/00000-00673.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 0.7995503538860533,
+     "reference": "сверхъестественное третья серия"
+    },
+    {
+     "unit_id": "fleurs-en-dev-89504047496701392",
+     "path": "data/ml/audio/fleurs/en/dev/89504047496701392.wav",
+     "language": "en",
+     "start": 0.87,
+     "level_db": -2.425023011515831,
+     "reference": "His 1,000th stamp was the magnificent \"Great Deeds by Swedish Kings\" by David Klöcker Ehrenstrahl in 2000, which is listed in the Guinness Book of World Records."
+    }
+   ],
+   "overlap_seconds": 2.55
+  },
+  {
+   "unit_id": "overlap-val-019",
+   "duration": 17.357,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-14867157367839088799",
+     "path": "data/ml/audio/fleurs/kk/dev/14867157367839088799.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -0.6664807728279785,
+     "reference": "Ғалымдардың айтуынша қақтығысудан орын алған жарылыс өте үлкен болған."
+    },
+    {
+     "unit_id": "ksc2-test-5f58854d98854",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f58854d98854.flac",
+     "language": "kk",
+     "start": 7.5,
+     "level_db": 2.3419471752834546,
+     "reference": "бүгінгі жаһандану дәуірінде мемлекеттің даму жолында әлемдік сын қатерлердің алдын алу ең алдымен ғылыми қауымдастықтың міндеті екені даусыз"
+    }
+   ],
+   "overlap_seconds": 6.24
+  },
+  {
+   "unit_id": "overlap-val-020",
+   "duration": 8.305,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00085",
+     "path": "data/ml/audio/golos/validation/00000-00085.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 0.5196462693051327,
+     "reference": "ивана павловича близнюка"
+    },
+    {
+     "unit_id": "golos-validation-00000-00341",
+     "path": "data/ml/audio/golos/validation/00000-00341.wav",
+     "language": "ru",
+     "start": 2.645,
+     "level_db": -0.7189145592466843,
+     "reference": "включи фильм стыд сезон шесть шестнадцатый эпизод"
+    }
+   ],
+   "overlap_seconds": 1.195
+  },
+  {
+   "unit_id": "overlap-val-021",
+   "duration": 8.77,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-415314",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/415314.flac.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 0.12562232558163489,
+     "reference": "бұл дерек бойынша полиция қызметкерлері қала тұрғынын анықтап"
+    },
+    {
+     "unit_id": "golos-validation-00000-00635",
+     "path": "data/ml/audio/golos/validation/00000-00635.wav",
+     "language": "ru",
+     "start": 3.01,
+     "level_db": -0.7425217953044285,
+     "reference": "краткосрочное размещение в этом отеле хочу узнать подробности"
+    }
+   ],
+   "overlap_seconds": 0.816
+  },
+  {
+   "unit_id": "overlap-val-022",
+   "duration": 14.803,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-7390051731188203616",
+     "path": "data/ml/audio/fleurs/kk/dev/7390051731188203616.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -2.2015300287246395,
+     "reference": "Бұл жалпы тәжірибеге айналды, бірақ темір вагондардың ағаш дөңгелектерін көбірек тоздыратын."
+    },
+    {
+     "unit_id": "fleurs-en-dev-6957842655427915598",
+     "path": "data/ml/audio/fleurs/en/dev/6957842655427915598.wav",
+     "language": "en",
+     "start": 4.303,
+     "level_db": 1.9580906013574912,
+     "reference": "I lost my sister and her friend, and on my way there were two disabled people in wheelchairs, people just jumping over and pushing them,\" Armand Versace said."
+    }
+   ],
+   "overlap_seconds": 6.017
+  },
+  {
+   "unit_id": "overlap-val-023",
+   "duration": 13.479,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00206",
+     "path": "data/ml/audio/golos/validation/00000-00206.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.3266712898969004,
+     "reference": "афина включи наззи"
+    },
+    {
+     "unit_id": "fleurs-en-dev-12101038164583476077",
+     "path": "data/ml/audio/fleurs/en/dev/12101038164583476077.wav",
+     "language": "en",
+     "start": 1.359,
+     "level_db": -2.384616179440106,
+     "reference": "The northern part or Sentinel Range has Antarctica's highest mountains, the Vinson Massif, peaking at 4892 m Mount Vinson."
+    }
+   ],
+   "overlap_seconds": 3.681
+  },
+  {
+   "unit_id": "overlap-val-024",
+   "duration": 11.204,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00321",
+     "path": "data/ml/audio/golos/validation/00000-00321.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -2.6840289331022515,
+     "reference": "поищи часть двадцать один сезона семь континуум"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-4969910361235257757",
+     "path": "data/ml/audio/fleurs/ru/dev/4969910361235257757.wav",
+     "language": "ru",
+     "start": 2.924,
+     "level_db": -2.0172639436027797,
+     "reference": "На церковном кладбище над некоторыми могилами есть интересные мраморные скульптуры голубей."
+    }
+   ],
+   "overlap_seconds": 1.476
+  },
+  {
+   "unit_id": "overlap-val-025",
+   "duration": 8.621,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-7001181659804434621",
+     "path": "data/ml/audio/fleurs/ru/dev/7001181659804434621.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -0.03285152764502586,
+     "reference": "Еще три бомбы взорвались возле правительственных зданий в течение двух часов."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-998757248963593147",
+     "path": "data/ml/audio/fleurs/ru/dev/998757248963593147.wav",
+     "language": "ru",
+     "start": 2.561,
+     "level_db": -1.3544135252198954,
+     "reference": "Как только вы выйдете из течения, плыть обратно будет не труднее, чем обычно."
+    }
+   ],
+   "overlap_seconds": 3.199
+  },
+  {
+   "unit_id": "overlap-val-026",
+   "duration": 13.147,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-15318292836784319983",
+     "path": "data/ml/audio/fleurs/ru/dev/15318292836784319983.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 2.4337472936078894,
+     "reference": "Амазонка также является самой широкой рекой на Земле, ширина которой иногда составляет шесть миль."
+    },
+    {
+     "unit_id": "fleurs-en-dev-12307759170163178109",
+     "path": "data/ml/audio/fleurs/en/dev/12307759170163178109.wav",
+     "language": "en",
+     "start": 4.807,
+     "level_db": -1.8657707649238504,
+     "reference": "I don't know if you realize it or not, but most of the goods from Central America came into this country duty-free."
+    }
+   ],
+   "overlap_seconds": 3.413
+  },
+  {
+   "unit_id": "overlap-val-027",
+   "duration": 10.279,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00170",
+     "path": "data/ml/audio/golos/validation/00000-00170.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -1.7049413173773356,
+     "reference": "билет кораллдент"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-10042203520901241191",
+     "path": "data/ml/audio/fleurs/ru/dev/10042203520901241191.wav",
+     "language": "ru",
+     "start": 2.539,
+     "level_db": -2.894610916968226,
+     "reference": "Он сказал, что создал дверной звонок, работающий от WiFi."
+    }
+   ],
+   "overlap_seconds": 0.661
+  },
+  {
+   "unit_id": "overlap-val-028",
+   "duration": 8.682,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00749",
+     "path": "data/ml/audio/golos/validation/00000-00749.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 2.4578291797620135,
+     "reference": "тихорецк"
+    },
+    {
+     "unit_id": "golos-validation-00000-00585",
+     "path": "data/ml/audio/golos/validation/00000-00585.wav",
+     "language": "ru",
+     "start": 2.802,
+     "level_db": 1.8907775066436479,
+     "reference": "дмитрий сергеевич тагланов"
+    }
+   ],
+   "overlap_seconds": 1.518
+  },
+  {
+   "unit_id": "overlap-val-029",
+   "duration": 10.957,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00210",
+     "path": "data/ml/audio/golos/validation/00000-00210.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.0310116717966933,
+     "reference": "включи дэйглоу"
+    },
+    {
+     "unit_id": "fleurs-kk-dev-4187688343916243696",
+     "path": "data/ml/audio/fleurs/kk/dev/4187688343916243696.wav",
+     "language": "kk",
+     "start": 2.017,
+     "level_db": 0.9826946737289295,
+     "reference": "Аргентина дүние жүзіндегі ең жақсы поло командаларының біреуі және ең жақсы ойыншыларының болуымен белгілі."
+    }
+   ],
+   "overlap_seconds": 1.263
+  },
+  {
+   "unit_id": "overlap-val-030",
+   "duration": 13.302,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-12952903060751652532",
+     "path": "data/ml/audio/fleurs/en/dev/12952903060751652532.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -0.6887198139804784,
+     "reference": "The main local beer is 'Number One', it is not a complex beer, but pleasant and refreshing. The other local beer is called \"Manta\"."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-2046655769210822459",
+     "path": "data/ml/audio/fleurs/ru/dev/2046655769210822459.wav",
+     "language": "ru",
+     "start": 5.082,
+     "level_db": -2.7717494711881523,
+     "reference": "Полиция сказала, что тело, скорее всего, находилось там около дня."
+    }
+   ],
+   "overlap_seconds": 5.498
+  },
+  {
+   "unit_id": "overlap-val-031",
+   "duration": 13.537,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-7390051731188203616",
+     "path": "data/ml/audio/fleurs/kk/dev/7390051731188203616.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -2.8642274720806467,
+     "reference": "Бұл жалпы тәжірибеге айналды, бірақ темір вагондардың ағаш дөңгелектерін көбірек тоздыратын."
+    },
+    {
+     "unit_id": "fleurs-en-dev-1994306573920339783",
+     "path": "data/ml/audio/fleurs/en/dev/1994306573920339783.wav",
+     "language": "en",
+     "start": 7.837,
+     "level_db": 0.7224997524750316,
+     "reference": "The Spaniards started the colonization period which lasted for three centuries."
+    }
+   ],
+   "overlap_seconds": 2.483
+  },
+  {
+   "unit_id": "overlap-val-032",
+   "duration": 20.007,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-5f60b12b21cef",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f60b12b21cef.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -0.7483810729506244,
+     "reference": "ал қала басшылығы тойосу базары тұрған кварталдың топырағы мен сусынды денсаулыққа зиянды заттар табылғанын алға тартып отыр"
+    },
+    {
+     "unit_id": "fleurs-kk-dev-17197983472855553804",
+     "path": "data/ml/audio/fleurs/kk/dev/17197983472855553804.wav",
+     "language": "kk",
+     "start": 8.487,
+     "level_db": -2.378702913202284,
+     "reference": "Ғалымдар бұл жануардың қауырсыны үстінде сарғылт қоңыр, астында бозарған немесе каротеноид түсті болған дейді."
+    }
+   ],
+   "overlap_seconds": 4.398
+  },
+  {
+   "unit_id": "overlap-val-033",
+   "duration": 15.872,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-6332426715513825692",
+     "path": "data/ml/audio/fleurs/en/dev/6332426715513825692.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 0.9210776595816847,
+     "reference": "Members of a subculture often signal their membership through a distinctive and symbolic use of style, which includes fashions, mannerisms, and argot."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-14068569887412964398",
+     "path": "data/ml/audio/fleurs/ru/dev/14068569887412964398.wav",
+     "language": "ru",
+     "start": 9.332,
+     "level_db": 0.695491408972746,
+     "reference": "Сначала одежда находилась под сильным влиянием византийской культуры на востоке."
+    }
+   ],
+   "overlap_seconds": 4.348
+  },
+  {
+   "unit_id": "overlap-val-034",
+   "duration": 7.29,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00305",
+     "path": "data/ml/audio/golos/validation/00000-00305.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.082819650836269,
+     "reference": "ты найдешь у себя первый эпизод крэшрэйсинга"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-919322766259118453",
+     "path": "data/ml/audio/fleurs/ru/dev/919322766259118453.wav",
+     "language": "ru",
+     "start": 1.71,
+     "level_db": 0.060835824229002355,
+     "reference": "Испанцы начали период колонизации, который длился три столетия."
+    }
+   ],
+   "overlap_seconds": 2.074
+  },
+  {
+   "unit_id": "overlap-val-035",
+   "duration": 12.285,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00460",
+     "path": "data/ml/audio/golos/validation/00000-00460.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -2.2445451123356284,
+     "reference": "второй эпизод двенадцатого сезона сериала теория большого взрыва"
+    },
+    {
+     "unit_id": "golos-validation-00000-00749",
+     "path": "data/ml/audio/golos/validation/00000-00749.wav",
+     "language": "ru",
+     "start": 7.665,
+     "level_db": 1.2183136018894105,
+     "reference": "тихорецк"
+    }
+   ],
+   "overlap_seconds": 1.572
+  },
+  {
+   "unit_id": "overlap-val-036",
+   "duration": 19.654,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-17759731324642522129",
+     "path": "data/ml/audio/fleurs/ru/dev/17759731324642522129.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -0.964634122297892,
+     "reference": "Представители определенной субкультуры зачастую заявляют о своей принадлежности через своеобразное и символичное использование стиля, в том числе через моду, манеры и жаргон."
+    },
+    {
+     "unit_id": "ksc2-test-senate_01_300",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/parliament/senate_01_300.flac",
+     "language": "kk",
+     "start": 10.288,
+     "level_db": 2.3380523907280146,
+     "reference": "коммуналдық даму бағдарламалары аясында тұрғындарға ипотекалық несие беру көлемін арттыратынын атап өтемін"
+    }
+   ],
+   "overlap_seconds": 2.672
+  },
+  {
+   "unit_id": "overlap-val-037",
+   "duration": 13.987,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-01_02_202",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/talkshow/01_02_202.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -2.5034419970805186,
+     "reference": "сол кезде ана көрген түсі аяқ астынан есіне түседі ғой есіне түсіп барып жоқ жоқ мен мінбей ақ қояйын деген ана лифті көтеріліп кеткен"
+    },
+    {
+     "unit_id": "fleurs-en-dev-545751939151471725",
+     "path": "data/ml/audio/fleurs/en/dev/545751939151471725.wav",
+     "language": "en",
+     "start": 5.707,
+     "level_db": 1.2734414102260887,
+     "reference": "At the beginning dress was heavily influenced by the Byzantine culture in the east."
+    }
+   ],
+   "overlap_seconds": 2.708
+  },
+  {
+   "unit_id": "overlap-val-038",
+   "duration": 10.719,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-15722181378874917743",
+     "path": "data/ml/audio/fleurs/en/dev/15722181378874917743.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -2.1696633717985296,
+     "reference": "Money can be exchanged at the only bank in the islands which is located in Stanley across from the FIC West store."
+    },
+    {
+     "unit_id": "golos-validation-00000-00611",
+     "path": "data/ml/audio/golos/validation/00000-00611.wav",
+     "language": "ru",
+     "start": 6.719,
+     "level_db": 2.297717165731039,
+     "reference": "не послать ли нам гонца ты найдешь у себя"
+    }
+   ],
+   "overlap_seconds": 1.081
+  },
+  {
+   "unit_id": "overlap-val-039",
+   "duration": 19.124,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-13597230403460168888",
+     "path": "data/ml/audio/fleurs/ru/dev/13597230403460168888.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.0606829976320817,
+     "reference": "Ее первым соревнованием был слалом, в первом забеге которого она не доехала до финиша. 36 из 116 участников имели такой же результат в той гонке."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-17702210831373629397",
+     "path": "data/ml/audio/fleurs/ru/dev/17702210831373629397.wav",
+     "language": "ru",
+     "start": 8.624,
+     "level_db": -0.2256387796373236,
+     "reference": "Рождество – это один из наиболее важных праздников в христианстве, и оно отмечается как день рождения Иисуса."
+    }
+   ],
+   "overlap_seconds": 3.256
+  },
+  {
+   "unit_id": "overlap-val-040",
+   "duration": 9.805,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-5352162181104834869",
+     "path": "data/ml/audio/fleurs/en/dev/5352162181104834869.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 0.24855066612617982,
+     "reference": "The result of plotting analysis will be posted to a public website."
+    },
+    {
+     "unit_id": "golos-validation-00000-00558",
+     "path": "data/ml/audio/golos/validation/00000-00558.wav",
+     "language": "ru",
+     "start": 1.355,
+     "level_db": 2.2564407138109486,
+     "reference": "эпизод тридцать два сезон девять сериал обмани меня"
+    }
+   ],
+   "overlap_seconds": 3.565
+  },
+  {
+   "unit_id": "overlap-val-041",
+   "duration": 10.983,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-12741198541187415618",
+     "path": "data/ml/audio/fleurs/ru/dev/12741198541187415618.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -0.2159910642167242,
+     "reference": "Основной религией в Молдавии является православное христианство."
+    },
+    {
+     "unit_id": "golos-validation-00000-00485",
+     "path": "data/ml/audio/golos/validation/00000-00485.wav",
+     "language": "ru",
+     "start": 7.023,
+     "level_db": 1.1327009800982468,
+     "reference": "айгуль кравченко"
+    }
+   ],
+   "overlap_seconds": 1.497
+  },
+  {
+   "unit_id": "overlap-val-042",
+   "duration": 9.883,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-17928171511082320095",
+     "path": "data/ml/audio/fleurs/en/dev/17928171511082320095.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -1.6380061853805818,
+     "reference": "Naturalists and philosophers focused on classical texts and, in particular, on the Bible in Latin."
+    },
+    {
+     "unit_id": "ksc2-test-5f60984c8b1fb",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f60984c8b1fb.flac",
+     "language": "kk",
+     "start": 3.098,
+     "level_db": -2.2960269092065424,
+     "reference": "қордың қаржылай табысы екі жүз алпыс сегіз миллиард теңгеге жеткен"
+    }
+   ],
+   "overlap_seconds": 3.802
+  },
+  {
+   "unit_id": "overlap-val-043",
+   "duration": 13.358,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-13189159353263517186",
+     "path": "data/ml/audio/fleurs/en/dev/13189159353263517186.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 2.4432102569450835,
+     "reference": "NHK also reported that the Kashiwazaki Kariwa nuclear power plant in Niigata prefecture was operating normally."
+    },
+    {
+     "unit_id": "ksc2-test-09_03_335",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/podcasts/09_03_335.flac",
+     "language": "kk",
+     "start": 9.362,
+     "level_db": -1.9406655468276217,
+     "reference": "соған здоровый эгоизм болған дұрыс өзін жоғары қойсын"
+    }
+   ],
+   "overlap_seconds": 1.678
+  },
+  {
+   "unit_id": "overlap-val-044",
+   "duration": 12.382,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-5f58854d98854",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f58854d98854.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 1.0444435970341184,
+     "reference": "бүгінгі жаһандану дәуірінде мемлекеттің даму жолында әлемдік сын қатерлердің алдын алу ең алдымен ғылыми қауымдастықтың міндеті екені даусыз"
+    },
+    {
+     "unit_id": "golos-validation-00000-00567",
+     "path": "data/ml/audio/golos/validation/00000-00567.wav",
+     "language": "ru",
+     "start": 8.122,
+     "level_db": 0.5915323713952887,
+     "reference": "у тебя будет власть страха"
+    }
+   ],
+   "overlap_seconds": 1.435
+  },
+  {
+   "unit_id": "overlap-val-045",
+   "duration": 14.62,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-1434421756977348703",
+     "path": "data/ml/audio/fleurs/en/dev/1434421756977348703.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 1.2632581883996306,
+     "reference": "The northern part or Sentinel Range has Antarctica's highest mountains, the Vinson Massif, peaking at 4892 m Mount Vinson."
+    },
+    {
+     "unit_id": "golos-validation-00000-00061",
+     "path": "data/ml/audio/golos/validation/00000-00061.wav",
+     "language": "ru",
+     "start": 11.04,
+     "level_db": -1.153064337264024,
+     "reference": "покажи мистер саншайн"
+    }
+   ],
+   "overlap_seconds": 1.44
+  },
+  {
+   "unit_id": "overlap-val-046",
+   "duration": 18.464,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-1930181632841265787",
+     "path": "data/ml/audio/fleurs/kk/dev/1930181632841265787.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 0.4842799073556625,
+     "reference": "Есептерге сай кеңінен тарап кеткен тонаушылық түні бойы жалғасты, өйткені Бішкектің көшелерінде құқық қорғау органдарының қызметкерлері болмады."
+    },
+    {
+     "unit_id": "fleurs-en-dev-14212474766306388319",
+     "path": "data/ml/audio/fleurs/en/dev/14212474766306388319.wav",
+     "language": "en",
+     "start": 10.524,
+     "level_db": -1.9893794624069938,
+     "reference": "You can see the pyramids in the dark and you can see them in silence before the show begins."
+    }
+   ],
+   "overlap_seconds": 2.436
+  },
+  {
+   "unit_id": "overlap-val-047",
+   "duration": 11.944,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-14227270688333398054",
+     "path": "data/ml/audio/fleurs/en/dev/14227270688333398054.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 2.292501280861348,
+     "reference": "Most districts are served by small Japanese Coaster Buses, which are comfortable and sturdy."
+    },
+    {
+     "unit_id": "ksc2-test-414345",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/414345.flac.flac",
+     "language": "kk",
+     "start": 5.812,
+     "level_db": -1.514673606268209,
+     "reference": "енді партиялық сайлау тізімінде әйелдер мен жастарға міндетті отыз пайыз квота қарастырылмақ"
+    }
+   ],
+   "overlap_seconds": 3.188
+  },
+  {
+   "unit_id": "overlap-val-048",
+   "duration": 14.47,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-10045457533521947678",
+     "path": "data/ml/audio/fleurs/kk/dev/10045457533521947678.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -1.8843159868829424,
+     "reference": "Доктор Молл кейбір науқастар вирусты ауруханада жұқтырған болуы мүмкін деп ойлайды, кемінде екеуі аурухананың медициналық қызметкерлері болған."
+    },
+    {
+     "unit_id": "ksc2-test-09_03_005",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/podcasts/09_03_005.flac",
+     "language": "kk",
+     "start": 10.465,
+     "level_db": -0.07947670292757714,
+     "reference": "жарайды даже міндетсінгенде еліңді сүйетініңді міндетсінбеші айналайын"
+    }
+   ],
+   "overlap_seconds": 1.475
+  },
+  {
+   "unit_id": "overlap-val-049",
+   "duration": 13.149,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-11342228042008396939",
+     "path": "data/ml/audio/fleurs/kk/dev/11342228042008396939.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -2.7708100512833442,
+     "reference": "Итальян тіліндегі сөздердің айтылуы салыстырмалы түрде оңай, өйткені сөздердің көпшілігі дәл жазылғанындай айтылады"
+    },
+    {
+     "unit_id": "golos-validation-00000-00142",
+     "path": "data/ml/audio/golos/validation/00000-00142.wav",
+     "language": "ru",
+     "start": 9.569,
+     "level_db": -0.9997720233316092,
+     "reference": "тамары"
+    }
+   ],
+   "overlap_seconds": 2.311
+  },
+  {
+   "unit_id": "overlap-val-050",
+   "duration": 9.261,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00493",
+     "path": "data/ml/audio/golos/validation/00000-00493.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -1.03402816717636,
+     "reference": "сбер как можно узнать пин код"
+    },
+    {
+     "unit_id": "fleurs-kk-dev-14082909487208337366",
+     "path": "data/ml/audio/fleurs/kk/dev/14082909487208337366.wav",
+     "language": "kk",
+     "start": 2.001,
+     "level_db": -1.8204397256156883,
+     "reference": "Су ені 100 футқа тең бөліктегі бөгет үстінен төгіліп жатыр."
+    }
+   ],
+   "overlap_seconds": 1.714
+  },
+  {
+   "unit_id": "overlap-val-051",
+   "duration": 9.388,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-1377254906648533454",
+     "path": "data/ml/audio/fleurs/ru/dev/1377254906648533454.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 2.393474416525332,
+     "reference": "Амазонка также является самой широкой рекой на Земле, ширина которой иногда составляет шесть миль."
+    },
+    {
+     "unit_id": "ksc2-test-01_04_362",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/radio/01_04_362.flac",
+     "language": "kk",
+     "start": 5.255,
+     "level_db": -0.447187990110661,
+     "reference": "мхм ііі қай сауал сіздің көңіліңізден шықты"
+    }
+   ],
+   "overlap_seconds": 2.845
+  },
+  {
+   "unit_id": "overlap-val-052",
+   "duration": 15.513,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-16860873281220616983",
+     "path": "data/ml/audio/fleurs/kk/dev/16860873281220616983.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 0.6682315473894258,
+     "reference": "Менің ойымша бұл мағынасыз еді; бұл әділетсіз екені сөзсіз еді."
+    },
+    {
+     "unit_id": "fleurs-en-dev-2677167459739246091",
+     "path": "data/ml/audio/fleurs/en/dev/2677167459739246091.wav",
+     "language": "en",
+     "start": 6.693,
+     "level_db": -1.7542496872252435,
+     "reference": "Widespread looting reportedly continued overnight, as law enforcement officers were not present on Bishkek's streets."
+    }
+   ],
+   "overlap_seconds": 6.687
+  },
+  {
+   "unit_id": "overlap-val-053",
+   "duration": 9.332,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00067",
+     "path": "data/ml/audio/golos/validation/00000-00067.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -2.895644017543537,
+     "reference": "сбер не хочешь выйти на улицу и покурить"
+    },
+    {
+     "unit_id": "fleurs-en-dev-5682670818231670031",
+     "path": "data/ml/audio/fleurs/en/dev/5682670818231670031.wav",
+     "language": "en",
+     "start": 2.912,
+     "level_db": -0.4359837703328404,
+     "reference": "That didn't seem to make sense to me; it certainly wasn't fair."
+    }
+   ],
+   "overlap_seconds": 1.208
+  },
+  {
+   "unit_id": "overlap-val-054",
+   "duration": 13.885,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-01_05_165",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/radio/01_05_165.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -1.4113281322800386,
+     "reference": "иә солар сол каллория арқылы ол салмақты жинайды да және аяқтары іседі жаңағы ііі өте жаман сезінеді иә"
+    },
+    {
+     "unit_id": "ksc2-test-5f60aaa4a4d1a",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f60aaa4a4d1a.flac",
+     "language": "kk",
+     "start": 3.516,
+     "level_db": 0.12903222008037218,
+     "reference": "қанша торығып қаншама қамыққанымен құдай салды біз көндік дегенге сайып ең мықты деген есту аппаратын саттырып алдырады"
+    }
+   ],
+   "overlap_seconds": 4.991
+  },
+  {
+   "unit_id": "overlap-val-055",
+   "duration": 5.801,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00142",
+     "path": "data/ml/audio/golos/validation/00000-00142.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -0.36727918922435787,
+     "reference": "тамары"
+    },
+    {
+     "unit_id": "fleurs-en-dev-6415341913845555034",
+     "path": "data/ml/audio/fleurs/en/dev/6415341913845555034.wav",
+     "language": "en",
+     "start": 1.121,
+     "level_db": -2.021638966848821,
+     "reference": "The result of plotting analysis will be posted to a public website."
+    }
+   ],
+   "overlap_seconds": 2.159
+  },
+  {
+   "unit_id": "overlap-val-056",
+   "duration": 13.865,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00632",
+     "path": "data/ml/audio/golos/validation/00000-00632.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.4306249886296634,
+     "reference": "улица молодежная дом семнадцать в"
+    },
+    {
+     "unit_id": "fleurs-kk-dev-8675158961585291239",
+     "path": "data/ml/audio/fleurs/kk/dev/8675158961585291239.wav",
+     "language": "kk",
+     "start": 2.705,
+     "level_db": 1.3214312475539236,
+     "reference": "Негізінен, курс осы жерде талқыланатын барлық мәселелерді, әдетте практикалық тәжірибені толығырақ қамтиды."
+    }
+   ],
+   "overlap_seconds": 1.66
+  },
+  {
+   "unit_id": "overlap-val-057",
+   "duration": 13.311,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-11909868287041540501",
+     "path": "data/ml/audio/fleurs/en/dev/11909868287041540501.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 0.8803451602439356,
+     "reference": "The satellite in space gets the call and then reflects it back down, almost instantly."
+    },
+    {
+     "unit_id": "ksc2-test-5f6320976f7ce",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f6320976f7ce.flac",
+     "language": "kk",
+     "start": 5.801,
+     "level_db": -0.2433021794895529,
+     "reference": "жеті қат көктің көбесін сөккен қас ұл ем пенделік кесіп өте"
+    }
+   ],
+   "overlap_seconds": 1.619
+  },
+  {
+   "unit_id": "overlap-val-058",
+   "duration": 9.72,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-414013",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/414013.flac.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 0.7573409342246578,
+     "reference": "тиісінше бұл жұмысқа комиссияны тарту ашығын айтқанда бізге түсініксіз"
+    },
+    {
+     "unit_id": "fleurs-en-dev-17646385371758249908",
+     "path": "data/ml/audio/fleurs/en/dev/17646385371758249908.wav",
+     "language": "en",
+     "start": 1.8,
+     "level_db": -0.20703712465932433,
+     "reference": "According to police, the driver of the vehicle that hit the photographer is unlikely to face criminal charges."
+    }
+   ],
+   "overlap_seconds": 2.276
+  },
+  {
+   "unit_id": "overlap-val-059",
+   "duration": 20.377,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-5090905195828922903",
+     "path": "data/ml/audio/fleurs/ru/dev/5090905195828922903.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 0.645807046226091,
+     "reference": "Во многих случаях поступление на какой-либо курс за границей во время академического отпуска действительно может повысить ваши шансы на поступление в высшие учебные заведения на родине."
+    },
+    {
+     "unit_id": "fleurs-en-dev-6037648224035961543",
+     "path": "data/ml/audio/fleurs/en/dev/6037648224035961543.wav",
+     "language": "en",
+     "start": 10.537,
+     "level_db": -0.07993126426750763,
+     "reference": "In the churchyard, there are interesting marble sculptures of doves over some tombs."
+    }
+   ],
+   "overlap_seconds": 2.063
+  },
+  {
+   "unit_id": "overlap-val-060",
+   "duration": 14.77,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00740",
+     "path": "data/ml/audio/golos/validation/00000-00740.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -1.4782064672432633,
+     "reference": "мастер класс по разделке лосося от сергея крутова"
+    },
+    {
+     "unit_id": "fleurs-kk-dev-3092537992449026132",
+     "path": "data/ml/audio/fleurs/kk/dev/3092537992449026132.wav",
+     "language": "kk",
+     "start": 2.59,
+     "level_db": -2.4408374347355775,
+     "reference": "Ежелгі Рим тағамдарына соңғы ғасырларда Еуропаға Америкадан немесе Азиядан келген тағамдар кірмеді."
+    }
+   ],
+   "overlap_seconds": 4.03
+  },
+  {
+   "unit_id": "overlap-val-061",
+   "duration": 14.541,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00606",
+     "path": "data/ml/audio/golos/validation/00000-00606.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -2.1005486577277246,
+     "reference": "включи вечерний ургант с оксимироном"
+    },
+    {
+     "unit_id": "fleurs-kk-dev-1922869839068053960",
+     "path": "data/ml/audio/fleurs/kk/dev/1922869839068053960.wav",
+     "language": "kk",
+     "start": 1.281,
+     "level_db": 0.2503447700832844,
+     "reference": "Негізінде, тибеттік буддизм өте оңай. Ол кундалини йогасынан, медитациядан және барлығын қамтитын махаббат жолынан тұрады."
+    }
+   ],
+   "overlap_seconds": 2.359
+  },
+  {
+   "unit_id": "overlap-val-062",
+   "duration": 19.332,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-4768211598626386587",
+     "path": "data/ml/audio/fleurs/kk/dev/4768211598626386587.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -1.4460618211866325,
+     "reference": "Көптеген кең таралған формат түрі (мысалы, форматтардың APS тобы) осы арақатынасқа тең немесе соған жуықтайды."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-5910486895547002809",
+     "path": "data/ml/audio/fleurs/ru/dev/5910486895547002809.wav",
+     "language": "ru",
+     "start": 9.732,
+     "level_db": -2.7464728550123176,
+     "reference": "Прежде чем организация сможет стать инновационной, руководители должны создать культуру новаторства, обмена знаниями и накопления опыта."
+    }
+   ],
+   "overlap_seconds": 2.688
+  },
+  {
+   "unit_id": "overlap-val-063",
+   "duration": 17.751,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-5895286002216664072",
+     "path": "data/ml/audio/fleurs/ru/dev/5895286002216664072.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 0.6686028485290612,
+     "reference": "Исследования в области ИИ включают в себя создание машин для автоматизации задач, требующих интеллектуального поведения."
+    },
+    {
+     "unit_id": "fleurs-en-dev-9180824388001237090",
+     "path": "data/ml/audio/fleurs/en/dev/9180824388001237090.wav",
+     "language": "en",
+     "start": 6.051,
+     "level_db": 0.03414505548530089,
+     "reference": "The Articles required unanimous consent from all the states before they could be amended and states took the central government so lightly that their representatives were often absent."
+    }
+   ],
+   "overlap_seconds": 3.429
+  },
+  {
+   "unit_id": "overlap-val-064",
+   "duration": 20.371,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-12097708015436899053",
+     "path": "data/ml/audio/fleurs/kk/dev/12097708015436899053.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -1.597594743609262,
+     "reference": "Субмәдениеттің жеке қасиеттері ретінде лингвистикалық, эстетикалық, діни, саяси, жыныстық, географиялық немесе факторлардың жиынтығы есептелуі мүмкін."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-7812267637256741883",
+     "path": "data/ml/audio/fleurs/ru/dev/7812267637256741883.wav",
+     "language": "ru",
+     "start": 10.291,
+     "level_db": 0.11777891231667326,
+     "reference": "Многие распространенные форматы (например семейство форматов APS) равны или близко приближаются к этим пропорциям."
+    }
+   ],
+   "overlap_seconds": 3.689
+  },
+  {
+   "unit_id": "overlap-val-065",
+   "duration": 15.088,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-6455803679214086923",
+     "path": "data/ml/audio/fleurs/kk/dev/6455803679214086923.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 2.373230236555141,
+     "reference": "Дегенмен, көп белгілер тек каталан тілінде көрсетіледі, өйткені ол заң бойынша бірінші ресми тіл түрінде белгіленген."
+    },
+    {
+     "unit_id": "golos-validation-00000-00745",
+     "path": "data/ml/audio/golos/validation/00000-00745.wav",
+     "language": "ru",
+     "start": 3.643,
+     "level_db": -1.8016927674517191,
+     "reference": "через ты пополнить телефон родственника через девятьсот со своего номера телефона"
+    }
+   ],
+   "overlap_seconds": 6.077
+  },
+  {
+   "unit_id": "overlap-val-066",
+   "duration": 6.217,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00574",
+     "path": "data/ml/audio/golos/validation/00000-00574.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 2.471710241104055,
+     "reference": "включи мне на смотрешке передачу рентв"
+    },
+    {
+     "unit_id": "ksc2-test-414241",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/414241.flac.flac",
+     "language": "kk",
+     "start": 2.27,
+     "level_db": 1.439596319292355,
+     "reference": "алмас садуақас эдуард кон қорытынды жаңалықтар"
+    }
+   ],
+   "overlap_seconds": 1.1
+  },
+  {
+   "unit_id": "overlap-val-067",
+   "duration": 5.433,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00601",
+     "path": "data/ml/audio/golos/validation/00000-00601.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.7161927561682795,
+     "reference": "сбер подготовьте пожалуйста выписку по вкладу"
+    },
+    {
+     "unit_id": "golos-validation-00000-00044",
+     "path": "data/ml/audio/golos/validation/00000-00044.wav",
+     "language": "ru",
+     "start": 1.591,
+     "level_db": 2.6737012574912047,
+     "reference": "можешь включить часть двадцать два гудини"
+    }
+   ],
+   "overlap_seconds": 2.303
+  },
+  {
+   "unit_id": "overlap-val-068",
+   "duration": 13.152,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-9783582591971624116",
+     "path": "data/ml/audio/fleurs/en/dev/9783582591971624116.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -0.25084387382958084,
+     "reference": "Thousands of years ago, a man called Aristarchus said that the Solar System moved around the Sun."
+    },
+    {
+     "unit_id": "ksc2-test-5f9f8cb74e0ee",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f9f8cb74e0ee.flac",
+     "language": "kk",
+     "start": 8.152,
+     "level_db": 1.505098206435136,
+     "reference": "айсланд орыстар исландия өздері өзін іслен дейтін ел"
+    }
+   ],
+   "overlap_seconds": 2.128
+  },
+  {
+   "unit_id": "overlap-val-069",
+   "duration": 14.41,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-322147539783399261",
+     "path": "data/ml/audio/fleurs/ru/dev/322147539783399261.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.295380270563098,
+     "reference": "Самое популярное местное пиво – это \"Number One\", у него незамысловатый, приятный и освежающий вкус. Еще одно местное пиво называется \"Manta\"."
+    },
+    {
+     "unit_id": "golos-validation-00000-00045",
+     "path": "data/ml/audio/golos/validation/00000-00045.wav",
+     "language": "ru",
+     "start": 9.116,
+     "level_db": 0.2823643098987656,
+     "reference": "поставь трансляцию матча апл между командами челси тоттенхэм"
+    }
+   ],
+   "overlap_seconds": 1.984
+  },
+  {
+   "unit_id": "overlap-val-070",
+   "duration": 14.721,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-9004906597338237049",
+     "path": "data/ml/audio/fleurs/en/dev/9004906597338237049.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 2.644030145544397,
+     "reference": "These theories suggest that people have certain needs and/or desires which have been internalized as they mature to adulthood."
+    },
+    {
+     "unit_id": "ksc2-test-mazhilis_01_040",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/parliament/mazhilis_01_040.flac",
+     "language": "kk",
+     "start": 5.747,
+     "level_db": -2.482034865682037,
+     "reference": "құрметті депутаттар комитет осы заң жобасын жұмысқа алуға және ол бойынша екі мың жиырма бірінші жылдың он бір отыз бірінші наурызына дейін қорытынды әзірлеуге дайын"
+    }
+   ],
+   "overlap_seconds": 4.953
+  },
+  {
+   "unit_id": "overlap-val-071",
+   "duration": 9.207,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-3793555683288256195",
+     "path": "data/ml/audio/fleurs/en/dev/3793555683288256195.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": 1.8233614116160846,
+     "reference": "Famous singers across the country presented bhajans, or devotional songs, to Shri Shyam's feet."
+    },
+    {
+     "unit_id": "golos-validation-00000-00115",
+     "path": "data/ml/audio/golos/validation/00000-00115.wav",
+     "language": "ru",
+     "start": 5.607,
+     "level_db": -2.8565064948316823,
+     "reference": "зиверт безболезненно"
+    }
+   ],
+   "overlap_seconds": 0.753
+  },
+  {
+   "unit_id": "overlap-val-072",
+   "duration": 10.055,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-5f61e99e5cd63",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f61e99e5cd63.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 1.4683576944056878,
+     "reference": "қожаның сынып жетекшісі хадиша майқанованың танымайтын бала кем де кем шығар"
+    },
+    {
+     "unit_id": "golos-validation-00000-00438",
+     "path": "data/ml/audio/golos/validation/00000-00438.wav",
+     "language": "ru",
+     "start": 3.655,
+     "level_db": -0.06390096002953793,
+     "reference": "закажи нямс консервы для кошек со вкусом лосося"
+    }
+   ],
+   "overlap_seconds": 4.878
+  },
+  {
+   "unit_id": "overlap-val-073",
+   "duration": 8.609,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00381",
+     "path": "data/ml/audio/golos/validation/00000-00381.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 0.21036801200293276,
+     "reference": "открой старт на тв"
+    },
+    {
+     "unit_id": "golos-validation-00000-00204",
+     "path": "data/ml/audio/golos/validation/00000-00204.wav",
+     "language": "ru",
+     "start": 2.449,
+     "level_db": -1.10312186694563,
+     "reference": "скажи где находится ближайший ресторан в этом городе"
+    }
+   ],
+   "overlap_seconds": 1.15
+  },
+  {
+   "unit_id": "overlap-val-074",
+   "duration": 16.057,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-9901222857586204589",
+     "path": "data/ml/audio/fleurs/ru/dev/9901222857586204589.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.652479693719223,
+     "reference": "Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться. Оцелоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу."
+    },
+    {
+     "unit_id": "golos-validation-00000-00567",
+     "path": "data/ml/audio/golos/validation/00000-00567.wav",
+     "language": "ru",
+     "start": 11.797,
+     "level_db": 0.104676874931104,
+     "reference": "у тебя будет власть страха"
+    }
+   ],
+   "overlap_seconds": 1.043
+  },
+  {
+   "unit_id": "overlap-val-075",
+   "duration": 18.349,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-1922869839068053960",
+     "path": "data/ml/audio/fleurs/kk/dev/1922869839068053960.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -2.828217431307065,
+     "reference": "Негізінде, тибеттік буддизм өте оңай. Ол кундалини йогасынан, медитациядан және барлығын қамтитын махаббат жолынан тұрады."
+    },
+    {
+     "unit_id": "fleurs-en-dev-362046675404647036",
+     "path": "data/ml/audio/fleurs/en/dev/362046675404647036.wav",
+     "language": "en",
+     "start": 10.929,
+     "level_db": 2.5768638957251397,
+     "reference": "The East African Islands are in the Indian Ocean off the eastern coast of Africa."
+    }
+   ],
+   "overlap_seconds": 2.031
+  },
+  {
+   "unit_id": "overlap-val-076",
+   "duration": 19.003,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-16860873281220616983",
+     "path": "data/ml/audio/fleurs/kk/dev/16860873281220616983.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -1.7318241289275238,
+     "reference": "Менің ойымша бұл мағынасыз еді; бұл әділетсіз екені сөзсіз еді."
+    },
+    {
+     "unit_id": "fleurs-kk-dev-2521806298031068871",
+     "path": "data/ml/audio/fleurs/kk/dev/2521806298031068871.wav",
+     "language": "kk",
+     "start": 11.143,
+     "level_db": -2.359117300463807,
+     "reference": "Испандықтар үш ғасыр созылған отарлау кезеңін бастады."
+    }
+   ],
+   "overlap_seconds": 2.237
+  },
+  {
+   "unit_id": "overlap-val-077",
+   "duration": 11.4,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-15722181378874917743",
+     "path": "data/ml/audio/fleurs/en/dev/15722181378874917743.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -2.143965180531908,
+     "reference": "Money can be exchanged at the only bank in the islands which is located in Stanley across from the FIC West store."
+    },
+    {
+     "unit_id": "golos-validation-00000-00390",
+     "path": "data/ml/audio/golos/validation/00000-00390.wav",
+     "language": "ru",
+     "start": 5.34,
+     "level_db": -0.8701024818885834,
+     "reference": "эпизод двадцать пять десятый сезон сериальчик стрела"
+    }
+   ],
+   "overlap_seconds": 2.46
+  },
+  {
+   "unit_id": "overlap-val-078",
+   "duration": 9.173,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-412929",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/412929.flac.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 2.3852317153145686,
+     "reference": "мектептерінде білім сапасы едәуір көтеріледі"
+    },
+    {
+     "unit_id": "fleurs-en-dev-5484291758150903027",
+     "path": "data/ml/audio/fleurs/en/dev/5484291758150903027.wav",
+     "language": "en",
+     "start": 1.193,
+     "level_db": 2.1581747730439664,
+     "reference": "In the churchyard, there are interesting marble sculptures of doves over some tombs."
+    }
+   ],
+   "overlap_seconds": 2.517
+  },
+  {
+   "unit_id": "overlap-val-079",
+   "duration": 7.747,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-414759",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/414759.flac.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -1.8947828418139419,
+     "reference": "жеті мыңға жуық тұрғыны бар наурызбай ауданында бірінші кезекте ауызсу тапшылығын шешу мәселесі болған"
+    },
+    {
+     "unit_id": "golos-validation-00000-00673",
+     "path": "data/ml/audio/golos/validation/00000-00673.wav",
+     "language": "ru",
+     "start": 4.027,
+     "level_db": 0.7232367111452573,
+     "reference": "сверхъестественное третья серия"
+    }
+   ],
+   "overlap_seconds": 1.712
+  },
+  {
+   "unit_id": "overlap-val-080",
+   "duration": 13.227,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-412872",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/412872.flac.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 1.9899917649917418,
+     "reference": "қашықтан оқыту анау айтқандай кедергі келтіріп анау айтқан зиянын келтіріп отырған жоқ"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-7812267637256741883",
+     "path": "data/ml/audio/fleurs/ru/dev/7812267637256741883.wav",
+     "language": "ru",
+     "start": 3.147,
+     "level_db": 1.727308366512415,
+     "reference": "Многие распространенные форматы (например семейство форматов APS) равны или близко приближаются к этим пропорциям."
+    }
+   ],
+   "overlap_seconds": 2.231
+  },
+  {
+   "unit_id": "overlap-val-081",
+   "duration": 14.746,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-8561424697517659947",
+     "path": "data/ml/audio/fleurs/ru/dev/8561424697517659947.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.3921968764175663,
+     "reference": "В новом царстве древних египтян восхищались памятниками, созданными их предшественниками более тысячи лет назад."
+    },
+    {
+     "unit_id": "ksc2-test-09_03_075",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/podcasts/09_03_075.flac",
+     "language": "kk",
+     "start": 5.636,
+     "level_db": 0.07496848148266233,
+     "reference": "ол кезде енді он алты республика шынымен де қаншама не бар автономия бар қаншама ел бар ол кезде жарасқан шығар енді мхм біз көпұлттымыз деп айтқан мхм"
+    }
+   ],
+   "overlap_seconds": 3.904
+  },
+  {
+   "unit_id": "overlap-val-082",
+   "duration": 10.541,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00435",
+     "path": "data/ml/audio/golos/validation/00000-00435.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 2.2291189009925754,
+     "reference": "афина как можно продать пять тысяч долларов выгодно"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-15303984925433418748",
+     "path": "data/ml/audio/fleurs/ru/dev/15303984925433418748.wav",
+     "language": "ru",
+     "start": 1.361,
+     "level_db": -1.8078116479348454,
+     "reference": "В новом царстве древних египтян восхищались памятниками, созданными их предшественниками более тысячи лет назад."
+    }
+   ],
+   "overlap_seconds": 2.419
+  },
+  {
+   "unit_id": "overlap-val-083",
+   "duration": 9.703,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00478",
+     "path": "data/ml/audio/golos/validation/00000-00478.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -0.9392411164738834,
+     "reference": "салют а что делать"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-11059399375379591775",
+     "path": "data/ml/audio/fleurs/ru/dev/11059399375379591775.wav",
+     "language": "ru",
+     "start": 1.303,
+     "level_db": -0.9577711344383522,
+     "reference": "Рождество – это один из наиболее важных праздников в христианстве, и оно отмечается как день рождения Иисуса."
+    }
+   ],
+   "overlap_seconds": 3.157
+  },
+  {
+   "unit_id": "overlap-val-084",
+   "duration": 12.443,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-13851036903026386291",
+     "path": "data/ml/audio/fleurs/en/dev/13851036903026386291.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -0.07844487104970854,
+     "reference": "Next, some saddles, particularly English saddles, have safety bars that allow a stirrup leather to fall off the saddle if pulled backwards by a falling rider."
+    },
+    {
+     "unit_id": "golos-validation-00000-00528",
+     "path": "data/ml/audio/golos/validation/00000-00528.wav",
+     "language": "ru",
+     "start": 7.563,
+     "level_db": -0.029348413805587725,
+     "reference": "бронь хмель солод"
+    }
+   ],
+   "overlap_seconds": 1.797
+  },
+  {
+   "unit_id": "overlap-val-085",
+   "duration": 14.621,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-3173551583057762018",
+     "path": "data/ml/audio/fleurs/kk/dev/3173551583057762018.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 0.2657985000945722,
+     "reference": "Ішкі су жолдары демалыс үшін жақсы тақырып болуы мүмкін."
+    },
+    {
+     "unit_id": "ksc2-test-415119",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/415119.flac.flac",
+     "language": "kk",
+     "start": 8.527,
+     "level_db": -1.2251443076882766,
+     "reference": "зейін байқасаңыз вирусты жұқтырғандардың саны көбейсе де одан жазылып шығып жатқандар баршылық"
+    }
+   ],
+   "overlap_seconds": 3.053
+  },
+  {
+   "unit_id": "overlap-val-086",
+   "duration": 4.938,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00766",
+     "path": "data/ml/audio/golos/validation/00000-00766.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 2.271330261600859,
+     "reference": "сбер работа задолбала"
+    },
+    {
+     "unit_id": "ksc2-test-5f5c4f26a342c",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f5c4f26a342c.flac",
+     "language": "kk",
+     "start": 1.481,
+     "level_db": 2.4889642367415057,
+     "reference": "ағаларымыз апаларымыз келіп кешке жүгіреді"
+    }
+   ],
+   "overlap_seconds": 1.819
+  },
+  {
+   "unit_id": "overlap-val-087",
+   "duration": 18.388,
+   "parts": [
+    {
+     "unit_id": "fleurs-ru-dev-10189896593749349276",
+     "path": "data/ml/audio/fleurs/ru/dev/10189896593749349276.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 2.918781021296132,
+     "reference": "Робин Утхаппа  набрал рекордное количество очков в иннинге: 70 ранов за всего 41 подачу, отбил 11 четвёрок и 2 шестёрки."
+    },
+    {
+     "unit_id": "fleurs-en-dev-3461458026427090500",
+     "path": "data/ml/audio/fleurs/en/dev/3461458026427090500.wav",
+     "language": "en",
+     "start": 6.788,
+     "level_db": 1.9047210532473509,
+     "reference": "A former Filipino policeman has kept Hong Kong tourists hostage by hijacking their bus in Manila, the capital of the Philippines."
+    }
+   ],
+   "overlap_seconds": 5.272
+  },
+  {
+   "unit_id": "overlap-val-088",
+   "duration": 17.795,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-14547131048422692680",
+     "path": "data/ml/audio/fleurs/kk/dev/14547131048422692680.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 1.0038123083500032,
+     "reference": "Ұйым жаңашыл болғанға дейін басшылық тобы онда жаңашылдық мәдениетін құруы тиіс, сондай-ақ  білім алмасуды және ұйымдық оқуды қамтамасыз етуі қажет."
+    },
+    {
+     "unit_id": "fleurs-ru-dev-5546540204680355430",
+     "path": "data/ml/audio/fleurs/ru/dev/5546540204680355430.wav",
+     "language": "ru",
+     "start": 7.295,
+     "level_db": -2.5772629768936737,
+     "reference": "Бывший филиппинский полицейский угнал туристический автобус в Маниле, столице Филиппин, и взял в заложники гонконгских туристов."
+    }
+   ],
+   "overlap_seconds": 5.965
+  },
+  {
+   "unit_id": "overlap-val-089",
+   "duration": 10.518,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00558",
+     "path": "data/ml/audio/golos/validation/00000-00558.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -1.7350638538603254,
+     "reference": "эпизод тридцать два сезон девять сериал обмани меня"
+    },
+    {
+     "unit_id": "ksc2-test-09_03_222",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/podcasts/09_03_222.flac",
+     "language": "kk",
+     "start": 4.346,
+     "level_db": 0.2203244797148689,
+     "reference": "себебі орыстарға деген сый құрмет басқаша болатын дейді сол кезде тоқсан екі мың бесінші екі мың төртінші жылдары ғой"
+    }
+   ],
+   "overlap_seconds": 3.804
+  },
+  {
+   "unit_id": "overlap-val-090",
+   "duration": 10.057,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00374",
+     "path": "data/ml/audio/golos/validation/00000-00374.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 2.901250251355835,
+     "reference": "андрей андреевич радовский"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-357783834796390089",
+     "path": "data/ml/audio/fleurs/ru/dev/357783834796390089.wav",
+     "language": "ru",
+     "start": 1.957,
+     "level_db": 1.9022195811088523,
+     "reference": "Познав ужасы и зверства Первой мировой войны, государства хотели избежать подобной ситуации в будущем."
+    }
+   ],
+   "overlap_seconds": 2.203
+  },
+  {
+   "unit_id": "overlap-val-091",
+   "duration": 7.851,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00756",
+     "path": "data/ml/audio/golos/validation/00000-00756.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.601499816198407,
+     "reference": "запусти тоттенхэм лестер"
+    },
+    {
+     "unit_id": "ksc2-test-5f60be05410f4",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/crowdsourced/5f60be05410f4.flac",
+     "language": "kk",
+     "start": 3.626,
+     "level_db": -2.664692524485268,
+     "reference": "ал менде әлі сол әурешілік"
+    }
+   ],
+   "overlap_seconds": 0.862
+  },
+  {
+   "unit_id": "overlap-val-092",
+   "duration": 10.582,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-18234808052187815525",
+     "path": "data/ml/audio/fleurs/kk/dev/18234808052187815525.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": -0.37771552083061843,
+     "reference": "Бұл Мартеллидің төрт жыл ішіндегі бесінші Уақытша сайлау кеңесі."
+    },
+    {
+     "unit_id": "ksc2-test-414362",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/tv_news/414362.flac.flac",
+     "language": "kk",
+     "start": 2.503,
+     "level_db": -2.916830030779162,
+     "reference": "әлеуметтік мәселелердің оңтайлы шешілуі партиялардың саяси стратегиясын күшейтеді сайлаушылардың таңдау мүмкіндігі кеңейеді"
+    }
+   ],
+   "overlap_seconds": 4.637
+  },
+  {
+   "unit_id": "overlap-val-093",
+   "duration": 19.201,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00322",
+     "path": "data/ml/audio/golos/validation/00000-00322.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -1.9010428508013097,
+     "reference": "алиса мини маршмеллоу двести грамм вафли со сливочным вкусом яшкино вафли крем брюле яшкино"
+    },
+    {
+     "unit_id": "fleurs-en-dev-2131672871539411072",
+     "path": "data/ml/audio/fleurs/en/dev/2131672871539411072.wav",
+     "language": "en",
+     "start": 6.541,
+     "level_db": 0.24521062132025095,
+     "reference": "The park covers 19,500 km² and is divided in 14 different ecozones, each supporting different wildlife."
+    }
+   ],
+   "overlap_seconds": 2.079
+  },
+  {
+   "unit_id": "overlap-val-094",
+   "duration": 11.901,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00405",
+     "path": "data/ml/audio/golos/validation/00000-00405.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -0.9585258850534624,
+     "reference": "подборки покупок из магазина фикс прайс"
+    },
+    {
+     "unit_id": "fleurs-en-dev-16690374876533597237",
+     "path": "data/ml/audio/fleurs/en/dev/16690374876533597237.wav",
+     "language": "en",
+     "start": 3.381,
+     "level_db": -2.5696864498191387,
+     "reference": "The northern part or Sentinel Range has Antarctica's highest mountains, the Vinson Massif, peaking at 4892 m Mount Vinson."
+    }
+   ],
+   "overlap_seconds": 1.799
+  },
+  {
+   "unit_id": "overlap-val-095",
+   "duration": 13.231,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00481",
+     "path": "data/ml/audio/golos/validation/00000-00481.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": 1.9743501445660092,
+     "reference": "у тебя в запасе есть битва за свободу"
+    },
+    {
+     "unit_id": "fleurs-ru-dev-6359768328787110987",
+     "path": "data/ml/audio/fleurs/ru/dev/6359768328787110987.wav",
+     "language": "ru",
+     "start": 1.711,
+     "level_db": -1.1072524109419184,
+     "reference": "Среди примеров активного отдыха на объекте – охота, рыбная ловля, фотографирование, наблюдение за птицами, посещение парков и изучение информации об экосистеме."
+    }
+   ],
+   "overlap_seconds": 1.769
+  },
+  {
+   "unit_id": "overlap-val-096",
+   "duration": 15.026,
+   "parts": [
+    {
+     "unit_id": "golos-validation-00000-00328",
+     "path": "data/ml/audio/golos/validation/00000-00328.wav",
+     "language": "ru",
+     "start": 0.0,
+     "level_db": -2.607392325094824,
+     "reference": "установи желтая пресса"
+    },
+    {
+     "unit_id": "fleurs-en-dev-15167778129793436086",
+     "path": "data/ml/audio/fleurs/en/dev/15167778129793436086.wav",
+     "language": "en",
+     "start": 0.846,
+     "level_db": 0.5165326844177738,
+     "reference": "The Articles required unanimous consent from all the states before they could be amended and states took the central government so lightly that their representatives were often absent."
+    }
+   ],
+   "overlap_seconds": 2.195
+  },
+  {
+   "unit_id": "overlap-val-097",
+   "duration": 12.643,
+   "parts": [
+    {
+     "unit_id": "fleurs-en-dev-1633914365440551917",
+     "path": "data/ml/audio/fleurs/en/dev/1633914365440551917.wav",
+     "language": "en",
+     "start": 0.0,
+     "level_db": -0.9531746704716229,
+     "reference": "It warns No one can guarantee that any course of action in Iraq at this point will stop sectarian warfare, growing violence, or a slide toward chaos."
+    },
+    {
+     "unit_id": "golos-validation-00000-00225",
+     "path": "data/ml/audio/golos/validation/00000-00225.wav",
+     "language": "ru",
+     "start": 6.943,
+     "level_db": -1.9552712360129116,
+     "reference": "прямой эфир апл манчестер сити манчестер юнайтед"
+    }
+   ],
+   "overlap_seconds": 4.097
+  },
+  {
+   "unit_id": "overlap-val-098",
+   "duration": 18.841,
+   "parts": [
+    {
+     "unit_id": "fleurs-kk-dev-13153310378096526121",
+     "path": "data/ml/audio/fleurs/kk/dev/13153310378096526121.wav",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 0.789724557579401,
+     "reference": "Оның барлығын қамтитын күші патшадан қарапайым адамға дейін әсер етті."
+    },
+    {
+     "unit_id": "fleurs-kk-dev-5337604213135035691",
+     "path": "data/ml/audio/fleurs/kk/dev/5337604213135035691.wav",
+     "language": "kk",
+     "start": 5.761,
+     "level_db": 2.3805259003159094,
+     "reference": "Пілдер және керіктер сияқты кейбір жануарлар көліктерге жақындауға бейім және стандартты жабдық жақсылап көруге мүмкіндік береді."
+    }
+   ],
+   "overlap_seconds": 7.199
+  },
+  {
+   "unit_id": "overlap-val-099",
+   "duration": 10.385,
+   "parts": [
+    {
+     "unit_id": "ksc2-test-01_02_157",
+     "path": "data/ml/audio/ksc2/ISSAI_KSC2/Test/talkshow/01_02_157.flac",
+     "language": "kk",
+     "start": 0.0,
+     "level_db": 0.733522718259147,
+     "reference": "егер адам түс көрмейтін болса ол ы мысалы психологияда адам тұрғаннан кейін бес минуттан кейін жиырма процент түсін і ы ұмытады"
+    },
+    {
+     "unit_id": "golos-validation-00000-00218",
+     "path": "data/ml/audio/golos/validation/00000-00218.wav",
+     "language": "ru",
+     "start": 6.405,
+     "level_db": -1.6942255504595687,
+     "reference": "окей гугл найти популярные фильмы в жанре фэнтези"
+    }
+   ],
+   "overlap_seconds": 1.646
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Two voices, one noisy recording",
+  "description": "Two public LibriSpeech audiobook excerpts mixed with generated white noise at 10 dB SNR. A controlled demonstration, not a real meeting or benchmark result.",
+  "sample_rate": 16000,
+  "duration_seconds": 14.84,
+  "snr_db": 10,
+  "synthetic_mixture": true,
+  "seed": 20261008,
+  "reference_sources": [
+    {
+      "label": "Reference 1",
+      "file": "source1.wav",
+      "original_id": "5703-47212-0000",
+      "attribution": "Ashiel Mystery, chapter 2, narrated by Garth Comira. LibriSpeech SLR12; hosted by librosa.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://librosa.org/data/audio/5703-47212-0000.ogg",
+      "sha256": "a284612b46af0535f7e1873758c4387bb8369f6dbbe192ffdec1f171108f98dd"
+    },
+    {
+      "label": "Reference 2",
+      "file": "source2.wav",
+      "original_id": "198-209-0000",
+      "attribution": "Sense and Sensibility, chapter 18, Jane Austen, read by Heather Barnett. LibriSpeech SLR12; hosted by librosa.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://librosa.org/data/audio/198-209-0000.ogg",
+      "sha256": "0473ba9613befa1026db5e254546f105aeffba8366b5468fc5e8d474d844ca1d"
+    }
+  ],
+  "transcript_reference_available": false,
+  "changes": "Resampled to 16 kHz, RMS-normalized, second source delayed 0.4 s, padded, mixed and scaled together. Generated Gaussian noise added; originals preserved in data/downloads."
+}

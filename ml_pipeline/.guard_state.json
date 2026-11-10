@@ -1,0 +1,8 @@
+{
+  "test_fingerprint": "113542c38fb1ebb394247f3ab2ccfd9d50ddda62d9f7b731f1b39ff313a9547c",
+  "n_test": 1800,
+  "test_touches": 1,
+  "duplicates_dropped": 0,
+  "split": "official corpus parts (see cleartalk_ml/splits.py)",
+  "created": "2026-10-13"
+}

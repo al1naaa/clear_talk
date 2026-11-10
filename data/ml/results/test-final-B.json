@@ -1,0 +1,608 @@
+{
+ "cleartalk_large_wer_all_units_automatic_language": 0.08924759177297578,
+ "units": 1020,
+ "scores": [
+  {
+   "system": "cleartalk-large",
+   "set": "fleurs-en",
+   "units": 170,
+   "wer_forced": 0.06608156943727414,
+   "cer_forced": 0.0303559151726691,
+   "words_forced": 3874,
+   "wer_auto": 0.06608156943727414,
+   "cer_auto": 0.0303559151726691,
+   "words_auto": 3874,
+   "language_accuracy": 1.0
+  },
+  {
+   "system": "cleartalk-large",
+   "set": "fleurs-kk",
+   "units": 170,
+   "wer_forced": 0.11319444444444444,
+   "cer_forced": 0.04394911155504153,
+   "words_forced": 2880,
+   "wer_auto": 0.11284722222222222,
+   "cer_auto": 0.044001682262643255,
+   "words_auto": 2880,
+   "language_accuracy": 0.2411764705882353
+  },
+  {
+   "system": "cleartalk-large",
+   "set": "fleurs-ru",
+   "units": 170,
+   "wer_forced": 0.05211349160393746,
+   "cer_forced": 0.018254120352625528,
+   "words_forced": 3454,
+   "wer_auto": 0.05182397220613781,
+   "cer_auto": 0.018206209275584515,
+   "words_auto": 3454,
+   "language_accuracy": 0.9823529411764705
+  },
+  {
+   "system": "cleartalk-large",
+   "set": "golos-ru",
+   "units": 170,
+   "wer_forced": 0.17309941520467836,
+   "cer_forced": 0.0701574964205359,
+   "words_forced": 855,
+   "wer_auto": 0.17309941520467836,
+   "cer_auto": 0.07138474125588055,
+   "words_auto": 855,
+   "language_accuracy": 0.7470588235294118
+  },
+  {
+   "system": "cleartalk-large",
+   "set": "ksc2-kk",
+   "units": 170,
+   "wer_forced": 0.10290948275862069,
+   "cer_forced": 0.03111690569317688,
+   "words_forced": 1856,
+   "wer_auto": 0.10560344827586207,
+   "cer_auto": 0.032073011734028684,
+   "words_auto": 1856,
+   "language_accuracy": 0.2
+  },
+  {
+   "system": "cleartalk-large",
+   "set": "mixed",
+   "units": 170,
+   "wer_forced": 0.09704104358892778,
+   "cer_forced": 0.034119247336204944,
+   "words_forced": 6286,
+   "wer_auto": 0.09704104358892778,
+   "cer_auto": 0.034119247336204944,
+   "words_auto": 6286
+  },
+  {
+   "system": "kazakh",
+   "set": "fleurs-en",
+   "units": 170,
+   "wer_forced": 0.09060402684563758,
+   "cer_forced": 0.06023586651858903,
+   "words_forced": 3874
+  },
+  {
+   "system": "kazakh",
+   "set": "fleurs-kk",
+   "units": 170,
+   "wer_forced": 0.12152777777777778,
+   "cer_forced": 0.05120386920407949,
+   "words_forced": 2880
+  },
+  {
+   "system": "kazakh",
+   "set": "fleurs-ru",
+   "units": 170,
+   "wer_forced": 0.06890561667631731,
+   "cer_forced": 0.03559793024147183,
+   "words_forced": 3454
+  },
+  {
+   "system": "kazakh",
+   "set": "golos-ru",
+   "units": 170,
+   "wer_forced": 0.20818713450292398,
+   "cer_forced": 0.07036203722642667,
+   "words_forced": 855
+  },
+  {
+   "system": "kazakh",
+   "set": "ksc2-kk",
+   "units": 170,
+   "wer_forced": 0.09752155172413793,
+   "cer_forced": 0.028335506301607995,
+   "words_forced": 1856
+  },
+  {
+   "system": "kazakh",
+   "set": "mixed",
+   "units": 170,
+   "wer_forced": 0.29987273305758827,
+   "cer_forced": 0.23687939242802086,
+   "words_forced": 6286,
+   "wer_auto": 0.29987273305758827,
+   "cer_auto": 0.23687939242802086,
+   "words_auto": 6286
+  },
+  {
+   "system": "turbo",
+   "set": "fleurs-en",
+   "units": 170,
+   "wer_forced": 0.053691275167785234,
+   "cer_forced": 0.026653974297953357,
+   "words_forced": 3874
+  },
+  {
+   "system": "turbo",
+   "set": "fleurs-kk",
+   "units": 170,
+   "wer_forced": 0.2326388888888889,
+   "cer_forced": 0.04873304594679844,
+   "words_forced": 2880
+  },
+  {
+   "system": "turbo",
+   "set": "fleurs-ru",
+   "units": 170,
+   "wer_forced": 0.03705848291835553,
+   "cer_forced": 0.011259103104637793,
+   "words_forced": 3454
+  },
+  {
+   "system": "turbo",
+   "set": "golos-ru",
+   "units": 170,
+   "wer_forced": 0.26432748538011697,
+   "cer_forced": 0.20392718347310287,
+   "words_forced": 855
+  },
+  {
+   "system": "turbo",
+   "set": "ksc2-kk",
+   "units": 170,
+   "wer_forced": 0.4951508620689655,
+   "cer_forced": 0.2584963059539331,
+   "words_forced": 1856
+  },
+  {
+   "system": "turbo",
+   "set": "mixed",
+   "units": 170,
+   "wer_forced": 0.43557111040407254,
+   "cer_forced": 0.40243142144638405,
+   "words_forced": 6286,
+   "wer_auto": 0.43557111040407254,
+   "cer_auto": 0.40243142144638405,
+   "words_auto": 6286
+  },
+  {
+   "system": "cleartalk",
+   "set": "fleurs-en",
+   "units": 170,
+   "wer_forced": 0.07253484770263294,
+   "cer_forced": 0.03537997778835475,
+   "words_forced": 3874
+  },
+  {
+   "system": "cleartalk",
+   "set": "fleurs-kk",
+   "units": 170,
+   "wer_forced": 0.22465277777777778,
+   "cer_forced": 0.05220271264851225,
+   "words_forced": 2880
+  },
+  {
+   "system": "cleartalk",
+   "set": "fleurs-ru",
+   "units": 170,
+   "wer_forced": 0.10828025477707007,
+   "cer_forced": 0.028123802223073976,
+   "words_forced": 3454
+  },
+  {
+   "system": "cleartalk",
+   "set": "golos-ru",
+   "units": 170,
+   "wer_forced": 0.2,
+   "cer_forced": 0.06913479239108201,
+   "words_forced": 855
+  },
+  {
+   "system": "cleartalk",
+   "set": "ksc2-kk",
+   "units": 170,
+   "wer_forced": 0.4558189655172414,
+   "cer_forced": 0.12855280312907433,
+   "words_forced": 1856
+  },
+  {
+   "system": "cleartalk",
+   "set": "mixed",
+   "units": 170,
+   "wer_forced": 0.1640152720330894,
+   "cer_forced": 0.05256744502380412,
+   "words_forced": 6286,
+   "wer_auto": 0.1640152720330894,
+   "cer_auto": 0.05256744502380412,
+   "words_auto": 6286
+  },
+  {
+   "system": "small",
+   "set": "fleurs-en",
+   "units": 170,
+   "wer_forced": 0.07614868353123387,
+   "cer_forced": 0.036014596224020305,
+   "words_forced": 3874
+  },
+  {
+   "system": "small",
+   "set": "fleurs-kk",
+   "units": 170,
+   "wer_forced": 0.7440972222222222,
+   "cer_forced": 0.20444748186310588,
+   "words_forced": 2880
+  },
+  {
+   "system": "small",
+   "set": "fleurs-ru",
+   "units": 170,
+   "wer_forced": 0.09901563404748118,
+   "cer_forced": 0.02697393637408969,
+   "words_forced": 3454
+  },
+  {
+   "system": "small",
+   "set": "golos-ru",
+   "units": 170,
+   "wer_forced": 0.3929824561403509,
+   "cer_forced": 0.22601759050930662,
+   "words_forced": 855
+  },
+  {
+   "system": "small",
+   "set": "ksc2-kk",
+   "units": 170,
+   "wer_forced": 1.027478448275862,
+   "cer_forced": 0.521251629726206,
+   "words_forced": 1856
+  },
+  {
+   "system": "small",
+   "set": "mixed",
+   "units": 170,
+   "wer_forced": 0.5987909640470888,
+   "cer_forced": 0.4831954205395602,
+   "words_forced": 6286,
+   "wer_auto": 0.5987909640470888,
+   "cer_auto": 0.4831954205395602,
+   "words_auto": 6286
+  },
+  {
+   "system": "pipeline:auto",
+   "set": "mixed",
+   "units": 170,
+   "wer_forced": 0.09051861279032772,
+   "cer_forced": 0.039106778508274764,
+   "words_forced": 6286,
+   "wer_auto": 0.09051861279032772,
+   "cer_auto": 0.039106778508274764,
+   "words_auto": 6286
+  },
+  {
+   "system": "pipeline:mixed",
+   "set": "mixed",
+   "units": 170,
+   "wer_forced": 0.08335984727966911,
+   "cer_forced": 0.030803672636590344,
+   "words_forced": 6286,
+   "wer_auto": 0.08335984727966911,
+   "cer_auto": 0.030803672636590344,
+   "words_auto": 6286
+  }
+ ],
+ "cleartalk_large_minus": {
+  "kazakh": {
+   "fleurs-en": {
+    "difference": -0.024522457408363448,
+    "low": -0.035034426623255316,
+    "high": -0.015067522978201617,
+    "units": 170
+   },
+   "fleurs-kk": {
+    "difference": -0.008333333333333333,
+    "low": -0.01770882029637447,
+    "high": 0.00035222887449563536,
+    "units": 170
+   },
+   "fleurs-ru": {
+    "difference": -0.01679212507237985,
+    "low": -0.026473714813051195,
+    "high": -0.00761044411700561,
+    "units": 170
+   },
+   "golos-ru": {
+    "difference": -0.03508771929824561,
+    "low": -0.06050671653121729,
+    "high": -0.012207292157787222,
+    "units": 170
+   },
+   "ksc2-kk": {
+    "difference": 0.005387931034482759,
+    "low": -0.005348674632803379,
+    "high": 0.017443450714976327,
+    "units": 170
+   },
+   "mixed": {
+    "difference": -0.2028316894686605,
+    "low": -0.24169944957409464,
+    "high": -0.16318569472111555,
+    "units": 170
+   }
+  },
+  "cleartalk": {
+   "fleurs-en": {
+    "difference": -0.006453278265358802,
+    "low": -0.014643845197630982,
+    "high": 0.0022390824622021566,
+    "units": 170
+   },
+   "fleurs-kk": {
+    "difference": -0.11145833333333334,
+    "low": -0.13569756138793795,
+    "high": -0.0874149268667919,
+    "units": 170
+   },
+   "fleurs-ru": {
+    "difference": -0.0561667631731326,
+    "low": -0.07271767956033302,
+    "high": -0.03939762736161865,
+    "units": 170
+   },
+   "golos-ru": {
+    "difference": -0.026900584795321637,
+    "low": -0.059551024622264,
+    "high": 0.005931905038619943,
+    "units": 170
+   },
+   "ksc2-kk": {
+    "difference": -0.35290948275862066,
+    "low": -0.38553002708508455,
+    "high": -0.3213835616438357,
+    "units": 170
+   },
+   "mixed": {
+    "difference": -0.06697422844416163,
+    "low": -0.07935420650192991,
+    "high": -0.05531559440873036,
+    "units": 170
+   }
+  },
+  "turbo": {
+   "fleurs-en": {
+    "difference": 0.0123902942694889,
+    "low": 0.004645071453526094,
+    "high": 0.02088372651616266,
+    "units": 170
+   },
+   "fleurs-kk": {
+    "difference": -0.11944444444444445,
+    "low": -0.1434933046287349,
+    "high": -0.0946484597350962,
+    "units": 170
+   },
+   "fleurs-ru": {
+    "difference": 0.015055008685581933,
+    "low": 0.00566516284155801,
+    "high": 0.02602398146113265,
+    "units": 170
+   },
+   "golos-ru": {
+    "difference": -0.0912280701754386,
+    "low": -0.14520230464413345,
+    "high": -0.038891689191465594,
+    "units": 170
+   },
+   "ksc2-kk": {
+    "difference": -0.3922413793103448,
+    "low": -0.4759875007207038,
+    "high": -0.31833501984726315,
+    "units": 170
+   },
+   "mixed": {
+    "difference": -0.33853006681514475,
+    "low": -0.3730300348441016,
+    "high": -0.3008342245665052,
+    "units": 170
+   }
+  },
+  "pipeline:auto": {
+   "mixed": {
+    "difference": 0.006522430798600064,
+    "low": -0.003725967472630956,
+    "high": 0.015916915927044955,
+    "units": 170
+   }
+  },
+  "pipeline:mixed": {
+   "mixed": {
+    "difference": 0.01368119630925867,
+    "low": 0.006487845831899278,
+    "high": 0.020430128980768736,
+    "units": 170
+   }
+  }
+ },
+ "mixed_by_language": {
+  "cleartalk-large": {
+   "kk": {
+    "substitutions": 162,
+    "deletions": 34,
+    "insertions": 17,
+    "reference_words": 1787,
+    "wer": 0.11919418019026301
+   },
+   "ru": {
+    "substitutions": 142,
+    "deletions": 21,
+    "insertions": 19,
+    "reference_words": 1526,
+    "wer": 0.11926605504587157
+   },
+   "en": {
+    "substitutions": 167,
+    "deletions": 22,
+    "insertions": 26,
+    "reference_words": 2973,
+    "wer": 0.07231752438614195
+   }
+  },
+  "kazakh": {
+   "kk": {
+    "substitutions": 137,
+    "deletions": 214,
+    "insertions": 41,
+    "reference_words": 1787,
+    "wer": 0.21936205931729155
+   },
+   "ru": {
+    "substitutions": 163,
+    "deletions": 111,
+    "insertions": 24,
+    "reference_words": 1526,
+    "wer": 0.19528178243774574
+   },
+   "en": {
+    "substitutions": 260,
+    "deletions": 915,
+    "insertions": 20,
+    "reference_words": 2973,
+    "wer": 0.40195089135553314
+   }
+  },
+  "turbo": {
+   "kk": {
+    "substitutions": 267,
+    "deletions": 772,
+    "insertions": 25,
+    "reference_words": 1787,
+    "wer": 0.5954113038612199
+   },
+   "ru": {
+    "substitutions": 178,
+    "deletions": 187,
+    "insertions": 11,
+    "reference_words": 1526,
+    "wer": 0.24639580602883354
+   },
+   "en": {
+    "substitutions": 143,
+    "deletions": 1111,
+    "insertions": 44,
+    "reference_words": 2973,
+    "wer": 0.43659603094517324
+   }
+  },
+  "cleartalk": {
+   "kk": {
+    "substitutions": 475,
+    "deletions": 101,
+    "insertions": 20,
+    "reference_words": 1787,
+    "wer": 0.3335198656966984
+   },
+   "ru": {
+    "substitutions": 181,
+    "deletions": 34,
+    "insertions": 12,
+    "reference_words": 1526,
+    "wer": 0.14875491480996067
+   },
+   "en": {
+    "substitutions": 155,
+    "deletions": 21,
+    "insertions": 32,
+    "reference_words": 2973,
+    "wer": 0.06996300033636058
+   }
+  },
+  "small": {
+   "kk": {
+    "substitutions": 661,
+    "deletions": 934,
+    "insertions": 144,
+    "reference_words": 1787,
+    "wer": 0.9731393396754336
+   },
+   "ru": {
+    "substitutions": 225,
+    "deletions": 315,
+    "insertions": 16,
+    "reference_words": 1526,
+    "wer": 0.36435124508519
+   },
+   "en": {
+    "substitutions": 420,
+    "deletions": 991,
+    "insertions": 58,
+    "reference_words": 2973,
+    "wer": 0.4941136898755466
+   }
+  },
+  "pipeline:auto": {
+   "kk": {
+    "substitutions": 164,
+    "deletions": 35,
+    "insertions": 18,
+    "reference_words": 1787,
+    "wer": 0.12143256855064354
+   },
+   "ru": {
+    "substitutions": 147,
+    "deletions": 13,
+    "insertions": 30,
+    "reference_words": 1526,
+    "wer": 0.12450851900393185
+   },
+   "en": {
+    "substitutions": 109,
+    "deletions": 20,
+    "insertions": 33,
+    "reference_words": 2973,
+    "wer": 0.054490413723511606
+   }
+  },
+  "pipeline:mixed": {
+   "kk": {
+    "substitutions": 132,
+    "deletions": 30,
+    "insertions": 17,
+    "reference_words": 1787,
+    "wer": 0.10016787912702854
+   },
+   "ru": {
+    "substitutions": 122,
+    "deletions": 11,
+    "insertions": 23,
+    "reference_words": 1526,
+    "wer": 0.10222804718217562
+   },
+   "en": {
+    "substitutions": 149,
+    "deletions": 20,
+    "insertions": 20,
+    "reference_words": 2973,
+    "wer": 0.06357214934409687
+   }
+  }
+ },
+ "languages": [
+  "kk",
+  "ru",
+  "en"
+ ],
+ "profile": {
+  "kk": "cleartalk-large",
+  "ru": "cleartalk-large",
+  "en": "turbo"
+ }
+}

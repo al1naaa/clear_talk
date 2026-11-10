@@ -1,0 +1,490 @@
+{
+ "data/ml/raw/fleurs/en/dev.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/en_us/audio/dev.tar.gz",
+  "commit": null,
+  "bytes": 171250900,
+  "sha256": "2658fda72f199e12676ecac9415094667a4e14e149b146e568ea00b2a2f0954c",
+  "downloaded": "2026-10-13 01:01"
+ },
+ "data/ml/raw/fleurs/en/dev.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/en_us/dev.tsv",
+  "commit": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "bytes": 213065,
+  "sha256": "9d57ee7e91e9d4c92edb39f6bbea668ef8dc2a3ff96eb510d5580b2ad05d17ec",
+  "downloaded": "2026-10-13 01:00"
+ },
+ "data/ml/raw/fleurs/en/test.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/en_us/audio/test.tar.gz",
+  "commit": null,
+  "bytes": 289851356,
+  "sha256": "d9c2e37b41aacd41bc283554a0a82b5476b36887049774ecb2819dcaaa55a356",
+  "downloaded": "2026-10-13 01:01"
+ },
+ "data/ml/raw/fleurs/en/test.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/en_us/test.tsv",
+  "commit": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "bytes": 367864,
+  "sha256": "74c046239374deeb60fa63f258f907388093a32bcaa3140965f70ef05c79f7ca",
+  "downloaded": "2026-10-13 01:01"
+ },
+ "data/ml/raw/fleurs/en/train.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/en_us/audio/train.tar.gz",
+  "commit": null,
+  "bytes": 1380572241,
+  "sha256": "5f4491948c2bd29ac00f4b8afae2378f0a1dcdde4041b5cd284a80dff01fa9f5",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "data/ml/raw/fleurs/en/train.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/en_us/train.tsv",
+  "commit": null,
+  "bytes": 1414907,
+  "sha256": "3ccfc83672cc03a835143e325abb38b4163e3a21725bc1a7d1165bc309b95852",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "data/ml/raw/fleurs/kk/dev.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/kk_kz/audio/dev.tar.gz",
+  "commit": null,
+  "bytes": 248842953,
+  "sha256": "a0481dd445d9ae8424eb870751f1ab51d82f0b7f5566318ffa5adab7f9c9f69d",
+  "downloaded": "2026-10-13 01:04"
+ },
+ "data/ml/raw/fleurs/kk/dev.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/kk_kz/dev.tsv",
+  "commit": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "bytes": 312534,
+  "sha256": "24195834bd3720cbbb4c57cd6e6ce51e8335b15239054995b8f3c31b69f4293c",
+  "downloaded": "2026-10-13 01:03"
+ },
+ "data/ml/raw/fleurs/kk/test.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/kk_kz/audio/test.tar.gz",
+  "commit": null,
+  "bytes": 628328020,
+  "sha256": "f29331a9731a00f544e2cb7d1dbcbb5a4258fd200323811ec837d15dd3c2e8a0",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "data/ml/raw/fleurs/kk/test.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/kk_kz/test.tsv",
+  "commit": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "bytes": 787758,
+  "sha256": "16b40d7a3c0a3be482f3bea949d3297ccdd13e42042683ffd298f8b6e469508a",
+  "downloaded": "2026-10-13 01:04"
+ },
+ "data/ml/raw/fleurs/kk/train.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/kk_kz/audio/train.tar.gz",
+  "commit": null,
+  "bytes": 1992291838,
+  "sha256": "4d28cb336b1c3207b993b96a301e23aceb513739ea0079ba9dd19e30da661393",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "data/ml/raw/fleurs/kk/train.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/kk_kz/train.tsv",
+  "commit": null,
+  "bytes": 2812850,
+  "sha256": "618a8e83ab0b5fd1cf4c7dfb9f6777fc3dad145e9daf250e8698e56d69f944df",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "data/ml/raw/fleurs/ru/dev.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/ru_ru/audio/dev.tar.gz",
+  "commit": null,
+  "bytes": 187377526,
+  "sha256": "4dc533cd0f312f749bd6d0fe968f3183288d938e07ed97dc141d9f10570457f9",
+  "downloaded": "2026-10-13 01:02"
+ },
+ "data/ml/raw/fleurs/ru/dev.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/ru_ru/dev.tsv",
+  "commit": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "bytes": 316328,
+  "sha256": "25d9dc88a7533fc0f303354a8e6d3c8186c557229c9a0024487090a11226171e",
+  "downloaded": "2026-10-13 01:01"
+ },
+ "data/ml/raw/fleurs/ru/test.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/ru_ru/audio/test.tar.gz",
+  "commit": null,
+  "bytes": 433142634,
+  "sha256": "8a0d6a0d23c3421f50c575bcf65d875cd19dadae2f7cabb415024f81b65178b1",
+  "downloaded": "2026-10-13 01:03"
+ },
+ "data/ml/raw/fleurs/ru/test.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/ru_ru/test.tsv",
+  "commit": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "bytes": 735258,
+  "sha256": "cd54f261220f49afbb4c128633a737eca4a22f6c0a8233d3cc891478d06676e6",
+  "downloaded": "2026-10-13 01:02"
+ },
+ "data/ml/raw/fleurs/ru/train.tar.gz": {
+  "repo": "google/fleurs",
+  "path": "data/ru_ru/audio/train.tar.gz",
+  "commit": null,
+  "bytes": 1427743798,
+  "sha256": "1966e34c17d612317f03916fb45159c793947de77e1988fe76b3b53cf6c40b44",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "data/ml/raw/fleurs/ru/train.tsv": {
+  "repo": "google/fleurs",
+  "path": "data/ru_ru/train.tsv",
+  "commit": null,
+  "bytes": 2358557,
+  "sha256": "a18a051553daba44130d323ff8c7387dcde64ce855ade317c53209c0922885dc",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "data/ml/raw/golos/test-00000-of-00003-cad0cfaddbc8fa71.parquet": {
+  "repo": "bond005/sberdevices_golos_10h_crowd",
+  "path": "data/test-00000-of-00003-cad0cfaddbc8fa71.parquet",
+  "commit": null,
+  "bytes": 399298061,
+  "sha256": "02a8d822f70c3ce8eabe80206129d3b0890377f92d8715515cd40310dec4ac1e",
+  "downloaded": "2026-10-13 01:24"
+ },
+ "data/ml/raw/golos/test-00001-of-00003-9d9aa103f1ceb4c7.parquet": {
+  "repo": "bond005/sberdevices_golos_10h_crowd",
+  "path": "data/test-00001-of-00003-9d9aa103f1ceb4c7.parquet",
+  "commit": null,
+  "bytes": 399598281,
+  "sha256": "d87ed9f127c40ce6e873613041a15900cc0afc12e02f9a7aace02458878ffc42",
+  "downloaded": "2026-10-13 01:26"
+ },
+ "data/ml/raw/golos/test-00002-of-00003-91f7e0c1d8f0af36.parquet": {
+  "repo": "bond005/sberdevices_golos_10h_crowd",
+  "path": "data/test-00002-of-00003-91f7e0c1d8f0af36.parquet",
+  "commit": null,
+  "bytes": 394413013,
+  "sha256": "aeb01a81a6bbdeaa3078336fdb12c761c079950e95b1cd2369e385dcc80ec335",
+  "downloaded": "2026-10-13 01:28"
+ },
+ "data/ml/raw/golos/train-00000-of-00003-85be0fb4b3de87ab.parquet": {
+  "repo": "bond005/sberdevices_golos_10h_crowd",
+  "path": "data/train-00000-of-00003-85be0fb4b3de87ab.parquet",
+  "commit": null,
+  "bytes": 330420439,
+  "sha256": "67dda05d92e8a1bd4c8e5c74f7dd32d0e1689260b4b1f0ceb8e5fe2c9f5dce8b",
+  "downloaded": "2026-10-13 01:18"
+ },
+ "data/ml/raw/golos/train-00001-of-00003-fcf1367484d8316d.parquet": {
+  "repo": "bond005/sberdevices_golos_10h_crowd",
+  "path": "data/train-00001-of-00003-fcf1367484d8316d.parquet",
+  "commit": null,
+  "bytes": 324495965,
+  "sha256": "7f6f3d0ea002017947d6d87b79a3c3ce9de16b6674fe6a7f6e82d0da459e2e50",
+  "downloaded": "2026-10-13 01:20"
+ },
+ "data/ml/raw/golos/train-00002-of-00003-8e44cef5e8ee83d1.parquet": {
+  "repo": "bond005/sberdevices_golos_10h_crowd",
+  "path": "data/train-00002-of-00003-8e44cef5e8ee83d1.parquet",
+  "commit": null,
+  "bytes": 326124651,
+  "sha256": "5197b8fb3ad7d0d6f2a0204dc67f529982760f9b4776012c7ef2a8124a8dc7b3",
+  "downloaded": "2026-10-13 01:22"
+ },
+ "data/ml/raw/golos/validation-00000-of-00001-58253c41d3f63473.parquet": {
+  "repo": "bond005/sberdevices_golos_10h_crowd",
+  "path": "data/validation-00000-of-00001-58253c41d3f63473.parquet",
+  "commit": null,
+  "bytes": 98317636,
+  "sha256": "97987326be264f6c5ddfd424d4a09e1854d643ff4b50da6b682f9943151101ac",
+  "downloaded": "2026-10-13 01:22"
+ },
+ "data/ml/raw/ksc2/ISSAI_KSC2.prefix.tar.gz": {
+  "repo": "issai/Kazakh_Speech_Corpus_2",
+  "path": "ISSAI_KSC2.tar.gz.partaa",
+  "commit": null,
+  "bytes": 5368709120,
+  "sha256": "9933d1c2353c6717505789dce1fd0ebb8b2249cdd4799052e644fb41a4e5fcae",
+  "first_bytes_only": 5368709120,
+  "downloaded": "2026-10-13 01:50"
+ },
+ "models/multilingual/kazakh-whisper-large-v3-turbo-hf/config.json": {
+  "repo": "shyngys879/kazakh-whisper-large-v3-turbo",
+  "path": "config.json",
+  "commit": "dafae810c95496f66184605824be5a0a971d3c09",
+  "bytes": 1223,
+  "sha256": "0ddc8c4ae3766efcca70abe40bfb330999587baf55fa070c41353853519d55f7",
+  "downloaded": "2026-10-13 01:09"
+ },
+ "models/multilingual/kazakh-whisper-large-v3-turbo-hf/generation_config.json": {
+  "repo": "shyngys879/kazakh-whisper-large-v3-turbo",
+  "path": "generation_config.json",
+  "commit": "dafae810c95496f66184605824be5a0a971d3c09",
+  "bytes": 2885,
+  "sha256": "327c80ed5a7af3d5c85efc101a65115e089669f6a31d88d01bf29602719ff3c2",
+  "downloaded": "2026-10-13 01:09"
+ },
+ "models/multilingual/kazakh-whisper-large-v3-turbo-hf/model.safetensors": {
+  "repo": "shyngys879/kazakh-whisper-large-v3-turbo",
+  "path": "model.safetensors",
+  "commit": null,
+  "bytes": 1617824864,
+  "sha256": "1571df4f1351566c056c65189ff9a98f19decff8e91a995749c837c72bda3584",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/kazakh-whisper-large-v3-turbo-hf/preprocessor_config.json": {
+  "repo": "shyngys879/kazakh-whisper-large-v3-turbo",
+  "path": "preprocessor_config.json",
+  "commit": "dafae810c95496f66184605824be5a0a971d3c09",
+  "bytes": 316,
+  "sha256": "02051956d42fbab481cba9b17d28c2019c5e15cefde01699a0253e75a130d648",
+  "downloaded": "2026-10-13 01:09"
+ },
+ "models/multilingual/kazakh-whisper-large-v3-turbo-hf/tokenizer.json": {
+  "repo": "shyngys879/kazakh-whisper-large-v3-turbo",
+  "path": "tokenizer.json",
+  "commit": "dafae810c95496f66184605824be5a0a971d3c09",
+  "bytes": 3931381,
+  "sha256": "d8df16b44c78544bbeb2418fe491281fe0354132d445caddd3f37f20e9c776b6",
+  "downloaded": "2026-10-13 01:10"
+ },
+ "models/multilingual/kazakh-whisper-large-v3-turbo-hf/tokenizer_config.json": {
+  "repo": "shyngys879/kazakh-whisper-large-v3-turbo",
+  "path": "tokenizer_config.json",
+  "commit": "dafae810c95496f66184605824be5a0a971d3c09",
+  "bytes": 2105,
+  "sha256": "05790d06b61b8eed9314e16211f5c6f92a6f5e1cea85e333847b0d56f7729f27",
+  "downloaded": "2026-10-13 01:10"
+ },
+ "models/multilingual/spkrec-ecapa-voxceleb/classifier.ckpt": {
+  "repo": "speechbrain/spkrec-ecapa-voxceleb",
+  "path": "classifier.ckpt",
+  "commit": null,
+  "bytes": 5534328,
+  "sha256": "fd9e3634fe68bd0a427c95e354c0c677374f62b3f434e45b78599950d860d535",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "models/multilingual/spkrec-ecapa-voxceleb/embedding_model.ckpt": {
+  "repo": "speechbrain/spkrec-ecapa-voxceleb",
+  "path": "embedding_model.ckpt",
+  "commit": null,
+  "bytes": 83316686,
+  "sha256": "0575cb64845e6b9a10db9bcb74d5ac32b326b8dc90352671d345e2ee3d0126a2",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "models/multilingual/spkrec-ecapa-voxceleb/hyperparams.yaml": {
+  "repo": "speechbrain/spkrec-ecapa-voxceleb",
+  "path": "hyperparams.yaml",
+  "commit": null,
+  "bytes": 1919,
+  "sha256": "6f78854fa04ba59e761437b76a2575d3aba5e5016de3e9b69f0c9a5077fb1a41",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "models/multilingual/spkrec-ecapa-voxceleb/label_encoder.txt": {
+  "repo": "speechbrain/spkrec-ecapa-voxceleb",
+  "path": "label_encoder.txt",
+  "commit": null,
+  "bytes": 128619,
+  "sha256": "e13c3a167bb4112685670ee896d20e2b565af16b3a4ceeaa8689fa4d22adb8b9",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "models/multilingual/spkrec-ecapa-voxceleb/mean_var_norm_emb.ckpt": {
+  "repo": "speechbrain/spkrec-ecapa-voxceleb",
+  "path": "mean_var_norm_emb.ckpt",
+  "commit": null,
+  "bytes": 1921,
+  "sha256": "cd70225b05b37be64fc5a95e24395d804231d43f74b2e1e5a513db7b69b34c33",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/added_tokens.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "added_tokens.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 34648,
+  "sha256": "3c51f66c4c21f9e126970078f11ae77a78c74aee8df606ee9daba86e467108e0",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/config.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "config.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 1256,
+  "sha256": "c5b526b3e3cd64cd8940dabb45e8ba726629e22d8ed389c29b552f9140daf04a",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/generation_config.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "generation_config.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 3772,
+  "sha256": "cce11bfe3aaa6ae9e072ea2637caaec8795e68d9b67e655a5af16ee509681a4c",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/merges.txt": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "merges.txt",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 493869,
+  "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/model.safetensors": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "model.safetensors",
+  "commit": null,
+  "bytes": 1617824864,
+  "sha256": "542566a422ae4f3fd23f1ba11add198fca01bbf82e66e6a2857b3f608b1eb9d1",
+  "downloaded": "2026-10-13 01:09"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/normalizer.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "normalizer.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 52666,
+  "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/preprocessor_config.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "preprocessor_config.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 340,
+  "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/special_tokens_map.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "special_tokens_map.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 2186,
+  "sha256": "baea4ea09372eb4fca86b4e4346139fd73cb807d5087e9de0948e971739c3e74",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/tokenizer.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "tokenizer.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 2710337,
+  "sha256": "297b13372ac43916285644fb9687add3cc62ee2a1adb60da3dc25cc94c1871fd",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/tokenizer_config.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "tokenizer_config.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 282843,
+  "sha256": "844b642c73a91359722f47b35705f7174686df33d252695d8572cf9ac03a6389",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-large-v3-turbo-hf/vocab.json": {
+  "repo": "openai/whisper-large-v3-turbo",
+  "path": "vocab.json",
+  "commit": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+  "bytes": 1036558,
+  "sha256": "e2aa043ef015641d363d8288e7c241c85e36a5c761fb303598e0710233344387",
+  "downloaded": "2026-10-13 01:05"
+ },
+ "models/multilingual/whisper-small-hf/added_tokens.json": {
+  "repo": "openai/whisper-small",
+  "path": "added_tokens.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 34604,
+  "sha256": "9715fd2243b6f06a5858b5e32950d2853f73dd5bc201aafcf76f5082a2d8acd1",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/config.json": {
+  "repo": "openai/whisper-small",
+  "path": "config.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 1967,
+  "sha256": "e6a2b489da1b5aed65a8eb8d1e7466fa867ad5643a8bc138ba708bd56b2875c4",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/generation_config.json": {
+  "repo": "openai/whisper-small",
+  "path": "generation_config.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 3868,
+  "sha256": "71565b8ef50d0bf7a1193ed4bbed195b94e70c18894d81bba2f1233dcec3ab53",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/merges.txt": {
+  "repo": "openai/whisper-small",
+  "path": "merges.txt",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 493869,
+  "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/model.safetensors": {
+  "repo": "openai/whisper-small",
+  "path": "model.safetensors",
+  "commit": null,
+  "bytes": 966995080,
+  "sha256": "1d7734884874f1a1513ed9aa760a4f8e97aaa02fd6d93a3a85d27b2ae9ca596b",
+  "note": "entry rebuilt from the file on disk; the repository commit was not recorded"
+ },
+ "models/multilingual/whisper-small-hf/normalizer.json": {
+  "repo": "openai/whisper-small",
+  "path": "normalizer.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 52666,
+  "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/preprocessor_config.json": {
+  "repo": "openai/whisper-small",
+  "path": "preprocessor_config.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 184990,
+  "sha256": "9b5cd03a36fbb8a627c64d98a5b5b126ead95a77720723944487311f0110b666",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/special_tokens_map.json": {
+  "repo": "openai/whisper-small",
+  "path": "special_tokens_map.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 2194,
+  "sha256": "e67ae3a0aaa99abcd9f187138e12db1f65c16a14761c50ef10eef2c174a7a691",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/tokenizer.json": {
+  "repo": "openai/whisper-small",
+  "path": "tokenizer.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 2480466,
+  "sha256": "27fc476bfe7f17299480be2273fc0608e4d5a99aba2ab5dec5374b4482d1a566",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/tokenizer_config.json": {
+  "repo": "openai/whisper-small",
+  "path": "tokenizer_config.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 282683,
+  "sha256": "2a4c4281cf9f51ac6ccc406fdc711a087afe6530f671fa7b80953edc498275ce",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "models/multilingual/whisper-small-hf/vocab.json": {
+  "repo": "openai/whisper-small",
+  "path": "vocab.json",
+  "commit": "973afd24965f72e36ca33b3055d56a652f456b4d",
+  "bytes": 835550,
+  "sha256": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9",
+  "downloaded": "2026-10-13 01:14"
+ },
+ "data/ml/audio/ksc2/ISSAI_KSC2/Train (broadcast sources)": {
+  "repo": "issai/Kazakh_Speech_Corpus_2",
+  "path": "ISSAI_KSC2.tar.gz.parta* (streamed, only Train broadcast sources kept)",
+  "bytes": 29631709184,
+  "kept_utterances": {
+   "parliament": 3000,
+   "podcasts": 0,
+   "radio": 0,
+   "talkshow": 0,
+   "tv_news": 0
+  },
+  "status": "transfer cap reached (35 GB of the archive)",
+  "approved": "the user, 2026-10-14 (about 30 GB of transfer)",
+  "downloaded": "2026-10-14 11:37"
+ }
+}

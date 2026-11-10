@@ -1,0 +1,13 @@
+{
+  "training_views": {
+    "clean": 8340,
+    "white": 2806,
+    "pink": 2753,
+    "echo": 2781
+  },
+  "validation_views": 4476,
+  "recipes_sha256": "9252abe7bd234d0a43c4cc2a7efc88015af7e8a9e0ea9f9f66cb79267bef6077",
+  "rendered": false,
+  "fitted": false,
+  "step_6_blocker": "A new independent test source is needed. Current development recordings cannot certify real-world overlap quality."
+}

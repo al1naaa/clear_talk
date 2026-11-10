@@ -1,0 +1,70 @@
+{
+ "run": "lr5e-4",
+ "checkpoints_scored_on_mixed_validation": {
+  "800": 0.16530054644808742,
+  "900": 0.16083788706739527
+ },
+ "chosen_step": 900,
+ "promotion": {
+  "candidate": "runs/lr5e-4/ct2-step-00900",
+  "baseline": "small",
+  "mixed": {
+   "baseline_wer": 0.5999089253187614,
+   "candidate_wer": 0.16083788706739527,
+   "relative_change": -0.73189615910126,
+   "difference": -0.4390710382513661,
+   "low": -0.49042628118955395,
+   "high": -0.3939081462928096,
+   "recordings": 300
+  },
+  "languages": {
+   "kk": {
+    "baseline_wer": 0.7449378934830696,
+    "candidate_wer": 0.24161987408541774,
+    "worse_by": -0.5033180193976519,
+    "ok": true
+   },
+   "ru": {
+    "baseline_wer": 0.09090909090909091,
+    "candidate_wer": 0.09460083064143977,
+    "worse_by": 0.0036917397323488615,
+    "ok": true
+   },
+   "en": {
+    "baseline_wer": 0.07353476519839826,
+    "candidate_wer": 0.07365610969542531,
+    "worse_by": 0.00012134449702705385,
+    "ok": true
+   }
+  },
+  "rule_a_mixed_gain": true,
+  "rule_b_no_language_worse": true,
+  "promoted": true
+ },
+ "routes": {
+  "routes": {
+   "kk": "kazakh",
+   "ru": "turbo",
+   "en": "turbo"
+  },
+  "pooled_validation_wer": {
+   "kk": {
+    "turbo": 0.3508991249158573,
+    "kazakh": 0.10972208866237138,
+    "small": 0.8720069237426675,
+    "cleartalk": 0.31724204250408694
+   },
+   "ru": {
+    "turbo": 0.07880370282459055,
+    "small": 0.17291716116781392,
+    "cleartalk": 0.10906717303584144
+   },
+   "en": {
+    "turbo": 0.05569712413542046,
+    "small": 0.07353476519839826,
+    "cleartalk": 0.07365610969542531
+   }
+  }
+ },
+ "exported_identical": true
+}

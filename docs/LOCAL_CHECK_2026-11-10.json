@@ -1,0 +1,38 @@
+{
+  "date_almaty": "2026-11-10",
+  "scope": "Local application repair and demonstration, not new training or statistical evaluation",
+  "service_version": "1.0.1",
+  "url": "http://127.0.0.1:8765",
+  "archive_comparison": {
+    "model_archive_files_sha256_matching_installed": 33,
+    "duplicate_source_archive_inventory_equal": true,
+    "duplicate_models_archive_inventory_equal": true,
+    "inventory_comparison": "ZIP paths, uncompressed sizes and CRCs; installed model comparison additionally streams SHA-256 of every file",
+    "round5_results_present": false,
+    "historical_conversation_zip_is_not_source_or_weights": true
+  },
+  "selection": {
+    "evidence": "data/ml/results/selection-round2.json",
+    "checkpoint": "large-lr1.5e-4 step 600",
+    "routes": {"kk": "cleartalk-large", "ru": "cleartalk-large", "en": "turbo"},
+    "changed_weights_or_decoding": false
+  },
+  "checks": {
+    "pytest_passed": 182,
+    "pytest_skipped": 2,
+    "skip_reasons": ["transformers is not installed in the application environment", "optional base Whisper tokenizer files are absent"],
+    "git_diff_check": "passed",
+    "real_multipart_upload": "completed",
+    "real_browser_demo": "completed; two languages, two attributed turns and two playable source tracks visibly rendered",
+    "sample": "samples/two_voices_kk_ru_en/kazakh_and_russian.wav",
+    "input_seconds": 9.72,
+    "first_api_processing_seconds": 40.39,
+    "first_api_transcripts": [
+      "Бұл шын мәнінде адамдарды көбірек төлеу керектігіне сендірудің әдісі сияқты.",
+      "Ханги часто используется, чтобы приготовить традиционный ужин в стиле Жаркова."
+    ],
+    "limitations": "Constructed public demo, not natural meeting or held-out benchmark; Russian word errors remain; no benchmark accuracy claim. Browser export was not exercised."
+  },
+  "publication": "GitHub repository inspected read-only; no commit, push or public file upload performed",
+  "next_step": "Agree a consented independent RU/KK overlap evaluation protocol before new training or quality claims"
+}

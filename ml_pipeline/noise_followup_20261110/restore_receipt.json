@@ -1,0 +1,66 @@
+{
+  "source_revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "files": [
+    {
+      "path": "data/ml/raw/fleurs/en/dev.tar.gz",
+      "sha256": "2658fda72f199e12676ecac9415094667a4e14e149b146e568ea00b2a2f0954c",
+      "bytes": 171250900
+    },
+    {
+      "path": "data/ml/raw/fleurs/en/dev.tsv",
+      "sha256": "9d57ee7e91e9d4c92edb39f6bbea668ef8dc2a3ff96eb510d5580b2ad05d17ec",
+      "bytes": 213065
+    },
+    {
+      "path": "data/ml/raw/fleurs/en/train.tar.gz",
+      "sha256": "5f4491948c2bd29ac00f4b8afae2378f0a1dcdde4041b5cd284a80dff01fa9f5",
+      "bytes": 1380572241
+    },
+    {
+      "path": "data/ml/raw/fleurs/en/train.tsv",
+      "sha256": "3ccfc83672cc03a835143e325abb38b4163e3a21725bc1a7d1165bc309b95852",
+      "bytes": 1414907
+    },
+    {
+      "path": "data/ml/raw/fleurs/kk/dev.tar.gz",
+      "sha256": "a0481dd445d9ae8424eb870751f1ab51d82f0b7f5566318ffa5adab7f9c9f69d",
+      "bytes": 248842953
+    },
+    {
+      "path": "data/ml/raw/fleurs/kk/dev.tsv",
+      "sha256": "24195834bd3720cbbb4c57cd6e6ce51e8335b15239054995b8f3c31b69f4293c",
+      "bytes": 312534
+    },
+    {
+      "path": "data/ml/raw/fleurs/kk/train.tar.gz",
+      "sha256": "4d28cb336b1c3207b993b96a301e23aceb513739ea0079ba9dd19e30da661393",
+      "bytes": 1992291838
+    },
+    {
+      "path": "data/ml/raw/fleurs/kk/train.tsv",
+      "sha256": "618a8e83ab0b5fd1cf4c7dfb9f6777fc3dad145e9daf250e8698e56d69f944df",
+      "bytes": 2812850
+    },
+    {
+      "path": "data/ml/raw/fleurs/ru/dev.tar.gz",
+      "sha256": "4dc533cd0f312f749bd6d0fe968f3183288d938e07ed97dc141d9f10570457f9",
+      "bytes": 187377526
+    },
+    {
+      "path": "data/ml/raw/fleurs/ru/dev.tsv",
+      "sha256": "25d9dc88a7533fc0f303354a8e6d3c8186c557229c9a0024487090a11226171e",
+      "bytes": 316328
+    },
+    {
+      "path": "data/ml/raw/fleurs/ru/train.tar.gz",
+      "sha256": "1966e34c17d612317f03916fb45159c793947de77e1988fe76b3b53cf6c40b44",
+      "bytes": 1427743798
+    },
+    {
+      "path": "data/ml/raw/fleurs/ru/train.tsv",
+      "sha256": "a18a051553daba44130d323ff8c7387dcde64ce855ade317c53209c0922885dc",
+      "bytes": 2358557
+    }
+  ],
+  "test_downloaded": false
+}

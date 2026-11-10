@@ -1,0 +1,8 @@
+{
+  "test_fingerprint": "f23f18fd21911a8d4d87707f4897ee7ef95e7b3afeda1467708b6c65bf868e0d",
+  "n_test": 1020,
+  "test_touches": 1,
+  "duplicates_dropped": 0,
+  "split": "test-role utterances not used by the first final test (see cleartalk_ml/round2.py)",
+  "created": "2026-10-13"
+}

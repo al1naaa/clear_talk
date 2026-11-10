@@ -1,0 +1,58 @@
+{
+ "option": "overlap",
+ "compared_with": "auto+background+region",
+ "measured": "auto+background+overlap+region",
+ "overlap_cpwer": {
+  "before": 0.337087691069992,
+  "after": 0.16009654062751408,
+  "difference": -0.17699115044247787,
+  "low": -0.2502078137988362,
+  "high": -0.1147635223412595,
+  "units": 50,
+  "separated_turns": 63
+ },
+ "all": {
+  "before": 0.1781272860277981,
+  "after": 0.29024815710989815,
+  "difference": 0.11212087108210005,
+  "low": 0.09164165064043034,
+  "high": 0.13531051945633513,
+  "units": 1268,
+  "ok": false
+ },
+ "clean_guards": {
+  "mixed": {
+   "before": 0.08234646103001927,
+   "after": 0.08537592949600661,
+   "ok": true
+  },
+  "long": {
+   "before": 0.0821917808219178,
+   "after": 0.1160506590850349,
+   "ok": false
+  },
+  "short": {
+   "before": 0.11764705882352941,
+   "after": 0.11764705882352941,
+   "ok": true
+  }
+ },
+ "insertions": {
+  "before": 0.02118620223960385,
+  "after": 0.12427550503629509,
+  "ok": false
+ },
+ "adopted": false,
+ "profile_options": {
+  "mixed_skip_detection": true,
+  "uncertain_to_mixed": true,
+  "cross_check": false,
+  "transcribe_by_region": true,
+  "hide_background_turns": true,
+  "separate_overlaps": false
+ },
+ "app_flags": [
+  "background",
+  "region"
+ ]
+}

@@ -1,0 +1,343 @@
+{
+ "cleartalk_wer_all_units_automatic_language": 0.17349035039495386,
+ "units": 1800,
+ "scores": [
+  {
+   "system": "cleartalk",
+   "set": "fleurs-en",
+   "units": 300,
+   "wer_forced": 0.06368764845605701,
+   "cer_forced": 0.02885266071977853,
+   "words_forced": 6736,
+   "wer_auto": 0.06368764845605701,
+   "cer_auto": 0.02885266071977853,
+   "words_auto": 6736,
+   "language_accuracy": 1.0
+  },
+  {
+   "system": "cleartalk",
+   "set": "fleurs-kk",
+   "units": 300,
+   "wer_forced": 0.2360007392348919,
+   "cer_forced": 0.05406781098888669,
+   "words_forced": 5411,
+   "wer_auto": 0.2339678432822029,
+   "cer_auto": 0.05398297655741877,
+   "words_auto": 5411,
+   "language_accuracy": 0.7066666666666667
+  },
+  {
+   "system": "cleartalk",
+   "set": "fleurs-ru",
+   "units": 300,
+   "wer_forced": 0.11461022199277233,
+   "cer_forced": 0.028768405821772067,
+   "words_forced": 5811,
+   "wer_auto": 0.11461022199277233,
+   "cer_auto": 0.028768405821772067,
+   "words_auto": 5811,
+   "language_accuracy": 1.0
+  },
+  {
+   "system": "cleartalk",
+   "set": "golos-ru",
+   "units": 300,
+   "wer_forced": 0.16861219195849547,
+   "cer_forced": 0.05676013168350551,
+   "words_forced": 1542,
+   "wer_auto": 0.16861219195849547,
+   "cer_auto": 0.05676013168350551,
+   "words_auto": 1542,
+   "language_accuracy": 0.9866666666666667
+  },
+  {
+   "system": "cleartalk",
+   "set": "ksc2-kk",
+   "units": 300,
+   "wer_forced": 0.4633842318479277,
+   "cer_forced": 0.13062349997446765,
+   "words_forced": 3209,
+   "wer_auto": 0.4652539732003739,
+   "cer_auto": 0.13031711178062605,
+   "words_auto": 3209,
+   "language_accuracy": 0.65
+  },
+  {
+   "system": "cleartalk",
+   "set": "mixed",
+   "units": 300,
+   "wer_forced": 0.15879176510293622,
+   "cer_forced": 0.048027961071439335,
+   "words_forced": 11852,
+   "wer_auto": 0.15879176510293622,
+   "cer_auto": 0.048027961071439335,
+   "words_auto": 11852
+  },
+  {
+   "system": "small",
+   "set": "fleurs-en",
+   "units": 300,
+   "wer_forced": 0.06695368171021378,
+   "cer_forced": 0.031098123654260228,
+   "words_forced": 6736
+  },
+  {
+   "system": "small",
+   "set": "fleurs-kk",
+   "units": 300,
+   "wer_forced": 0.7203844021437812,
+   "cer_forced": 0.20640217176144557,
+   "words_forced": 5411
+  },
+  {
+   "system": "small",
+   "set": "fleurs-ru",
+   "units": 300,
+   "wer_forced": 0.10961968680089486,
+   "cer_forced": 0.026555451527789597,
+   "words_forced": 5811
+  },
+  {
+   "system": "small",
+   "set": "golos-ru",
+   "units": 300,
+   "wer_forced": 0.3404669260700389,
+   "cer_forced": 0.19128164377341356,
+   "words_forced": 1542
+  },
+  {
+   "system": "small",
+   "set": "ksc2-kk",
+   "units": 300,
+   "wer_forced": 0.9950140230601433,
+   "cer_forced": 0.46320788438952154,
+   "words_forced": 3209
+  },
+  {
+   "system": "small",
+   "set": "mixed",
+   "units": 300,
+   "wer_forced": 0.6092642591967601,
+   "cer_forced": 0.48806833589442283,
+   "words_forced": 11852,
+   "wer_auto": 0.6092642591967601,
+   "cer_auto": 0.48806833589442283,
+   "words_auto": 11852
+  },
+  {
+   "system": "turbo",
+   "set": "fleurs-en",
+   "units": 300,
+   "wer_forced": 0.050920427553444184,
+   "cer_forced": 0.02328514303291295,
+   "words_forced": 6736
+  },
+  {
+   "system": "turbo",
+   "set": "fleurs-kk",
+   "units": 300,
+   "wer_forced": 0.24172980964701535,
+   "cer_forced": 0.05949721460283347,
+   "words_forced": 5411
+  },
+  {
+   "system": "turbo",
+   "set": "fleurs-ru",
+   "units": 300,
+   "wer_forced": 0.04508690414730683,
+   "cer_forced": 0.012681930377053367,
+   "words_forced": 5811
+  },
+  {
+   "system": "turbo",
+   "set": "golos-ru",
+   "units": 300,
+   "wer_forced": 0.23346303501945526,
+   "cer_forced": 0.17516176637529798,
+   "words_forced": 1542
+  },
+  {
+   "system": "turbo",
+   "set": "ksc2-kk",
+   "units": 300,
+   "wer_forced": 0.4328451230913057,
+   "cer_forced": 0.24526374917019864,
+   "words_forced": 3209
+  },
+  {
+   "system": "turbo",
+   "set": "mixed",
+   "units": 300,
+   "wer_forced": 0.4265946675666554,
+   "cer_forced": 0.37753472536081234,
+   "words_forced": 11852,
+   "wer_auto": 0.4265946675666554,
+   "cer_auto": 0.37753472536081234,
+   "words_auto": 11852
+  },
+  {
+   "system": "kazakh",
+   "set": "fleurs-kk",
+   "units": 300,
+   "wer_forced": 0.11809277397893181,
+   "cer_forced": 0.052569069366286796,
+   "words_forced": 5411
+  },
+  {
+   "system": "kazakh",
+   "set": "ksc2-kk",
+   "units": 300,
+   "wer_forced": 0.09909629167965098,
+   "cer_forced": 0.030485625287238933,
+   "words_forced": 3209
+  },
+  {
+   "system": "pipeline:auto",
+   "set": "mixed",
+   "units": 300,
+   "wer_forced": 0.11272359095511306,
+   "cer_forced": 0.06137575702793094,
+   "words_forced": 11852,
+   "wer_auto": 0.11272359095511306,
+   "cer_auto": 0.06137575702793094,
+   "words_auto": 11852
+  }
+ ],
+ "cleartalk_vs_small": {
+  "fleurs-en": {
+   "difference": -0.0032660332541567696,
+   "low": -0.008797461048934661,
+   "high": 0.0020598461244567836,
+   "units": 300
+  },
+  "fleurs-kk": {
+   "difference": -0.4843836629088893,
+   "low": -0.5284725973466181,
+   "high": -0.45252550256815144,
+   "units": 300
+  },
+  "fleurs-ru": {
+   "difference": 0.004990535191877474,
+   "low": -0.0035594438404647024,
+   "high": 0.013769434545485031,
+   "units": 300
+  },
+  "golos-ru": {
+   "difference": -0.17185473411154345,
+   "low": -0.21235002309947668,
+   "high": -0.1342505081185292,
+   "units": 300
+  },
+  "ksc2-kk": {
+   "difference": -0.5316297912122157,
+   "low": -0.6212134884009295,
+   "high": -0.45427642234245547,
+   "units": 300
+  },
+  "mixed": {
+   "difference": -0.45047249409382384,
+   "low": -0.49770098461849427,
+   "high": -0.4095281785739691,
+   "units": 300
+  }
+ },
+ "mixed_by_language": {
+  "cleartalk": {
+   "kk": {
+    "substitutions": 889,
+    "deletions": 127,
+    "insertions": 85,
+    "reference_words": 3349,
+    "wer": 0.328754852194685
+   },
+   "ru": {
+    "substitutions": 354,
+    "deletions": 47,
+    "insertions": 47,
+    "reference_words": 3365,
+    "wer": 0.13313521545319465
+   },
+   "en": {
+    "substitutions": 245,
+    "deletions": 36,
+    "insertions": 52,
+    "reference_words": 5138,
+    "wer": 0.06481121058777735
+   }
+  },
+  "small": {
+   "kk": {
+    "substitutions": 1327,
+    "deletions": 1655,
+    "insertions": 80,
+    "reference_words": 3349,
+    "wer": 0.9143027769483428
+   },
+   "ru": {
+    "substitutions": 599,
+    "deletions": 603,
+    "insertions": 124,
+    "reference_words": 3365,
+    "wer": 0.3940564635958395
+   },
+   "en": {
+    "substitutions": 598,
+    "deletions": 1867,
+    "insertions": 368,
+    "reference_words": 5138,
+    "wer": 0.5513818606461658
+   }
+  },
+  "turbo": {
+   "kk": {
+    "substitutions": 600,
+    "deletions": 1203,
+    "insertions": 91,
+    "reference_words": 3349,
+    "wer": 0.5655419528217378
+   },
+   "ru": {
+    "substitutions": 333,
+    "deletions": 361,
+    "insertions": 41,
+    "reference_words": 3365,
+    "wer": 0.21842496285289748
+   },
+   "en": {
+    "substitutions": 325,
+    "deletions": 2032,
+    "insertions": 70,
+    "reference_words": 5138,
+    "wer": 0.47236278707668355
+   }
+  },
+  "pipeline:auto": {
+   "kk": {
+    "substitutions": 462,
+    "deletions": 45,
+    "insertions": 110,
+    "reference_words": 3349,
+    "wer": 0.18423409973126306
+   },
+   "ru": {
+    "substitutions": 204,
+    "deletions": 48,
+    "insertions": 174,
+    "reference_words": 3365,
+    "wer": 0.12659732540861812
+   },
+   "en": {
+    "substitutions": 191,
+    "deletions": 32,
+    "insertions": 70,
+    "reference_words": 5138,
+    "wer": 0.05702608018684313
+   }
+  }
+ },
+ "languages": [
+  "kk",
+  "ru",
+  "en"
+ ]
+}

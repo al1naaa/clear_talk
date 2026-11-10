@@ -1,0 +1,34 @@
+{
+ "option": "kk",
+ "compared_with": "auto+background+region",
+ "measured": "auto+background+kk+region",
+ "all": {
+  "before": 0.16767634565838033,
+  "after": 0.16607478587842073,
+  "difference": -0.0016015597799596127,
+  "low": -0.006444738462627963,
+  "high": 0.0028303257813482277,
+  "units": 750
+ },
+ "english_fleurs": {
+  "before": 0.06055090401650285,
+  "after": 0.06115762650163815,
+  "difference": 0.0006067224851352991,
+  "low": 0.0,
+  "high": 0.0018587821705204734,
+  "units": 394
+ },
+ "adopted": false,
+ "profile_options": {
+  "mixed_skip_detection": true,
+  "uncertain_to_mixed": true,
+  "cross_check": false,
+  "transcribe_by_region": true,
+  "hide_background_turns": true,
+  "separate_overlaps": false
+ },
+ "app_flags": [
+  "background",
+  "region"
+ ]
+}

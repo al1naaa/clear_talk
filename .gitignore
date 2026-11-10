@@ -1,0 +1,49 @@
+# Environments
+.venv/
+.venv-train/
+__pycache__/
+.pytest_cache/
+
+# Weights and caches (kept on disk, never versioned)
+models/
+*.npz
+*.pt
+*.safetensors
+*.bin
+
+# Data: only small, reproducibility-relevant text files are versioned
+data/*
+!data/demo/
+data/demo/*.flac
+data/demo/tmp*
+!data/asr/
+data/asr/*
+!data/asr/plans/
+!data/asr/results/
+!data/ml/
+data/ml/*
+!data/ml/plans/
+!data/ml/results/
+!data/ml/downloads.json
+!data/ml/noise_followup_20261110/
+data/ml/noise_followup_20261110/*
+!data/ml/noise_followup_20261110/*.csv
+!data/ml/noise_followup_20261110/*.jsonl
+
+# Local secrets, logs and build output
+.session-secret
+.env
+.env.*
+*.log
+.DS_Store
+dist/
+notebooks/.matplotlib/
+ml_pipeline/__marimo__/
+ml_pipeline*/**/__marimo__/
+models/*.before-*.json
+
+# Personal notes that stay on this computer only
+docs/dev/
+docs/PRESENTATION_RU.md
+docs/SPEECH_RU.md
+docs/slides/png/

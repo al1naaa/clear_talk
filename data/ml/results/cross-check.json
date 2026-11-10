@@ -1,0 +1,24 @@
+{
+ "robustness_recordings": {
+  "before": 0.23452405821321634,
+  "after": 0.22178121300745074,
+  "difference": -0.012742845205765616,
+  "low": -0.04628707764435735,
+  "high": 0.006275372078556275,
+  "units": 750
+ },
+ "english_fleurs": {
+  "before": 0.06115762650163815,
+  "after": 0.06358451644217934,
+  "difference": 0.0024268899405411964,
+  "low": 0.00023775082113163578,
+  "high": 0.005426254808421206,
+  "units": 394
+ },
+ "adopted": false,
+ "profile_options": {
+  "mixed_skip_detection": true,
+  "uncertain_to_mixed": true,
+  "cross_check": false
+ }
+}

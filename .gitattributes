@@ -1,0 +1,20 @@
+# Line endings: Unix everywhere, Windows only for the Windows launcher
+* text=auto eol=lf
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# Data, results and test-set fingerprints are stored byte for byte, never converted
+*.json -text
+*.jsonl -text
+*.csv -text
+*.tsv -text
+
+# Binary files
+*.wav binary
+*.png binary
+*.pptx binary
+
+# Keep GitHub's language bar about the project's own code
+data/** linguist-generated
+archive/** linguist-vendored
+*.ipynb linguist-documentation

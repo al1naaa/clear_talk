@@ -1,0 +1,71 @@
+{
+ "option": "background",
+ "compared_with": "auto",
+ "measured": "auto+background",
+ "all": {
+  "before": 0.2519554330088346,
+  "after": 0.20738844184345281,
+  "difference": -0.0445669911653818,
+  "low": -0.055204625648240115,
+  "high": -0.0351244838175972,
+  "units": 1268
+ },
+ "held_out_half": {
+  "before": 0.25824034555458425,
+  "after": 0.2118064482953669,
+  "difference": -0.04643389725921736,
+  "low": -0.06253498914641199,
+  "high": -0.03150725220871079,
+  "units": 627
+ },
+ "clean_guards": {
+  "mixed": {
+   "before": 0.08152024235747728,
+   "after": 0.08152024235747728,
+   "ok": true
+  },
+  "long": {
+   "before": 0.11785991212199534,
+   "after": 0.11785991212199534,
+   "ok": true
+  },
+  "short": {
+   "before": 0.11764705882352941,
+   "after": 0.11764705882352941,
+   "ok": true
+  }
+ },
+ "by_condition": {
+  "clean": {
+   "before": 0.10258780036968576,
+   "after": 0.10258780036968576
+  },
+  "white-20": {
+   "before": 0.12366826822644662,
+   "after": 0.12408606642991435
+  },
+  "white-10": {
+   "before": 0.22724121996303143,
+   "after": 0.22597042513863216
+  },
+  "babble-10": {
+   "before": 0.3272874306839187,
+   "after": 0.22435304990757857
+  },
+  "babble-5": {
+   "before": 0.5588050971380824,
+   "after": 0.41591811155212033
+  }
+ },
+ "adopted": true,
+ "profile_options": {
+  "mixed_skip_detection": true,
+  "uncertain_to_mixed": true,
+  "cross_check": false,
+  "transcribe_by_region": false,
+  "hide_background_turns": true
+ },
+ "app_flags": [
+  "background"
+ ]
+}

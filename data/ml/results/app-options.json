@@ -1,0 +1,36 @@
+{
+ "flags": [
+  "background",
+  "region"
+ ],
+ "history": [
+  {
+   "option": "region",
+   "adopted": false
+  },
+  {
+   "option": "background",
+   "adopted": true
+  },
+  {
+   "option": "region",
+   "adopted": false
+  },
+  {
+   "option": "region",
+   "adopted": true
+  },
+  {
+   "option": "overlap",
+   "adopted": false
+  },
+  {
+   "option": "kk",
+   "adopted": false
+  },
+  {
+   "option": "overlap",
+   "adopted": false
+  }
+ ]
+}

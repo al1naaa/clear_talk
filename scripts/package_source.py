@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INCLUDE = [
-    "README.md", "README_RU.md", "LICENSE", "requirements.txt", "requirements-train.txt", "pytest.ini",
+    "README.md", "README_RU.md", "LICENSE", "requirements.txt", "requirements-dev.txt", "requirements-train.txt", "pytest.ini",
     "Dockerfile", ".dockerignore", "Start ClearTalk.command", "Start ClearTalk.bat",
     "backend/*.py", "web/*", "cleartalk_asr/*.py", "scripts/*.py", "tests/*.py",
     "ml_pipeline_english/*.py", "ml_pipeline_english/PIPELINE.md", "ml_pipeline_english/data_profile.json",

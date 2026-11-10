@@ -33,6 +33,6 @@
     ],
     "limitations": "Constructed public demo, not natural meeting or held-out benchmark; Russian word errors remain; no benchmark accuracy claim. Browser export was not exercised."
   },
-  "publication": "GitHub repository inspected read-only; no commit, push or public file upload performed",
-  "next_step": "Agree a consented independent RU/KK overlap evaluation protocol before new training or quality claims"
+  "publication": "Published to https://github.com/al1naaa/clear_talk on 2026-11-10; initial source commit f338bb181ad8fe412d4ef1c806071f913517b506. Model weights and private recordings excluded.",
+  "next_step": "Noise data preparation approved and performed; a new independent evaluation source and training-phase review remain required"
 }

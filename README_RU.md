@@ -132,7 +132,7 @@ python3.12 -m venv .venv-train
 На Windows вместо `.venv/bin/python` пишется `.venv\Scripts\python`. Скачанные многоязычные модели один раз
 переводятся в формат приложения командой `python -m cleartalk_ml.convert turbo kazakh small` в среде для
 обучения (`requirements-train.txt`). После этого приложение запускается двойным щелчком по
-**Start ClearTalk.command** (macOS) или **Start ClearTalk.bat** (Windows). Тесты: `.venv/bin/python -m pytest -q`.
+**Start ClearTalk.command** (macOS) или **Start ClearTalk.bat** (Windows). Для тестов установи `requirements-dev.txt` в `.venv`, затем запусти `.venv/bin/python -m pytest -q`. Проверкам интерфейса нужен Node.js; проверки отсутствующих моделей явно пропускаются.
 
 Без своего компьютера: `notebooks/ClearTalk_Colab_App.ipynb` запускает приложение в Google Colab.
 

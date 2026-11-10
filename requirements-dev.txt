@@ -1,0 +1,3 @@
+-r requirements.txt
+# Data-frame checks in the corpus and evaluation tests; no model download required.
+pandas==2.3.3

@@ -9,6 +9,7 @@
 [![Whisper + LoRA](https://img.shields.io/badge/Whisper-LoRA%20fine--tuned-111111)](https://github.com/openai/whisper)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
+[![Tests](https://github.com/al1naaa/clear_talk/actions/workflows/tests.yml/badge.svg)](https://github.com/al1naaa/clear_talk/actions/workflows/tests.yml)
 
 **English** | [Русский](README_RU.md)
 
@@ -140,7 +141,9 @@ python3.12 -m venv .venv-train
 On Windows use `.venv\Scripts\python` instead of `.venv/bin/python`. The downloaded multilingual models are
 converted once with `python -m cleartalk_ml.convert turbo kazakh small` in the training environment
 (`requirements-train.txt`). After that, **Start ClearTalk.command** (macOS) or **Start ClearTalk.bat** (Windows)
-starts the app with a double click. Run the tests with `.venv/bin/python -m pytest -q`.
+starts the app with a double click. For tests, install `requirements-dev.txt` into `.venv`, then run
+`.venv/bin/python -m pytest -q`. Node.js is required for the browser-state tests; optional model tests
+report skips when training libraries or model files are absent.
 
 No computer at hand: `notebooks/ClearTalk_Colab_App.ipynb` runs the app on Google Colab.
 

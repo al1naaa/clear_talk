@@ -1,0 +1,8 @@
+-r requirements.txt
+# Native LoRA fitting, matched CT2 exports and evaluation on the full local transfer.
+ctranslate2==4.9.0
+transformers==4.57.1
+peft==0.17.1
+pandas==2.3.3
+pyarrow==26.0.1
+safetensors==0.8.0

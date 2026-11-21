@@ -695,12 +695,13 @@
   ['dragenter', 'dragover'].forEach(event => elements.drop.addEventListener(event, e => { e.preventDefault(); if (!state.busy) elements.drop.classList.add('drag-over'); }));
   ['dragleave', 'drop'].forEach(event => elements.drop.addEventListener(event, e => { e.preventDefault(); elements.drop.classList.remove('drag-over'); }));
   elements.drop.addEventListener('drop', e => { if (!state.busy) selectFile(e.dataTransfer.files[0]); });
-  elements.demo.addEventListener('click', () => {
+  function selectIncludedDemo() {
     const demo = currentDemo();
     if (!demo || state.busy) return;
     state.file = null; state.fileSeconds = null; state.useDemo = true; elements.file.value = '';
     setSelection(demo.title || 'Included demo', state.mode === 'conversation' && !state.twoVoices ? 'Demo loaded · three languages, six readers' : 'Demo loaded · two overlapping voices');
-  });
+  }
+  elements.demo.addEventListener('click', selectIncludedDemo);
   $('clear-file').addEventListener('click', clearSelection);
   document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => {
     const before = currentDemo();
@@ -831,8 +832,14 @@
     const conversationDemo = outcomes[2];
     if (conversationDemo.status === 'fulfilled' && conversationDemo.value.audio_url) state.conversationDemo = conversationDemo.value;
     if (outcomes[3].status === 'fulfilled') state.overlapDemo = outcomes[3].value;
+    const params = new URLSearchParams(window.location.search);
+    const savedJob = params.get('job');
+    if (!savedJob && params.get('demo') === 'two-voices' && state.mode === 'conversation' && state.overlapDemo?.audio_url && !state.file && !state.result) {
+      state.twoVoices = true;
+      state.speakers = 2;
+      selectIncludedDemo();
+    }
     syncControls();
-    const savedJob = new URLSearchParams(window.location.search).get('job');
     if (savedJob) {
       rememberJob(savedJob, 'unknown');
       const generation = ++state.generation;

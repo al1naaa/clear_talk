@@ -47,3 +47,11 @@ docs/dev/
 docs/PRESENTATION_RU.md
 docs/SPEECH_RU.md
 docs/slides/png/
+
+# Local listening demo, presenter scripts and model checkpoints
+docs/pitch/demo-*.wav
+docs/pitch/demo-offline.html
+docs/pitch/speaker-notes-*.md
+*.ckpt
+*.pth
+*.onnx

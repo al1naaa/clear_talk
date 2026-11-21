@@ -13,6 +13,7 @@
 *.wav binary
 *.png binary
 *.pptx binary
+*.pdf binary
 
 # Keep GitHub's language bar about the project's own code
 data/** linguist-generated

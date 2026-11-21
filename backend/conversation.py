@@ -239,10 +239,8 @@ class ConversationPipeline:
         """The user says two people talk at the same time in this short recording: the two-voice separator splits the
         whole recording, and each voice is transcribed on its own (language detected turn by turn) as one speaker.
 
-        Not measured on a test set. It is the separation that Conversation mode measured on validation recordings with
-        overlap (round-4 log: errors 33.7% -> 16.0%) and left off by default, because on recordings WITHOUT two voices
-        at once it wrote one voice twice or background talkers as a second voice. Here it runs only when chosen; when
-        both tracks carry the same words, the recording is transcribed as usual."""
+        Full-utterance bilingual mixtures are scored by scripts/pitch_overlap.py. When the two
+        track transcripts cannot be distinguished, the original recording is transcribed with speaker labels."""
         update = update or (lambda stage, progress: None)
         audio = np.asarray(audio, dtype=np.float32)
         update("Separating two voices", 10)
@@ -540,9 +538,7 @@ class ConversationPipeline:
             "Turn times are approximate. Review flags use simple score thresholds, not calibrated confidence.",
         ]
         if context.get("two_voices"):
-            warnings.append("Two people at the same time: the whole recording was split into two voices by the separator of the "
-                            "English two-voice mode, and each voice was transcribed on its own. This setting is a demonstration, "
-                            "not measured on a test set; words can be lost or given to the wrong voice."
+            warnings.append("The separator returned two tracks. Each track was transcribed independently. Listen for missing words and words attributed to the other speaker."
                             if actual_two_voices else
                             "Two people at the same time was chosen, but two distinct usable transcripts could not be "
                             "confirmed. The original recording was transcribed instead. This does not prove only one "

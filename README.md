@@ -21,6 +21,20 @@ ClearTalk turns a recording of people talking into text: who spoke when, in whic
 It is a course project for *Introduction to NLP* (KBTU, fall 2026) built around one question: **where do
 ready speech recognizers break, and can a small, carefully evaluated fine-tune fix it?**
 
+## Three-language experiments · 21 November 2026
+
+Models and checkpoints were chosen on validation audio. The independent control used automatic Russian, Kazakh and English routing on 54 recordings. Each cell shows WER / CER. The same 18 sources per language were rendered in all three conditions.
+
+| Language and corpus | Original | White noise, 10 dB | Four-talker babble, 10 dB |
+|---|---:|---:|---:|
+| Russian · Golos far-field | 41.05% / 22.64% | 74.74% / 51.81% | 56.84% / 30.98% |
+| Kazakh · KSD | 13.04% / 2.97% | 26.45% / 8.43% | 21.74% / 5.95% |
+| English · LibriSpeech | 4.03% / 2.34% | 4.03% / 2.21% | 6.63% / 3.45% |
+
+Across 18 bilingual pairs rendered with and without added noise, the selected pipeline achieved **29.52% cpWER and +12.17 dB SI-SDR improvement**. Kazakh–Russian pairs with white noise reached 89.92% cpWER. Training a new Whisper adapter and a SepFormer synthesis decoder did not reduce validation transcript errors. Deployment retained the multilingual step-600 weights, English turbo route and Libri2Mix separator.
+
+[Technical report](docs/pitch/ClearTalk-technical-report.pdf) · [English slides](docs/pitch/ClearTalk.pptx) · [Aggregate results](docs/pitch/current.json) · [Reproduction commands](docs/pitch/REPRODUCE.md)
+
 ## Highlights
 
 - **Three Whisper models fine-tuned with LoRA** on a laptop (a 6 GB GTX 1660 Ti and an Apple M5), training
@@ -188,14 +202,14 @@ docs/                 detailed results, screenshots and the presentation guide
 - Training and testing use read speech, short phrases and broadcasts; live conversations and other microphones
   can behave differently.
 - Conversation mode separates people talking at the same time only when asked ("2 · at the same time", clips up
-  to 30 s). This is a demonstration and was not measured on a test set.
+  to 30 s). The November 21 report measures this setting on controlled bilingual mixtures.
 - "Speaker 1, Speaker 2" are labels inside one recording, not identified people.
 - On 28 real overlapping fragments from AMI meetings the English fine-tune was not better than the pretrained
   model.
 
 ## Next steps
 
-- Current noise-improvement work: [data audit and proposed experiment](ml_pipeline/noise_followup_20261110/PIPELINE.md).
+- Earlier noise-improvement plan: [data audit and proposed experiment](ml_pipeline/noise_followup_20261110/PIPELINE.md).
   No new model has been promoted. Noise robustness and two foreground speakers are evaluated separately.
 - Measure on real recordings: the app can save a corrected transcript as a private check example
   (`python -m cleartalk_ml.real` scores them).

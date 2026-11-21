@@ -1,0 +1,1248 @@
+{
+  "train_config": {
+    "seed": 20261122,
+    "steps": 96,
+    "examples": 576,
+    "trainable": 245760,
+    "checkpoints": [
+      24,
+      48,
+      96
+    ],
+    "device": "mps",
+    "targets": [
+      "model.encoder.layers.30.self_attn.v_proj",
+      "model.encoder.layers.30.self_attn.q_proj",
+      "model.encoder.layers.31.self_attn.v_proj",
+      "model.encoder.layers.31.self_attn.q_proj",
+      "model.decoder.layers.0.encoder_attn.v_proj",
+      "model.decoder.layers.0.encoder_attn.q_proj",
+      "model.decoder.layers.1.encoder_attn.v_proj",
+      "model.decoder.layers.1.encoder_attn.q_proj",
+      "model.decoder.layers.2.encoder_attn.v_proj",
+      "model.decoder.layers.2.encoder_attn.q_proj",
+      "model.decoder.layers.3.encoder_attn.v_proj",
+      "model.decoder.layers.3.encoder_attn.q_proj"
+    ],
+    "base_sha": "0cd3c65868237723c728e4d6c721b3c2c67b4bbcd8b8145046f6e5489468189f",
+    "lr": 6e-05,
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "validation_rule": "Lowest macro noisy validation WER among clean-safe candidates; keep incumbent on ties or failure."
+  },
+  "reference_audit": {
+    "final_clean_checked": 18,
+    "final_exact_neighbor_matches": 0,
+    "pilot_clean_checked": 6,
+    "pilot_exact_neighbor_matches": 1,
+    "pilot_all_errors": 90,
+    "pilot_all_words": 126,
+    "sensitivity_errors": 71,
+    "sensitivity_words": 106
+  },
+  "asr_adapter_sha256": {
+    "24": "e88d03fe1160840ea7effd0211301d516e0d90b0eeec474af9825effe5b065a4",
+    "48": "01a6b1e1bac665373d8aad11b18bee5c0a8e533707b48f8154fc7790f9777a95",
+    "96": "7db4cdf57ec84207fa7a0022e9b5015a812373ee2c11485f1e805f937c381e0d"
+  },
+  "asr_validation": {
+    "selected_step": 0,
+    "best_clean_safe_trained_step": null,
+    "promotion_rule": "At least 10% relative macro noisy WER reduction, paired 95% interval below zero and clean WER within 0.5 pp in every language.",
+    "steps": {
+      "0": {
+        "macro_noisy_wer": 0.1715595565558056,
+        "delta_ci95": [
+          0.0,
+          0.0
+        ],
+        "clean_safe": true
+      },
+      "24": {
+        "macro_noisy_wer": 0.17926564974576978,
+        "delta_ci95": [
+          0.0,
+          0.016317909328018406
+        ],
+        "clean_safe": false
+      },
+      "48": {
+        "macro_noisy_wer": 0.1751437859464866,
+        "delta_ci95": [
+          -0.0023643755266295036,
+          0.009913069247048956
+        ],
+        "clean_safe": false
+      },
+      "96": {
+        "macro_noisy_wer": 0.18302909060598482,
+        "delta_ci95": [
+          0.000476588382206632,
+          0.02254324890939157
+        ],
+        "clean_safe": false
+      }
+    },
+    "metrics": {
+      "0": {
+        "kk_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 7,
+          "deletions": 0,
+          "insertions": 1,
+          "reference_words": 155,
+          "char_errors": 6,
+          "reference_chars": 1073,
+          "errors": 8,
+          "wer": 0.05161290322580645,
+          "cer": 0.005591798695246971
+        },
+        "kk_white-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 27,
+          "deletions": 1,
+          "insertions": 1,
+          "reference_words": 155,
+          "char_errors": 47,
+          "reference_chars": 1073,
+          "errors": 29,
+          "wer": 0.1870967741935484,
+          "cer": 0.04380242311276794
+        },
+        "kk_babble-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 20,
+          "deletions": 0,
+          "insertions": 4,
+          "reference_words": 155,
+          "char_errors": 45,
+          "reference_chars": 1073,
+          "errors": 24,
+          "wer": 0.15483870967741936,
+          "cer": 0.04193849021435228
+        },
+        "ru_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 20,
+          "deletions": 1,
+          "insertions": 5,
+          "reference_words": 186,
+          "char_errors": 90,
+          "reference_chars": 1099,
+          "errors": 26,
+          "wer": 0.13978494623655913,
+          "cer": 0.0818926296633303
+        },
+        "ru_white-10": {
+          "n": 12,
+          "exact_lid": 11,
+          "substitutions": 33,
+          "deletions": 4,
+          "insertions": 2,
+          "reference_words": 186,
+          "char_errors": 100,
+          "reference_chars": 1099,
+          "errors": 39,
+          "wer": 0.20967741935483872,
+          "cer": 0.09099181073703366
+        },
+        "ru_babble-10": {
+          "n": 12,
+          "exact_lid": 11,
+          "substitutions": 29,
+          "deletions": 8,
+          "insertions": 5,
+          "reference_words": 186,
+          "char_errors": 118,
+          "reference_chars": 1099,
+          "errors": 42,
+          "wer": 0.22580645161290322,
+          "cer": 0.10737033666969972
+        },
+        "en_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 12,
+          "deletions": 4,
+          "insertions": 3,
+          "reference_words": 258,
+          "char_errors": 41,
+          "reference_chars": 1191,
+          "errors": 19,
+          "wer": 0.07364341085271318,
+          "cer": 0.03442485306465155
+        },
+        "en_white-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 27,
+          "deletions": 8,
+          "insertions": 6,
+          "reference_words": 258,
+          "char_errors": 120,
+          "reference_chars": 1191,
+          "errors": 41,
+          "wer": 0.15891472868217055,
+          "cer": 0.10075566750629723
+        },
+        "en_babble-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 14,
+          "deletions": 7,
+          "insertions": 3,
+          "reference_words": 258,
+          "char_errors": 64,
+          "reference_chars": 1191,
+          "errors": 24,
+          "wer": 0.09302325581395349,
+          "cer": 0.05373635600335852
+        }
+      },
+      "24": {
+        "kk_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 8,
+          "deletions": 0,
+          "insertions": 1,
+          "reference_words": 155,
+          "char_errors": 7,
+          "reference_chars": 1073,
+          "errors": 9,
+          "wer": 0.05806451612903226,
+          "cer": 0.0065237651444548
+        },
+        "kk_white-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 27,
+          "deletions": 1,
+          "insertions": 1,
+          "reference_words": 155,
+          "char_errors": 42,
+          "reference_chars": 1073,
+          "errors": 29,
+          "wer": 0.1870967741935484,
+          "cer": 0.0391425908667288
+        },
+        "kk_babble-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 20,
+          "deletions": 0,
+          "insertions": 7,
+          "reference_words": 155,
+          "char_errors": 61,
+          "reference_chars": 1073,
+          "errors": 27,
+          "wer": 0.17419354838709677,
+          "cer": 0.05684995340167754
+        },
+        "ru_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 18,
+          "deletions": 1,
+          "insertions": 1,
+          "reference_words": 186,
+          "char_errors": 56,
+          "reference_chars": 1099,
+          "errors": 20,
+          "wer": 0.10752688172043011,
+          "cer": 0.050955414012738856
+        },
+        "ru_white-10": {
+          "n": 12,
+          "exact_lid": 11,
+          "substitutions": 38,
+          "deletions": 4,
+          "insertions": 2,
+          "reference_words": 186,
+          "char_errors": 106,
+          "reference_chars": 1099,
+          "errors": 44,
+          "wer": 0.23655913978494625,
+          "cer": 0.09645131938125569
+        },
+        "ru_babble-10": {
+          "n": 12,
+          "exact_lid": 11,
+          "substitutions": 28,
+          "deletions": 8,
+          "insertions": 6,
+          "reference_words": 186,
+          "char_errors": 119,
+          "reference_chars": 1099,
+          "errors": 42,
+          "wer": 0.22580645161290322,
+          "cer": 0.10828025477707007
+        },
+        "en_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 12,
+          "deletions": 4,
+          "insertions": 3,
+          "reference_words": 258,
+          "char_errors": 41,
+          "reference_chars": 1191,
+          "errors": 19,
+          "wer": 0.07364341085271318,
+          "cer": 0.03442485306465155
+        },
+        "en_white-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 27,
+          "deletions": 8,
+          "insertions": 6,
+          "reference_words": 258,
+          "char_errors": 120,
+          "reference_chars": 1191,
+          "errors": 41,
+          "wer": 0.15891472868217055,
+          "cer": 0.10075566750629723
+        },
+        "en_babble-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 14,
+          "deletions": 7,
+          "insertions": 3,
+          "reference_words": 258,
+          "char_errors": 64,
+          "reference_chars": 1191,
+          "errors": 24,
+          "wer": 0.09302325581395349,
+          "cer": 0.05373635600335852
+        }
+      },
+      "48": {
+        "kk_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 8,
+          "deletions": 0,
+          "insertions": 1,
+          "reference_words": 155,
+          "char_errors": 7,
+          "reference_chars": 1073,
+          "errors": 9,
+          "wer": 0.05806451612903226,
+          "cer": 0.0065237651444548
+        },
+        "kk_white-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 28,
+          "deletions": 1,
+          "insertions": 1,
+          "reference_words": 155,
+          "char_errors": 44,
+          "reference_chars": 1073,
+          "errors": 30,
+          "wer": 0.1935483870967742,
+          "cer": 0.04100652376514446
+        },
+        "kk_babble-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 19,
+          "deletions": 0,
+          "insertions": 4,
+          "reference_words": 155,
+          "char_errors": 44,
+          "reference_chars": 1073,
+          "errors": 23,
+          "wer": 0.14838709677419354,
+          "cer": 0.04100652376514446
+        },
+        "ru_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 17,
+          "deletions": 1,
+          "insertions": 1,
+          "reference_words": 186,
+          "char_errors": 55,
+          "reference_chars": 1099,
+          "errors": 19,
+          "wer": 0.10215053763440861,
+          "cer": 0.05004549590536852
+        },
+        "ru_white-10": {
+          "n": 12,
+          "exact_lid": 11,
+          "substitutions": 35,
+          "deletions": 5,
+          "insertions": 2,
+          "reference_words": 186,
+          "char_errors": 103,
+          "reference_chars": 1099,
+          "errors": 42,
+          "wer": 0.22580645161290322,
+          "cer": 0.09372156505914468
+        },
+        "ru_babble-10": {
+          "n": 12,
+          "exact_lid": 11,
+          "substitutions": 31,
+          "deletions": 7,
+          "insertions": 5,
+          "reference_words": 186,
+          "char_errors": 126,
+          "reference_chars": 1099,
+          "errors": 43,
+          "wer": 0.23118279569892472,
+          "cer": 0.11464968152866242
+        },
+        "en_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 12,
+          "deletions": 4,
+          "insertions": 3,
+          "reference_words": 258,
+          "char_errors": 41,
+          "reference_chars": 1191,
+          "errors": 19,
+          "wer": 0.07364341085271318,
+          "cer": 0.03442485306465155
+        },
+        "en_white-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 27,
+          "deletions": 8,
+          "insertions": 6,
+          "reference_words": 258,
+          "char_errors": 120,
+          "reference_chars": 1191,
+          "errors": 41,
+          "wer": 0.15891472868217055,
+          "cer": 0.10075566750629723
+        },
+        "en_babble-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 14,
+          "deletions": 7,
+          "insertions": 3,
+          "reference_words": 258,
+          "char_errors": 64,
+          "reference_chars": 1191,
+          "errors": 24,
+          "wer": 0.09302325581395349,
+          "cer": 0.05373635600335852
+        }
+      },
+      "96": {
+        "kk_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 8,
+          "deletions": 0,
+          "insertions": 1,
+          "reference_words": 155,
+          "char_errors": 7,
+          "reference_chars": 1073,
+          "errors": 9,
+          "wer": 0.05806451612903226,
+          "cer": 0.0065237651444548
+        },
+        "kk_white-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 26,
+          "deletions": 1,
+          "insertions": 1,
+          "reference_words": 155,
+          "char_errors": 41,
+          "reference_chars": 1073,
+          "errors": 28,
+          "wer": 0.18064516129032257,
+          "cer": 0.03821062441752097
+        },
+        "kk_babble-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 21,
+          "deletions": 1,
+          "insertions": 7,
+          "reference_words": 155,
+          "char_errors": 61,
+          "reference_chars": 1073,
+          "errors": 29,
+          "wer": 0.1870967741935484,
+          "cer": 0.05684995340167754
+        },
+        "ru_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 16,
+          "deletions": 2,
+          "insertions": 1,
+          "reference_words": 186,
+          "char_errors": 55,
+          "reference_chars": 1099,
+          "errors": 19,
+          "wer": 0.10215053763440861,
+          "cer": 0.05004549590536852
+        },
+        "ru_white-10": {
+          "n": 12,
+          "exact_lid": 11,
+          "substitutions": 37,
+          "deletions": 5,
+          "insertions": 3,
+          "reference_words": 186,
+          "char_errors": 105,
+          "reference_chars": 1099,
+          "errors": 45,
+          "wer": 0.24193548387096775,
+          "cer": 0.09554140127388536
+        },
+        "ru_babble-10": {
+          "n": 12,
+          "exact_lid": 11,
+          "substitutions": 32,
+          "deletions": 6,
+          "insertions": 6,
+          "reference_words": 186,
+          "char_errors": 133,
+          "reference_chars": 1099,
+          "errors": 44,
+          "wer": 0.23655913978494625,
+          "cer": 0.12101910828025478
+        },
+        "en_clean": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 12,
+          "deletions": 4,
+          "insertions": 3,
+          "reference_words": 258,
+          "char_errors": 41,
+          "reference_chars": 1191,
+          "errors": 19,
+          "wer": 0.07364341085271318,
+          "cer": 0.03442485306465155
+        },
+        "en_white-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 27,
+          "deletions": 8,
+          "insertions": 6,
+          "reference_words": 258,
+          "char_errors": 120,
+          "reference_chars": 1191,
+          "errors": 41,
+          "wer": 0.15891472868217055,
+          "cer": 0.10075566750629723
+        },
+        "en_babble-10": {
+          "n": 12,
+          "exact_lid": 12,
+          "substitutions": 14,
+          "deletions": 7,
+          "insertions": 3,
+          "reference_words": 258,
+          "char_errors": 64,
+          "reference_chars": 1191,
+          "errors": 24,
+          "wer": 0.09302325581395349,
+          "cer": 0.05373635600335852
+        }
+      }
+    }
+  },
+  "enhancement_validation": {
+    "threshold_db": -32.848658943176275,
+    "eligible": false,
+    "clean_safe": true,
+    "macro_noisy_wer": 0.28690505959823287,
+    "baseline_macro_noisy_wer": 0.1715595565558056,
+    "delta_ci95": [
+      0.07879959083548776,
+      0.15630864047244805
+    ],
+    "train_sources": 144,
+    "enhanced_views": 37,
+    "validation": {
+      "kk_clean": {
+        "n": 12,
+        "exact_lid": 12,
+        "substitutions": 7,
+        "deletions": 0,
+        "insertions": 1,
+        "reference_words": 155,
+        "char_errors": 6,
+        "reference_chars": 1073,
+        "errors": 8,
+        "wer": 0.05161290322580645,
+        "cer": 0.005591798695246971
+      },
+      "kk_white-10": {
+        "n": 12,
+        "exact_lid": 11,
+        "substitutions": 45,
+        "deletions": 8,
+        "insertions": 3,
+        "reference_words": 155,
+        "char_errors": 172,
+        "reference_chars": 1073,
+        "errors": 56,
+        "wer": 0.36129032258064514,
+        "cer": 0.1602982292637465
+      },
+      "kk_babble-10": {
+        "n": 12,
+        "exact_lid": 12,
+        "substitutions": 20,
+        "deletions": 0,
+        "insertions": 4,
+        "reference_words": 155,
+        "char_errors": 45,
+        "reference_chars": 1073,
+        "errors": 24,
+        "wer": 0.15483870967741936,
+        "cer": 0.04193849021435228
+      },
+      "ru_clean": {
+        "n": 12,
+        "exact_lid": 12,
+        "substitutions": 20,
+        "deletions": 1,
+        "insertions": 5,
+        "reference_words": 186,
+        "char_errors": 90,
+        "reference_chars": 1099,
+        "errors": 26,
+        "wer": 0.13978494623655913,
+        "cer": 0.0818926296633303
+      },
+      "ru_white-10": {
+        "n": 12,
+        "exact_lid": 9,
+        "substitutions": 83,
+        "deletions": 10,
+        "insertions": 8,
+        "reference_words": 186,
+        "char_errors": 338,
+        "reference_chars": 1099,
+        "errors": 101,
+        "wer": 0.543010752688172,
+        "cer": 0.3075523202911738
+      },
+      "ru_babble-10": {
+        "n": 12,
+        "exact_lid": 11,
+        "substitutions": 30,
+        "deletions": 9,
+        "insertions": 2,
+        "reference_words": 186,
+        "char_errors": 105,
+        "reference_chars": 1099,
+        "errors": 41,
+        "wer": 0.22043010752688172,
+        "cer": 0.09554140127388536
+      },
+      "en_clean": {
+        "n": 12,
+        "exact_lid": 12,
+        "substitutions": 12,
+        "deletions": 4,
+        "insertions": 3,
+        "reference_words": 258,
+        "char_errors": 41,
+        "reference_chars": 1191,
+        "errors": 19,
+        "wer": 0.07364341085271318,
+        "cer": 0.03442485306465155
+      },
+      "en_white-10": {
+        "n": 12,
+        "exact_lid": 11,
+        "substitutions": 53,
+        "deletions": 23,
+        "insertions": 14,
+        "reference_words": 258,
+        "char_errors": 253,
+        "reference_chars": 1191,
+        "errors": 90,
+        "wer": 0.3488372093023256,
+        "cer": 0.21242653232577666
+      },
+      "en_babble-10": {
+        "n": 12,
+        "exact_lid": 12,
+        "substitutions": 14,
+        "deletions": 7,
+        "insertions": 3,
+        "reference_words": 258,
+        "char_errors": 64,
+        "reference_chars": 1191,
+        "errors": 24,
+        "wer": 0.09302325581395349,
+        "cer": 0.05373635600335852
+      }
+    }
+  },
+  "noisy_controls": {
+    "selected_step": 0,
+    "systems": {
+      "0": {
+        "kk_clean": {
+          "n": 18,
+          "exact_lid": 18,
+          "substitutions": 33,
+          "deletions": 3,
+          "insertions": 0,
+          "reference_words": 276,
+          "char_errors": 48,
+          "reference_chars": 1614,
+          "errors": 36,
+          "wer": 0.13043478260869565,
+          "cer": 0.02973977695167286,
+          "detector_calls": 18,
+          "detector_correct": 18,
+          "clips_with_detector_calls": 18
+        },
+        "kk_white-10": {
+          "n": 18,
+          "exact_lid": 18,
+          "substitutions": 67,
+          "deletions": 5,
+          "insertions": 1,
+          "reference_words": 276,
+          "char_errors": 136,
+          "reference_chars": 1614,
+          "errors": 73,
+          "wer": 0.2644927536231884,
+          "cer": 0.08426270136307311,
+          "detector_calls": 18,
+          "detector_correct": 18,
+          "clips_with_detector_calls": 18
+        },
+        "kk_babble-10": {
+          "n": 18,
+          "exact_lid": 18,
+          "substitutions": 53,
+          "deletions": 5,
+          "insertions": 2,
+          "reference_words": 276,
+          "char_errors": 96,
+          "reference_chars": 1614,
+          "errors": 60,
+          "wer": 0.21739130434782608,
+          "cer": 0.05947955390334572,
+          "detector_calls": 18,
+          "detector_correct": 18,
+          "clips_with_detector_calls": 18
+        },
+        "ru_clean": {
+          "n": 18,
+          "exact_lid": 16,
+          "substitutions": 20,
+          "deletions": 17,
+          "insertions": 2,
+          "reference_words": 95,
+          "char_errors": 125,
+          "reference_chars": 552,
+          "errors": 39,
+          "wer": 0.4105263157894737,
+          "cer": 0.22644927536231885,
+          "detector_calls": 17,
+          "detector_correct": 16,
+          "clips_with_detector_calls": 17
+        },
+        "ru_white-10": {
+          "n": 18,
+          "exact_lid": 13,
+          "substitutions": 33,
+          "deletions": 36,
+          "insertions": 2,
+          "reference_words": 95,
+          "char_errors": 286,
+          "reference_chars": 552,
+          "errors": 71,
+          "wer": 0.7473684210526316,
+          "cer": 0.5181159420289855,
+          "detector_calls": 16,
+          "detector_correct": 14,
+          "clips_with_detector_calls": 16
+        },
+        "ru_babble-10": {
+          "n": 18,
+          "exact_lid": 16,
+          "substitutions": 33,
+          "deletions": 20,
+          "insertions": 1,
+          "reference_words": 95,
+          "char_errors": 171,
+          "reference_chars": 552,
+          "errors": 54,
+          "wer": 0.5684210526315789,
+          "cer": 0.30978260869565216,
+          "detector_calls": 16,
+          "detector_correct": 16,
+          "clips_with_detector_calls": 16
+        },
+        "en_clean": {
+          "n": 18,
+          "exact_lid": 18,
+          "substitutions": 11,
+          "deletions": 2,
+          "insertions": 1,
+          "reference_words": 347,
+          "char_errors": 36,
+          "reference_chars": 1536,
+          "errors": 14,
+          "wer": 0.040345821325648415,
+          "cer": 0.0234375,
+          "detector_calls": 18,
+          "detector_correct": 18,
+          "clips_with_detector_calls": 18
+        },
+        "en_white-10": {
+          "n": 18,
+          "exact_lid": 18,
+          "substitutions": 11,
+          "deletions": 2,
+          "insertions": 1,
+          "reference_words": 347,
+          "char_errors": 34,
+          "reference_chars": 1536,
+          "errors": 14,
+          "wer": 0.040345821325648415,
+          "cer": 0.022135416666666668,
+          "detector_calls": 18,
+          "detector_correct": 18,
+          "clips_with_detector_calls": 18
+        },
+        "en_babble-10": {
+          "n": 18,
+          "exact_lid": 18,
+          "substitutions": 16,
+          "deletions": 4,
+          "insertions": 3,
+          "reference_words": 347,
+          "char_errors": 53,
+          "reference_chars": 1536,
+          "errors": 23,
+          "wer": 0.06628242074927954,
+          "cer": 0.034505208333333336,
+          "detector_calls": 18,
+          "detector_correct": 18,
+          "clips_with_detector_calls": 18
+        }
+      }
+    }
+  },
+  "acoustic_validation": {
+    "epoch": 6,
+    "train_pairs": 192,
+    "validation_pairs": 24,
+    "history": {
+      "0": {
+        "all": 11.496101379394531,
+        "clean": 18.593475341796875,
+        "noise": 9.13031005859375
+      },
+      "1": {
+        "all": 11.51291561126709,
+        "clean": 18.5860538482666,
+        "noise": 9.15520191192627
+      },
+      "3": {
+        "all": 11.538681030273438,
+        "clean": 18.57105827331543,
+        "noise": 9.194554328918457
+      },
+      "6": {
+        "all": 11.565296173095703,
+        "clean": 18.54644775390625,
+        "noise": 9.238245964050293
+      }
+    },
+    "trainable_parameters": 4096,
+    "criterion": "Largest mean validation SI-SDR improvement, clean slice within 0.1 dB of the original decoder."
+  },
+  "acoustic_checkpoint_sha256": "ac45969f52b746e5378c24c3501cb9512b15ef6aaabe1068311044f2e194610a",
+  "separation_selection": {
+    "selected": "libri",
+    "acoustic_decoder_epoch": 6,
+    "validation": {
+      "libri": {
+        "all": {
+          "n": 18,
+          "errors": 151,
+          "words": 672,
+          "cpwer": 0.22470238095238096,
+          "si_sdri_db": 13.223153021843954,
+          "two_tracks": 18
+        },
+        "clean": {
+          "n": 9,
+          "errors": 35,
+          "words": 336,
+          "cpwer": 0.10416666666666667,
+          "si_sdri_db": 14.655893740360462,
+          "two_tracks": 9
+        },
+        "white-10": {
+          "n": 9,
+          "errors": 116,
+          "words": 336,
+          "cpwer": 0.34523809523809523,
+          "si_sdri_db": 11.79041230332745,
+          "two_tracks": 9
+        },
+        "en+kk": {
+          "n": 6,
+          "errors": 35,
+          "words": 222,
+          "cpwer": 0.15765765765765766,
+          "si_sdri_db": 11.051465132568952,
+          "two_tracks": 6
+        },
+        "kk+ru": {
+          "n": 6,
+          "errors": 72,
+          "words": 214,
+          "cpwer": 0.3364485981308411,
+          "si_sdri_db": 15.561246092792297,
+          "two_tracks": 6
+        },
+        "ru+en": {
+          "n": 6,
+          "errors": 44,
+          "words": 236,
+          "cpwer": 0.1864406779661017,
+          "si_sdri_db": 13.056747840170615,
+          "two_tracks": 6
+        }
+      },
+      "wham": {
+        "all": {
+          "n": 18,
+          "errors": 206,
+          "words": 672,
+          "cpwer": 0.30654761904761907,
+          "si_sdri_db": 7.6874027163805705,
+          "two_tracks": 18
+        },
+        "clean": {
+          "n": 9,
+          "errors": 55,
+          "words": 336,
+          "cpwer": 0.1636904761904762,
+          "si_sdri_db": 7.503920115881379,
+          "two_tracks": 9
+        },
+        "kk+ru": {
+          "n": 6,
+          "errors": 78,
+          "words": 214,
+          "cpwer": 0.3644859813084112,
+          "si_sdri_db": 11.526655073235128,
+          "two_tracks": 6
+        },
+        "kk+ru_clean": {
+          "n": 3,
+          "errors": 16,
+          "words": 107,
+          "cpwer": 0.14953271028037382,
+          "si_sdri_db": 11.315636717719846,
+          "two_tracks": 3
+        },
+        "white-10": {
+          "n": 9,
+          "errors": 151,
+          "words": 336,
+          "cpwer": 0.4494047619047619,
+          "si_sdri_db": 7.870885316879761,
+          "two_tracks": 9
+        },
+        "kk+ru_white-10": {
+          "n": 3,
+          "errors": 62,
+          "words": 107,
+          "cpwer": 0.5794392523364486,
+          "si_sdri_db": 11.737673428750412,
+          "two_tracks": 3
+        },
+        "ru+en": {
+          "n": 6,
+          "errors": 78,
+          "words": 236,
+          "cpwer": 0.3305084745762712,
+          "si_sdri_db": 5.237858881414822,
+          "two_tracks": 6
+        },
+        "ru+en_clean": {
+          "n": 3,
+          "errors": 21,
+          "words": 118,
+          "cpwer": 0.17796610169491525,
+          "si_sdri_db": 5.11701615639543,
+          "two_tracks": 3
+        },
+        "ru+en_white-10": {
+          "n": 3,
+          "errors": 57,
+          "words": 118,
+          "cpwer": 0.4830508474576271,
+          "si_sdri_db": 5.358701606434214,
+          "two_tracks": 3
+        },
+        "en+kk": {
+          "n": 6,
+          "errors": 50,
+          "words": 222,
+          "cpwer": 0.22522522522522523,
+          "si_sdri_db": 6.29769419449176,
+          "two_tracks": 6
+        },
+        "en+kk_clean": {
+          "n": 3,
+          "errors": 18,
+          "words": 111,
+          "cpwer": 0.16216216216216217,
+          "si_sdri_db": 6.079107473528862,
+          "two_tracks": 3
+        },
+        "en+kk_white-10": {
+          "n": 3,
+          "errors": 32,
+          "words": 111,
+          "cpwer": 0.2882882882882883,
+          "si_sdri_db": 6.516280915454658,
+          "two_tracks": 3
+        }
+      },
+      "adapted": {
+        "all": {
+          "n": 18,
+          "errors": 152,
+          "words": 672,
+          "cpwer": 0.2261904761904762,
+          "si_sdri_db": 13.245861173037701,
+          "two_tracks": 18
+        },
+        "clean": {
+          "n": 9,
+          "errors": 37,
+          "words": 336,
+          "cpwer": 0.11011904761904762,
+          "si_sdri_db": 14.62373691995538,
+          "two_tracks": 9
+        },
+        "kk+ru": {
+          "n": 6,
+          "errors": 70,
+          "words": 214,
+          "cpwer": 0.32710280373831774,
+          "si_sdri_db": 15.598368691495466,
+          "two_tracks": 6
+        },
+        "kk+ru_clean": {
+          "n": 3,
+          "errors": 15,
+          "words": 107,
+          "cpwer": 0.14018691588785046,
+          "si_sdri_db": 17.628046734816632,
+          "two_tracks": 3
+        },
+        "white-10": {
+          "n": 9,
+          "errors": 115,
+          "words": 336,
+          "cpwer": 0.34226190476190477,
+          "si_sdri_db": 11.867985426120025,
+          "two_tracks": 9
+        },
+        "kk+ru_white-10": {
+          "n": 3,
+          "errors": 55,
+          "words": 107,
+          "cpwer": 0.514018691588785,
+          "si_sdri_db": 13.568690648174302,
+          "two_tracks": 3
+        },
+        "ru+en": {
+          "n": 6,
+          "errors": 47,
+          "words": 236,
+          "cpwer": 0.19915254237288135,
+          "si_sdri_db": 13.081708515324811,
+          "two_tracks": 6
+        },
+        "ru+en_clean": {
+          "n": 3,
+          "errors": 13,
+          "words": 118,
+          "cpwer": 0.11016949152542373,
+          "si_sdri_db": 14.566133601085447,
+          "two_tracks": 3
+        },
+        "ru+en_white-10": {
+          "n": 3,
+          "errors": 34,
+          "words": 118,
+          "cpwer": 0.288135593220339,
+          "si_sdri_db": 11.597283429564172,
+          "two_tracks": 3
+        },
+        "en+kk": {
+          "n": 6,
+          "errors": 35,
+          "words": 222,
+          "cpwer": 0.15765765765765766,
+          "si_sdri_db": 11.057506312292832,
+          "two_tracks": 6
+        },
+        "en+kk_clean": {
+          "n": 3,
+          "errors": 9,
+          "words": 111,
+          "cpwer": 0.08108108108108109,
+          "si_sdri_db": 11.677030423964062,
+          "two_tracks": 3
+        },
+        "en+kk_white-10": {
+          "n": 3,
+          "errors": 26,
+          "words": 111,
+          "cpwer": 0.23423423423423423,
+          "si_sdri_db": 10.4379822006216,
+          "two_tracks": 3
+        }
+      }
+    },
+    "rule": "Lowest pooled cpWER with mean SI-SDRi at least that of Libri2Mix; retain Libri2Mix on ties."
+  },
+  "separation_test": {
+    "all": {
+      "n": 36,
+      "errors": 281,
+      "words": 952,
+      "cpwer": 0.29516806722689076,
+      "si_sdri_db": 12.172974270394526,
+      "two_tracks": 36
+    },
+    "clean": {
+      "n": 18,
+      "errors": 90,
+      "words": 476,
+      "cpwer": 0.18907563025210083,
+      "si_sdri_db": 14.607184494967207,
+      "two_tracks": 18
+    },
+    "kk+ru": {
+      "n": 12,
+      "errors": 158,
+      "words": 238,
+      "cpwer": 0.6638655462184874,
+      "si_sdri_db": 8.464310430812489,
+      "two_tracks": 12
+    },
+    "kk+ru_clean": {
+      "n": 6,
+      "errors": 51,
+      "words": 119,
+      "cpwer": 0.42857142857142855,
+      "si_sdri_db": 10.645841803496934,
+      "two_tracks": 6
+    },
+    "white-10": {
+      "n": 18,
+      "errors": 191,
+      "words": 476,
+      "cpwer": 0.4012605042016807,
+      "si_sdri_db": 9.738764045821844,
+      "two_tracks": 18
+    },
+    "kk+ru_white-10": {
+      "n": 6,
+      "errors": 107,
+      "words": 119,
+      "cpwer": 0.8991596638655462,
+      "si_sdri_db": 6.282779058128043,
+      "two_tracks": 6
+    },
+    "ru+en": {
+      "n": 12,
+      "errors": 52,
+      "words": 278,
+      "cpwer": 0.18705035971223022,
+      "si_sdri_db": 12.633507597887212,
+      "two_tracks": 12
+    },
+    "ru+en_clean": {
+      "n": 6,
+      "errors": 22,
+      "words": 139,
+      "cpwer": 0.15827338129496402,
+      "si_sdri_db": 15.048284888859756,
+      "two_tracks": 6
+    },
+    "ru+en_white-10": {
+      "n": 6,
+      "errors": 30,
+      "words": 139,
+      "cpwer": 0.2158273381294964,
+      "si_sdri_db": 10.218730306914669,
+      "two_tracks": 6
+    },
+    "en+kk": {
+      "n": 12,
+      "errors": 71,
+      "words": 436,
+      "cpwer": 0.1628440366972477,
+      "si_sdri_db": 15.421104782483875,
+      "two_tracks": 12
+    },
+    "en+kk_clean": {
+      "n": 6,
+      "errors": 17,
+      "words": 218,
+      "cpwer": 0.0779816513761468,
+      "si_sdri_db": 18.127426792544934,
+      "two_tracks": 6
+    },
+    "en+kk_white-10": {
+      "n": 6,
+      "errors": 54,
+      "words": 218,
+      "cpwer": 0.24770642201834864,
+      "si_sdri_db": 12.714782772422817,
+      "two_tracks": 6
+    }
+  },
+  "isolated_sources": {
+    "kk+ru": {
+      "errors": 36,
+      "words": 119,
+      "cpwer": 0.3025210084033613
+    },
+    "ru+en": {
+      "errors": 15,
+      "words": 139,
+      "cpwer": 0.1079136690647482
+    },
+    "en+kk": {
+      "errors": 8,
+      "words": 218,
+      "cpwer": 0.03669724770642202
+    }
+  },
+  "separation_test_baseline": null
+}

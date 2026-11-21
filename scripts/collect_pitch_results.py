@@ -55,6 +55,9 @@ def collect():
         acoustic_checkpoint_sha256=digest(sep / "selected.ckpt"),
         separation_selection=choice,
         separation_test=final,
+        isolated_sources=read(overlap / "isolated-test.json")
+        if (overlap / "isolated-test.json").exists()
+        else None,
         separation_test_baseline=baseline,
     )
 

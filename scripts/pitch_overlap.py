@@ -141,6 +141,31 @@ def evaluate(sets, n, sep, folder, path, threads):
     return summaries(rows)
 
 
+def score_isolated_controls(sets, holdout):
+    """Diagnostic ceiling from measured ASR on the original single-speaker input files."""
+    rows = [json.loads(line) for line in holdout.read_text().splitlines()]
+    hypotheses = {r["uid"]: r["hypothesis"] for r in rows if r["condition"] == "clean"}
+    assert len(hypotheses) == 54
+    positions = defaultdict(int)
+    result = {}
+    for a, b in PAIRS:
+        errors = words = 0
+        for _ in range(6):
+            items = [sets[l][positions[l]] for l in (a, b)]
+            positions[a] += 1
+            positions[b] += 1
+            refs = [item[2] for item in items]
+            turns = [
+                dict(start=0, speaker=i, text=hypotheses[item[0]])
+                for i, item in enumerate(items)
+            ]
+            err, ref_words = stream_errors(refs, turns)
+            errors += err
+            words += ref_words
+        result[a + "+" + b] = dict(errors=errors, words=words, cpwer=errors / words)
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--work", type=Path, default=ROOT / "models/pitch-asr")
@@ -149,10 +174,22 @@ def main():
         "--separator", choices=("libri", "wham", "adapted"), default="libri"
     )
     parser.add_argument("--select", action="store_true")
+    parser.add_argument(
+        "--isolated",
+        action="store_true",
+        help="Score saved original-source transcripts for the same test pairs",
+    )
     parser.add_argument("--threads", type=int, default=3)
     opt = parser.parse_args()
     work = opt.work / "overlap"
     result_path = work / "selection.json"
+    if opt.isolated:
+        from scripts.final_pitch_controls import controls
+
+        step = json.loads((opt.work / "selection.json").read_text())["selected_step"]
+        result = score_isolated_controls(controls(), opt.work / f"holdout/{step}.jsonl")
+        (work / "isolated-test.json").write_text(json.dumps(result, indent=2) + "\n")
+        return
     if opt.select:
         results = {
             s: json.loads((work / f"validation-{s}.json").read_text())
